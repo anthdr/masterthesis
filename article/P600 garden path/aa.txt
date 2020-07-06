@@ -1,0 +1,49 @@
+			Osterhout 1992
+(1) The woman struggled to prepare the meal. (intransitive verb sentences) 
+(2) *The woman persuaded to answer the door. (transitive verb sentences) 
+The positivity was widely distributed, but largest fronto-centrally and in the right hemisphere
+(1) The broker hoped to sell the stock. (short intransitive verb sentences) 
+(2) *The broker persuaded to sell the stock. (short transitive verb sentences) 
+(3) ?The broker hoped to sell the stock was sent to, jail. (long intransitive verb sentences) 
+(4) The broker persuaded to sell the stock was sent to jail. (long transitive verb sentences) 
+-differences between conditions tended to be more evenly distributed across the scalp than in Experiment 1. 
+words which were inconsistent with the putative "preferred" structural analysis of a sentence elicited a widely distributed positive-going wave (the P600 effect)
+-it appears that disambiguating information that is inconsistent with the preferred syntactic analysis of a sentence results in a brain response similar to that associated with outright violations of syntactic constraints.
+-The P600 component elicited by phrase structure violations was more posteriorly distributed than that elicited by subcategory violations
+
+			Friederici 2001
+
+
+			Frisch 2002
+First NP unambiguous/subject before object
+(4a) Der Detektiv hatte die Kommissarin gesehen und… 
+[the detective]MASC.SUB had [the policewoman]FEM.OBJ seen and…
+First NP unambiguous/object before subject
+(4b) Den Detektiv hatte die Kommissarin gesehen und… 
+[the detective]MASC.OBJ had [the policewoman]FEM.SUB seen and…
+First NP ambiguous/subject before object
+(4c) Die Detektivin hatte den Kommissar gesehen und… 
+[the detective]FEM.AMB had [the policeman]MASC.OBJ seen and…
+First NP ambiguous/object before subject
+(4d) Die Detektivin hatte der Kommissar gesehen und… 
+[the detective]FEM.AMB had [the policeman]MASC.SUB seen and…
+The ﬁnding that both of our P600 effects had a broad topographical distribution over the scalp seems to be in line with earlier ﬁndings that the P600 as a reﬂex of disambiguation or complexity is more evenly distributed than the P600 found for outright violation
+
+
+			Carreiras 2004
+While the P600 effect with a posterior distribution was generally found for ungrammatical sentence continuations, a more frontal/broad distribution of the positivity has been reported for nonpreferred continuations 
+(1a) El criado de la actriz que estaba divorciado 
+[The servant (masc) of the actress (fem) who was divorced (masc)] 
+(1b) El criado de la actriz que estaba divorciada 
+[The servant (masc) of the actress (fem) who was divorced (fem)]
+these sentences are temporarily ambiguous from the beginning of the relative clause ‘‘que’’ up to the moment in which the gender of ‘‘divorciado/a’’ is processed
+The second goal was to examine the electrophysiological patterns related to attachment ambiguity when there was not a strictly syntactic violation but the parser had to choose between a preferred and a nonpreferred attachment
+The present data show a biphasic P600 effect, one with a fairly equal distribution along the anterior posterior axis and a second with a clear posterior distribution. The first window of the P600 (500–700 ms) seems to be widely distributed, as was attested by the main effect of the attachment factor and the lack of interactions with the other factors, while the second window (700–900 ms) shows the usual posterior distribution. 
+
+
+			Penolazzi 2005
+Italian direct “who”-questions, which present the temporary ambiguity of the pronoun grammatical role. The pronoun “who”, indeed, could be the subject or the object of the sentence and the clariﬁcation of its role is provided by its agreement with verb numbe
+Most behavioural studies have demonstrated a clear preference for the subject-ﬁrst structure
+the second component peaked around 500ms and was more spread on the scalp
+object first extraction was more positive at frontal sites with respect to subject-ﬁrst one
+object-ﬁrst extraction was more positive compared to subject-ﬁrst one, and whereas this effect in the left side was spread both on anterior and posterior sites, in the right side it appeared only on anterior sites

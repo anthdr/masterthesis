@@ -1,0 +1,66 @@
+stat
+a collaboré
+a couru
+a logé
+a joué
+a hebergé
+a bavardé avec
+a travaillé 
+a entraîné
+a été lié / a connu
+a étudié 
+a été employé
+a pardonné
+a dansé
+a amusé
+a sympathisé
+a marié
+a partagé
+a vécu
+a divorcé 
+a fiancé
+est sorti avec
+a aimé
+a marché
+a parlé
+a cherché
+a consulté
+a brusqué
+a prévenu
+
+
+
+
+
+percep
+a épié
+a enregistré
+a photographié
+a imaginé
+a aperçu
+s'est représenté
+a filmé
+a observé
+a espionné
+a surveillé
+a surpris
+a entendu
+a dessiné
+*a rencontré
+a rencontré
+a écouté
+a vu
+a regardé
+a distingué
+a peint
+a repéré
+*a photographié
+*a aperçu
+*a éspionné
+*a regardé
+*a observé
+*a surpris
+*a imaginé
+
+
+a rêvé

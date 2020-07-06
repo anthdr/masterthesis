@@ -1,0 +1,2 @@
+Dans cette expérience, il vous est demandé de, à partir d'un premier mot, choisir parmis deux mots la continuation la plus naturelle et ceci pour tout les mots de la phrase (par exemple, Marie parle à Jeanfinir). Vous devrez aussi résoudre des équations (par exemple, 4+42).
+L'ensemble devrait vous prendre environ 50 minutes.
