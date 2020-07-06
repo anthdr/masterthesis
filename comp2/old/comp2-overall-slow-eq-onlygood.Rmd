@@ -1,0 +1,94 @@
+Prerequis
+=================
+```{r}
+library(sciplot)
+library(lme4)
+library(car)
+require(lmerTest)
+library(brms)
+library(tidyverse)
+library(ggplot2)
+```
+
+```{r}
+setwd("C:/Users/antoi/Google Drive/Memoire2/R/comp2")
+data <- read.csv(file="Datacomp2.csv", header=TRUE, sep=",")
+data.onlygood <- subset(data, data$cor.equation  == 1)
+```
+
+Overall
+=================
+
+```{r}
+data$vt <- ifelse(data$vtype==1, -1, 1)
+data$pr <- ifelse(data$prime==1, -1, 1)
+data$eq <- ifelse(data$cor.equation==1, -1, 1)
+data$hs <- ifelse(data$halfsession==1, -1, 1)
+data$RT.equation <- as.numeric(data$RT.equation)
+data$RT.equation <- as.numeric(data$RT.equation)
+median_RT.equation <- median(data$RT.equation)
+data$slow <- ifelse(data$RT.equation < median_RT.equation, -1, 1)
+data$slow <- as.integer(data$slow)
+data$eq <- as.integer(data$eq)
+data$hs <- as.integer(data$hs)
+```
+
+
+
+```{r}
+get_prior(attachment ~ vt*pr*slow*eq + (vt*pr*slow*eq|id) + (vt*pr*slow*eq|Item), data=data, family=bernoulli)
+  
+prior <- c(set_prior("normal(0,10)", class="b"),
+             set_prior("normal(0,10)", class="Intercept"),
+             set_prior("normal(0,10)", class="sd"),
+             set_prior("lkj(2)", class="cor"))
+```
+
+
+```{r}
+fit <- brm(attachment ~ 1+vt*pr*slow*eq + (1+vt*pr*slow*eq|id) + (1+vt*pr*slow*eq|Item), data=data, family=bernoulli, 
+             prior=prior, chains=4, iter=3000)
+```
+
+
+```{r}
+summary(fit, waic=T)
+```
+
+
+```{r}
+fit_df <- as.data.frame(fit)
+beta <- fit_df[,grepl("b_",colnames(fit_df))]
+beta <- beta[,-1]
+  
+
+df.overall <- gather(beta, key=effect, value=beta, 1:ncol(beta)) %>%
+    group_by(effect=as.factor(effect)) %>% 
+    summarize(mean=mean(beta), # mean
+              prob_greater=mean(beta>0), prob_smaller=mean(beta<0), # probability greater / smaller than zero
+              min=min(beta), max=max(beta), # min and max values
+              l95=unname(quantile(beta,probs=0.025)), # lower 95% credible intervals boundary
+              h95=unname(quantile(beta,probs=0.975)), # upper 95% CrI boundary
+              l85=unname(quantile(beta,probs=0.075)), # lower 85% CrI boundary
+              h85=unname(quantile(beta,probs=0.925))) # upper 85% CrI boundary
+  
+levord <- colnames(beta)[1:ncol(beta)]
+df.overall$effect <- factor(df.overall$effect, levels=levord)
+df.overall <- arrange(df.overall, effect)
+```
+
+```{r}
+df.overall
+```
+
+```{r}
+ggplot(data=df.overall, aes(x=mean, y=effect)) + theme_bw() +
+   ggtitle("Interaction: Overall") +
+    geom_vline(aes(xintercept=0), size=1, linetype=2, col=gray(0.2)) + 
+    geom_errorbarh(aes(xmax=max, xmin=min),height=0, size=1.2, col="#009E73") +
+    geom_errorbarh(aes(xmax=l95, xmin=h95),linetype=1,height=0.2,size=1.5,col="#D55E00") +
+    geom_errorbarh(aes(xmax=l85, xmin=h85),linetype=1,height=0.1,size=1.4,col="#56B4E9") +
+    geom_point(size=4) + 
+    scale_y_discrete(limits=rev(df.overall$effect))
+```
+

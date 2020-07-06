@@ -1,0 +1,1990 @@
+#
+# Results on Monday November 04 2019 15:20:13 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36
+# Design number was non-random = 0
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,2,0,intro,NULL,age,24
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,2,0,intro,NULL,nationality,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,2,0,intro,NULL,activity,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,2,0,intro,NULL,birth,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,2,0,intro,NULL,L1,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,2,0,intro,NULL,L1,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,2,0,intro,NULL,consent,yes
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,2,0,intro,NULL,gender,male
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,2,0,intro,NULL,academics,L2
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,2,0,intro,NULL,_REACTION_TIME_,7779
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,6,0,practice,31,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,6,0,practice,31,_REACTION_TIME_,2809
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,3,0,practice,102,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,3,0,practice,102,_REACTION_TIME_,539
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,4,0,practice,103,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,4,0,practice,103,_REACTION_TIME_,469
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,10,0,practice,35,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,10,0,practice,35,_REACTION_TIME_,460
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,8,0,practice,33,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,8,0,practice,33,_REACTION_TIME_,475
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,5,0,practice,101,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,5,0,practice,101,_REACTION_TIME_,3389
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,29,0,stat_low,19,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,29,0,stat_low,19,_REACTION_TIME_,541
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,29,1,stat_low,19,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,29,1,stat_low,19,_REACTION_TIME_,399
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,66,0,filler,73,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,66,0,filler,73,_REACTION_TIME_,430
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,14,0,percep_high,4,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,14,0,percep_high,4,_REACTION_TIME_,400
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,14,1,percep_high,4,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,14,1,percep_high,4,_REACTION_TIME_,419
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,54,0,filler,61,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,54,0,filler,61,_REACTION_TIME_,385
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,22,0,percep_high,12,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,22,0,percep_high,12,_REACTION_TIME_,434
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,22,1,percep_high,12,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,22,1,percep_high,12,_REACTION_TIME_,425
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,45,0,FM,37,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,45,0,FM,37,_REACTION_TIME_,450
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,33,0,stat_low,23,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,33,0,stat_low,23,_REACTION_TIME_,414
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,33,1,stat_low,23,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,33,1,stat_low,23,_REACTION_TIME_,435
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,64,0,filler,71,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,64,0,filler,71,_REACTION_TIME_,435
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,27,0,stat_high,17,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,27,0,stat_high,17,_REACTION_TIME_,444
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,27,1,stat_high,17,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,27,1,stat_high,17,_REACTION_TIME_,435
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,57,0,filler,64,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,57,0,filler,64,_REACTION_TIME_,445
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,34,0,percep_high,24,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,34,0,percep_high,24,_REACTION_TIME_,424
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,34,1,percep_high,24,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,34,1,percep_high,24,_REACTION_TIME_,410
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,59,0,filler,66,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,59,0,filler,66,_REACTION_TIME_,414
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,19,0,stat_high,9,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,19,0,stat_high,9,_REACTION_TIME_,385
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,19,1,stat_high,9,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,19,1,stat_high,9,_REACTION_TIME_,450
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,56,0,filler,63,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,56,0,filler,63,_REACTION_TIME_,409
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,16,0,percep_low,6,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,16,0,percep_low,6,_REACTION_TIME_,425
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,16,1,percep_low,6,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,16,1,percep_low,6,_REACTION_TIME_,440
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,47,0,FM,39,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,47,0,FM,39,_REACTION_TIME_,414
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,25,0,stat_low,15,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,25,0,stat_low,15,_REACTION_TIME_,455
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,25,1,stat_low,15,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,25,1,stat_low,15,_REACTION_TIME_,460
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,11,0,stat_high,1,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,11,0,stat_high,1,_REACTION_TIME_,580
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,11,1,stat_high,1,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,11,1,stat_high,1,_REACTION_TIME_,434
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,50,0,FM,42,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,50,0,FM,42,_REACTION_TIME_,476
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,17,0,stat_low,7,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,17,0,stat_low,7,_REACTION_TIME_,469
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,17,1,stat_low,7,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,17,1,stat_low,7,_REACTION_TIME_,464
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,40,0,FM,32,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,40,0,FM,32,_REACTION_TIME_,470
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,23,0,stat_high,13,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,23,0,stat_high,13,_REACTION_TIME_,450
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,23,1,stat_high,13,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,23,1,stat_high,13,_REACTION_TIME_,474
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,63,0,filler,70,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,63,0,filler,70,_REACTION_TIME_,525
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,36,0,percep_low,26,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,36,0,percep_low,26,_REACTION_TIME_,410
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,36,1,percep_low,26,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,36,1,percep_low,26,_REACTION_TIME_,449
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,65,0,filler,72,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,65,0,filler,72,_REACTION_TIME_,380
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,24,0,percep_low,14,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,24,0,percep_low,14,_REACTION_TIME_,425
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,24,1,percep_low,14,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,24,1,percep_low,14,_REACTION_TIME_,444
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,46,0,FM,38,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,46,0,FM,38,_REACTION_TIME_,435
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,37,0,percep_high,27,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,37,0,percep_high,27,_REACTION_TIME_,450
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,37,1,percep_high,27,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,37,1,percep_high,27,_REACTION_TIME_,404
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,49,0,FM,41,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,49,0,FM,41,_REACTION_TIME_,425
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,13,0,stat_low,3,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,13,0,stat_low,3,_REACTION_TIME_,424
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,13,1,stat_low,3,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,13,1,stat_low,3,_REACTION_TIME_,435
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,42,0,FM,34,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,42,0,FM,34,_REACTION_TIME_,465
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,18,0,percep_high,8,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,18,0,percep_high,8,_REACTION_TIME_,414
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,18,1,percep_high,8,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,18,1,percep_high,8,_REACTION_TIME_,460
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,55,0,filler,62,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,55,0,filler,62,_REACTION_TIME_,434
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,32,0,percep_low,22,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,32,0,percep_low,22,_REACTION_TIME_,435
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,32,1,percep_low,22,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,32,1,percep_low,22,_REACTION_TIME_,1141
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,21,0,stat_low,11,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,21,0,stat_low,11,_REACTION_TIME_,649
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,21,1,stat_low,11,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,21,1,stat_low,11,_REACTION_TIME_,410
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,60,0,filler,67,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,60,0,filler,67,_REACTION_TIME_,440
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,26,0,percep_high,16,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,26,0,percep_high,16,_REACTION_TIME_,424
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,26,1,percep_high,16,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,26,1,percep_high,16,_REACTION_TIME_,420
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,53,0,filler,60,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,53,0,filler,60,_REACTION_TIME_,404
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,35,0,stat_high,25,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,35,0,stat_high,25,_REACTION_TIME_,395
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,35,1,stat_high,25,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,35,1,stat_high,25,_REACTION_TIME_,420
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,58,0,filler,65,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,58,0,filler,65,_REACTION_TIME_,409
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,12,0,percep_low,2,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,12,0,percep_low,2,_REACTION_TIME_,413
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,12,1,percep_low,2,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,12,1,percep_low,2,_REACTION_TIME_,404
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,48,0,FM,40,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,48,0,FM,40,_REACTION_TIME_,425
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,38,0,percep_high,28,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,38,0,percep_high,28,_REACTION_TIME_,409
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,38,1,percep_high,28,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,38,1,percep_high,28,_REACTION_TIME_,430
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,51,0,FM,43,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,51,0,FM,43,_REACTION_TIME_,395
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,20,0,percep_low,10,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,20,0,percep_low,10,_REACTION_TIME_,439
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,20,1,percep_low,10,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,20,1,percep_low,10,_REACTION_TIME_,405
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,62,0,filler,69,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,62,0,filler,69,_REACTION_TIME_,460
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,28,0,percep_low,18,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,28,0,percep_low,18,_REACTION_TIME_,414
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,28,1,percep_low,18,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,28,1,percep_low,18,_REACTION_TIME_,430
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,61,0,filler,68,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,61,0,filler,68,_REACTION_TIME_,420
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,30,0,percep_high,20,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,30,0,percep_high,20,_REACTION_TIME_,364
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,30,1,percep_high,20,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,30,1,percep_high,20,_REACTION_TIME_,391
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,44,0,FM,36,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,44,0,FM,36,_REACTION_TIME_,424
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,31,0,stat_high,21,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,31,0,stat_high,21,_REACTION_TIME_,405
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,31,1,stat_high,21,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,31,1,stat_high,21,_REACTION_TIME_,435
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,15,0,stat_high,5,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,15,0,stat_high,5,_REACTION_TIME_,379
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,15,1,stat_high,5,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,15,1,stat_high,5,_REACTION_TIME_,425
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,52,0,FM,44,in,x
+1572880814,0a183bf7946b4bec039b2e124d662a3f,completion,52,0,FM,44,_REACTION_TIME_,415
+#
+# Results on Tuesday November 26 2019 11:37:45 UTC.
+# USER AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+# Design number was non-random = 1
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,2,0,intro,NULL,age,22
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,2,0,intro,NULL,nationality,Française
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,2,0,intro,NULL,activity,Etudiante niveau M1
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,2,0,intro,NULL,birth,Annabe%2C Algérie
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,2,0,intro,NULL,L1,Français
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,2,0,intro,NULL,L1,1972
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,2,0,intro,NULL,consent,yes
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,2,0,intro,NULL,gender,female
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,2,0,intro,NULL,academics,L3
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,2,0,intro,NULL,_REACTION_TIME_,104529
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,5,0,practice,101,in,leurs armes.
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,5,0,practice,101,_REACTION_TIME_,22587
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,3,0,practice,102,in,dimanche.
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,3,0,practice,102,_REACTION_TIME_,4985
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,4,0,practice,103,in,vertes
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,4,0,practice,103,_REACTION_TIME_,5218
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,7,0,practice,32,in,29
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,7,0,practice,32,_REACTION_TIME_,15358
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,9,0,practice,34,in,17
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,9,0,practice,34,_REACTION_TIME_,15502
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,13,0,stat_low,3,in,175
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,13,0,stat_low,3,_REACTION_TIME_,39916
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,13,1,stat_low,3,in,sont doués
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,13,1,stat_low,3,_REACTION_TIME_,21819
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,59,0,filler,66,in,ma requête
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,59,0,filler,66,_REACTION_TIME_,10066
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,32,0,percep_low,22,in,92
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,32,0,percep_low,22,_REACTION_TIME_,32931
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,32,1,percep_low,22,in,était soupçonné de collecter les données illégalement
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,32,1,percep_low,22,_REACTION_TIME_,27443
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,39,0,FM,31,in,13
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,39,0,FM,31,_REACTION_TIME_,8369
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,37,0,percep_high,27,in,89
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,37,0,percep_high,27,_REACTION_TIME_,14634
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,37,1,percep_high,27,in,avait une longue expérience de la mer 
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,37,1,percep_high,27,_REACTION_TIME_,26107
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,45,0,FM,37,in,7
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,45,0,FM,37,_REACTION_TIME_,7857
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,15,0,stat_high,5,in,22
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,15,0,stat_high,5,_REACTION_TIME_,113367
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,15,1,stat_high,5,in,lui avaient été recommandés.
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,15,1,stat_high,5,_REACTION_TIME_,30795
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,46,0,FM,38,in,21
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,46,0,FM,38,_REACTION_TIME_,17882
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,18,0,percep_high,8,in,52
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,18,0,percep_high,8,_REACTION_TIME_,54329
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,18,1,percep_high,8,in,'il avait rencontré lors des portes ouvertes.
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,18,1,percep_high,8,_REACTION_TIME_,47979
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,62,0,filler,69,in,s'entraîner
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,62,0,filler,69,_REACTION_TIME_,6883
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,17,0,stat_low,7,in,22
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,17,0,stat_low,7,_REACTION_TIME_,35025
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,17,1,stat_low,7,in,l'aclamaient.
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,17,1,stat_low,7,_REACTION_TIME_,36348
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,54,0,filler,61,in,compétition
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,54,0,filler,61,_REACTION_TIME_,6548
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,30,0,percep_high,20,in,50
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,30,0,percep_high,20,_REACTION_TIME_,17034
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,30,1,percep_high,20,in,ne se doutait de rien
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,30,1,percep_high,20,_REACTION_TIME_,23697
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,47,0,FM,39,in,25
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,47,0,FM,39,_REACTION_TIME_,7115
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,28,0,percep_low,18,in,56
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,28,0,percep_low,18,_REACTION_TIME_,24403
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,28,1,percep_low,18,in,chantaient
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,28,1,percep_low,18,_REACTION_TIME_,16171
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,53,0,filler,60,in,son équipement
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,53,0,filler,60,_REACTION_TIME_,15139
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,20,0,percep_low,10,in,112
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,20,0,percep_low,10,_REACTION_TIME_,25795
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,20,1,percep_low,10,in,n'était pas très aimé dans l'entreprise
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,20,1,percep_low,10,_REACTION_TIME_,41368
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,57,0,filler,64,in,boulot
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,57,0,filler,64,_REACTION_TIME_,5480
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,36,0,percep_low,26,in,94
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,36,0,percep_low,26,_REACTION_TIME_,14724
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,36,1,percep_low,26,in,ne savait pas chanter
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,36,1,percep_low,26,_REACTION_TIME_,19730
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,65,0,filler,72,in,sont portables
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,65,0,filler,72,_REACTION_TIME_,12619
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,33,0,stat_low,23,in,98
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,33,0,stat_low,23,_REACTION_TIME_,17812
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,33,1,stat_low,23,in,a négocié son salaire
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,33,1,stat_low,23,_REACTION_TIME_,29115
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,60,0,filler,67,in,leurs routes
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,60,0,filler,67,_REACTION_TIME_,10555
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,24,0,percep_low,14,in,106
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,24,0,percep_low,14,_REACTION_TIME_,36747
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,24,1,percep_low,14,in,lui en a fait la remarque après
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,24,1,percep_low,14,_REACTION_TIME_,44804
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,56,0,filler,63,in,sushi
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,56,0,filler,63,_REACTION_TIME_,6403
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,21,0,stat_low,11,in,117
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,21,0,stat_low,11,_REACTION_TIME_,29994
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,21,1,stat_low,11,in,l'aimait
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,21,1,stat_low,11,_REACTION_TIME_,29515
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,48,0,FM,40,in,15
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,48,0,FM,40,_REACTION_TIME_,18827
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,14,0,percep_high,4,in,71
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,14,0,percep_high,4,_REACTION_TIME_,11563
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,14,1,percep_high,4,in,se prétendaient pour des célébrités
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,14,1,percep_high,4,_REACTION_TIME_,42276
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,16,0,percep_low,6,in,164
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,16,0,percep_low,6,_REACTION_TIME_,23676
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,16,1,percep_low,6,in,lui étaient en réalité dévoués
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,16,1,percep_low,6,_REACTION_TIME_,41652
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,50,0,FM,42,in,15
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,50,0,FM,42,_REACTION_TIME_,10460
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,25,0,stat_low,15,in,119
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,25,0,stat_low,15,_REACTION_TIME_,42979
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,25,1,stat_low,15,in,l'aimaient beaucoup
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,25,1,stat_low,15,_REACTION_TIME_,13795
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,51,0,FM,43,in,57
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,51,0,FM,43,_REACTION_TIME_,14890
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,27,0,stat_high,17,in,68
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,27,0,stat_high,17,_REACTION_TIME_,15098
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,27,1,stat_high,17,in,criaient dans la rue
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,27,1,stat_high,17,_REACTION_TIME_,30355
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,44,0,FM,36,in,24
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,44,0,FM,36,_REACTION_TIME_,21075
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,26,0,percep_high,16,in,42
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,26,0,percep_high,16,_REACTION_TIME_,26297
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,26,1,percep_high,16,in,lui apprendrait à enseigner
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,26,1,percep_high,16,_REACTION_TIME_,28147
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,64,0,filler,71,in,d'Oasis
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,64,0,filler,71,_REACTION_TIME_,12674
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,35,0,stat_high,25,in,65
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,35,0,stat_high,25,_REACTION_TIME_,18355
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,35,1,stat_high,25,in,en redemandaient
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,35,1,stat_high,25,_REACTION_TIME_,21298
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,52,0,FM,44,in,21
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,52,0,FM,44,_REACTION_TIME_,9907
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,19,0,stat_high,9,in,-54
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,19,0,stat_high,9,_REACTION_TIME_,67236
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,19,1,stat_high,9,in,était ravi d'avoir de nouveaux membres dans son église
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,19,1,stat_high,9,_REACTION_TIME_,50413
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,41,0,FM,33,in,11
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,41,0,FM,33,_REACTION_TIME_,18267
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,11,0,stat_high,1,in,29
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,11,0,stat_high,1,_REACTION_TIME_,39948
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,11,1,stat_high,1,in,prétendaient défendre le meilleur intérêt de leurs clients
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,11,1,stat_high,1,_REACTION_TIME_,42364
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,49,0,FM,41,in,60
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,49,0,FM,41,_REACTION_TIME_,19869
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,31,0,stat_high,21,in,31
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,31,0,stat_high,21,_REACTION_TIME_,59906
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,31,1,stat_high,21,in,adoraient leurs métiers
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,31,1,stat_high,21,_REACTION_TIME_,17354
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,61,0,filler,68,in,aller sauver des victimes d'un accident de la route
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,61,0,filler,68,_REACTION_TIME_,21420
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,12,0,percep_low,2,in,109
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,12,0,percep_low,2,_REACTION_TIME_,13427
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,12,1,percep_low,2,in,ont battu leurs records
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,12,1,percep_low,2,_REACTION_TIME_,25559
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,63,0,filler,70,in,un retour en arrière
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,63,0,filler,70,_REACTION_TIME_,31427
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,29,0,stat_low,19,in,99
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,29,0,stat_low,19,_REACTION_TIME_,10771
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,29,1,stat_low,19,in,ne voulaient pas être entraînés
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,29,1,stat_low,19,_REACTION_TIME_,26700
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,66,0,filler,73,in,rangées 
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,66,0,filler,73,_REACTION_TIME_,13771
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,34,0,percep_high,24,in,18
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,34,0,percep_high,24,_REACTION_TIME_,28187
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,34,1,percep_high,24,in,était complètement bourré en bas de chez lui
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,34,1,percep_high,24,_REACTION_TIME_,21361
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,58,0,filler,65,in,son concert
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,58,0,filler,65,_REACTION_TIME_,6555
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,38,0,percep_high,28,in,64
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,38,0,percep_high,28,_REACTION_TIME_,24628
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,38,1,percep_high,28,in,ne voulait pas être regardé durant l'effort
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,38,1,percep_high,28,_REACTION_TIME_,26052
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,55,0,filler,62,in,une danse et un genre musical
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,55,0,filler,62,_REACTION_TIME_,37436
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,22,0,percep_high,12,in,1
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,22,0,percep_high,12,_REACTION_TIME_,13300
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,22,1,percep_high,12,in,s'est fait viré l'année dernière
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,22,1,percep_high,12,_REACTION_TIME_,25739
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,23,0,stat_high,13,in,-6
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,23,0,stat_high,13,_REACTION_TIME_,30587
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,23,1,stat_high,13,in,ont été obligé de l'accepter
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,23,1,stat_high,13,_REACTION_TIME_,25227
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,43,0,FM,35,in,4
+1574768265,c1ba0831ed40edb71f6bd4a2df2040bb,completion,43,0,FM,35,_REACTION_TIME_,23516
+#
+# Results on Wednesday November 27 2019 10:40:00 UTC.
+# USER AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+# Design number was non-random = 2
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,2,0,intro,NULL,age,60
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,2,0,intro,NULL,nationality,francaise
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,2,0,intro,NULL,activity,lettres et communications
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,2,0,intro,NULL,birth,paris
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,2,0,intro,NULL,L1,francais
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,2,0,intro,NULL,L1,pinup
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,2,0,intro,NULL,consent,yes
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,2,0,intro,NULL,gender,female
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,2,0,intro,NULL,academics,L3
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,2,0,intro,NULL,_REACTION_TIME_,4375936
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,3,0,practice,102,in,lundi matin
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,3,0,practice,102,_REACTION_TIME_,19991
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,8,0,practice,33,in,28
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,8,0,practice,33,_REACTION_TIME_,10717
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,5,0,practice,101,in,veritable espoir
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,5,0,practice,101,_REACTION_TIME_,26881
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,4,0,practice,103,in,surettes
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,4,0,practice,103,_REACTION_TIME_,11684
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,6,0,practice,31,in,76
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,6,0,practice,31,_REACTION_TIME_,24917
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,10,0,practice,35,in,21
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,10,0,practice,35,_REACTION_TIME_,13462
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,35,0,stat_high,25,in,336
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,35,0,stat_high,25,_REACTION_TIME_,53199
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,35,1,stat_high,25,in,s'embetaient copieusement
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,35,1,stat_high,25,_REACTION_TIME_,20091
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,61,0,filler,68,in,aller eteindre un incendie
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,61,0,filler,68,_REACTION_TIME_,19945
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,26,0,percep_high,16,in,312
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,26,0,percep_high,16,_REACTION_TIME_,19060
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,26,1,percep_high,16,in,eternuait au milieu du cours de français
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,26,1,percep_high,16,_REACTION_TIME_,28496
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,59,0,filler,66,in,toutes ses eleves
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,59,0,filler,66,_REACTION_TIME_,13405
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,20,0,percep_low,10,in,574
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,20,0,percep_low,10,_REACTION_TIME_,32052
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,20,1,percep_low,10,in,ira témoigner au tribunal
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,20,1,percep_low,10,_REACTION_TIME_,29310
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,44,0,FM,36,in,24
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,44,0,FM,36,_REACTION_TIME_,15922
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,24,0,percep_low,14,in,254
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,24,0,percep_low,14,_REACTION_TIME_,19745
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,24,1,percep_low,14,in,s'occupe de son nouvel  album
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,24,1,percep_low,14,_REACTION_TIME_,38559
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,47,0,FM,39,in,25
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,47,0,FM,39,_REACTION_TIME_,5395
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,12,0,percep_low,2,in,837
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,12,0,percep_low,2,_REACTION_TIME_,21081
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,12,1,percep_low,2,in,lui offriront un joli cadeau
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,12,1,percep_low,2,_REACTION_TIME_,26080
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,49,0,FM,41,in,62
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,49,0,FM,41,_REACTION_TIME_,10461
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,18,0,percep_high,8,in,648
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,18,0,percep_high,8,_REACTION_TIME_,25086
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,18,1,percep_high,8,in,ont plusieurs revendications
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,18,1,percep_high,8,_REACTION_TIME_,25303
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,45,0,FM,37,in,7
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,45,0,FM,37,_REACTION_TIME_,5126
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,25,0,stat_low,15,in,202
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,25,0,stat_low,15,_REACTION_TIME_,25857
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,25,1,stat_low,15,in,lui fait une cour effrénée
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,25,1,stat_low,15,_REACTION_TIME_,21086
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,50,0,FM,42,in,15
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,50,0,FM,42,_REACTION_TIME_,7447
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,34,0,percep_high,24,in,498
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,34,0,percep_high,24,_REACTION_TIME_,48575
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,34,1,percep_high,24,in,se cachait derriere un arbre
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,34,1,percep_high,24,_REACTION_TIME_,23414
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,53,0,filler,60,in,un grand concours
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,53,0,filler,60,_REACTION_TIME_,25717
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,13,0,stat_low,3,in,909
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,13,0,stat_low,3,_REACTION_TIME_,58354
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,13,1,stat_low,3,in,lui decrivent la fabuleuse maison de leur patron
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,13,1,stat_low,3,_REACTION_TIME_,46644
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,22,0,percep_high,12,in,657
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,22,0,percep_high,12,_REACTION_TIME_,32449
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,22,1,percep_high,12,in,va entrainer les filles
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,22,1,percep_high,12,_REACTION_TIME_,35128
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,48,0,FM,40,in,15
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,48,0,FM,40,_REACTION_TIME_,7930
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,11,0,stat_high,1,in,405
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,11,0,stat_high,1,_REACTION_TIME_,19018
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,11,1,stat_high,1,in,est accusé de viol sur Marie
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,11,1,stat_high,1,_REACTION_TIME_,22424
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,64,0,filler,71,in,subtil
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,64,0,filler,71,_REACTION_TIME_,11572
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,28,0,percep_low,18,in,534
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,28,0,percep_low,18,_REACTION_TIME_,65097
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,28,1,percep_low,18,in,leur avait apporté de jolies fleurs
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,28,1,percep_low,18,_REACTION_TIME_,32992
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,42,0,FM,34,in,28
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,42,0,FM,34,_REACTION_TIME_,16147
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,17,0,stat_low,7,in,728
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,17,0,stat_low,7,_REACTION_TIME_,36015
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,17,1,stat_low,7,in,l'avait fait monter sur scène
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,17,1,stat_low,7,_REACTION_TIME_,28479
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,46,0,FM,38,in,21
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,46,0,FM,38,_REACTION_TIME_,8361
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,36,0,percep_low,26,in,176
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,36,0,percep_low,26,_REACTION_TIME_,16745
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,36,1,percep_low,26,in,se produiront ce soir a l'Olympia
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,36,1,percep_low,26,_REACTION_TIME_,24460
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,56,0,filler,63,in,chaussures de gymnastique
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,56,0,filler,63,_REACTION_TIME_,25366
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,30,0,percep_high,20,in,370
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,30,0,percep_high,20,_REACTION_TIME_,29835
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,30,1,percep_high,20,in,se prenait tres au sérieux
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,30,1,percep_high,20,_REACTION_TIME_,24187
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,60,0,filler,67,in,les instructions de la tour de controle
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,60,0,filler,67,_REACTION_TIME_,38338
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,23,0,stat_high,13,in,441
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,23,0,stat_high,13,_REACTION_TIME_,20272
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,23,1,stat_high,13,in,leur offraient l'hospitalité
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,23,1,stat_high,13,_REACTION_TIME_,41144
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,57,0,filler,64,in,jardin des plantes
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,57,0,filler,64,_REACTION_TIME_,16211
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,32,0,percep_low,22,in,640
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,32,0,percep_low,22,_REACTION_TIME_,11140
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,32,1,percep_low,22,in,avait provoqué une panne
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,32,1,percep_low,22,_REACTION_TIME_,27322
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,63,0,filler,70,in,chere
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,63,0,filler,70,_REACTION_TIME_,9048
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,31,0,stat_high,21,in,632
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,31,0,stat_high,21,_REACTION_TIME_,28978
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,31,1,stat_high,21,in,etaient des hommes vereux
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,31,1,stat_high,21,_REACTION_TIME_,21578
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,37,0,percep_high,27,in,89
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,37,0,percep_high,27,_REACTION_TIME_,9516
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,37,1,percep_high,27,in,avaient sauvé sa petite soeur
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,37,1,percep_high,27,_REACTION_TIME_,31836
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,51,0,FM,43,in,492
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,51,0,FM,43,_REACTION_TIME_,16146
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,27,0,stat_high,17,in,460
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,27,0,stat_high,17,_REACTION_TIME_,16610
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,27,1,stat_high,17,in,hurlait dans son mégaphone
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,27,1,stat_high,17,_REACTION_TIME_,39242
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,66,0,filler,73,in,concues
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,66,0,filler,73,_REACTION_TIME_,11231
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,33,0,stat_low,23,in,344
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,33,0,stat_low,23,_REACTION_TIME_,19136
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,33,1,stat_low,23,in,lui avait volé de l'argent
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,33,1,stat_low,23,_REACTION_TIME_,25417
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,55,0,filler,62,in,divertissant
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,55,0,filler,62,_REACTION_TIME_,10568
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,21,0,stat_low,11,in,492
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,21,0,stat_low,11,_REACTION_TIME_,31086
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,21,1,stat_low,11,in,ont été gravement blessés
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,21,1,stat_low,11,_REACTION_TIME_,76549
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,62,0,filler,69,in,courageux
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,62,0,filler,69,_REACTION_TIME_,9492
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,16,0,percep_low,6,in,808
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,16,0,percep_low,6,_REACTION_TIME_,19689
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,16,1,percep_low,6,in,hurlait comme un ane
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,16,1,percep_low,6,_REACTION_TIME_,28678
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,58,0,filler,65,in,a realiser qu'il a du talent
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,58,0,filler,65,_REACTION_TIME_,28137
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,38,0,percep_high,28,in,474
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,38,0,percep_high,28,_REACTION_TIME_,23829
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,38,1,percep_high,28,in,faisait le fanfaron sur l'estrade
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,38,1,percep_high,28,_REACTION_TIME_,27409
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,52,0,FM,44,in,8%2C5
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,52,0,FM,44,_REACTION_TIME_,40057
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,14,0,percep_high,4,in,228
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,14,0,percep_high,4,_REACTION_TIME_,20126
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,14,1,percep_high,4,in,défilait sur le podium
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,14,1,percep_high,4,_REACTION_TIME_,22463
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,65,0,filler,72,in,sont tres intrusifs
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,65,0,filler,72,_REACTION_TIME_,20787
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,19,0,stat_high,9,in,576
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,19,0,stat_high,9,_REACTION_TIME_,32377
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,19,1,stat_high,9,in,lui%2C n'avait rien demandé
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,19,1,stat_high,9,_REACTION_TIME_,28919
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,54,0,filler,61,in,retraités
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,54,0,filler,61,_REACTION_TIME_,9951
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,15,0,stat_high,5,in,410
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,15,0,stat_high,5,_REACTION_TIME_,20986
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,15,1,stat_high,5,in,s'etait evanouie sur le podium
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,15,1,stat_high,5,_REACTION_TIME_,34833
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,29,0,stat_low,19,in,348
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,29,0,stat_low,19,_REACTION_TIME_,26293
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,29,1,stat_low,19,in,voulaient jouer au football
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,29,1,stat_low,19,_REACTION_TIME_,25158
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,40,0,FM,32,in,12
+1574851200,8a49780f2d1ffdc8664facb175ee6b84,completion,40,0,FM,32,_REACTION_TIME_,10938
+#
+# Results on Wednesday November 27 2019 12:57:24 UTC.
+# USER AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+# Design number was non-random = 3
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,2,0,intro,NULL,age,62
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,2,0,intro,NULL,nationality,frncaise
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,2,0,intro,NULL,activity,lettres 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,2,0,intro,NULL,birth,Tunisie 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,2,0,intro,NULL,L1,Francais
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,2,0,intro,NULL,L1,1303
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,2,0,intro,NULL,consent,yes
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,2,0,intro,NULL,gender,female
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,2,0,intro,NULL,academics,L2
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,2,0,intro,NULL,_REACTION_TIME_,371121
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,3,0,practice,102,in,mercredi 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,3,0,practice,102,_REACTION_TIME_,16165
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,7,0,practice,32,in,47
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,7,0,practice,32,_REACTION_TIME_,17628
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,5,0,practice,101,in,l avoir demandé 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,5,0,practice,101,_REACTION_TIME_,19437
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,9,0,practice,34,in,17
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,9,0,practice,34,_REACTION_TIME_,10905
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,4,0,practice,103,in,bonnes pour la santé 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,4,0,practice,103,_REACTION_TIME_,17781
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,34,0,percep_high,24,in,89
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,34,0,percep_high,24,_REACTION_TIME_,56267
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,34,1,percep_high,24,in,téléphonait à sa vieille amie 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,34,1,percep_high,24,_REACTION_TIME_,63308
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,35,0,stat_high,25,in,336
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,35,0,stat_high,25,_REACTION_TIME_,50735
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,35,1,stat_high,25,in,sont partis à regret 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,35,1,stat_high,25,_REACTION_TIME_,30951
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,58,0,filler,65,in,à jouer sur son piano 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,58,0,filler,65,_REACTION_TIME_,28711
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,31,0,stat_high,21,in,632
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,31,0,stat_high,21,_REACTION_TIME_,55065
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,31,1,stat_high,21,in,se mettaient plein les poches 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,31,1,stat_high,21,_REACTION_TIME_,34250
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,45,0,FM,37,in,7
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,45,0,FM,37,_REACTION_TIME_,17161
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,15,0,stat_high,5,in,410
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,15,0,stat_high,5,_REACTION_TIME_,41315
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,15,1,stat_high,5,in,devait etre autopsié 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,15,1,stat_high,5,_REACTION_TIME_,37550
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,48,0,FM,40,in,15
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,48,0,FM,40,_REACTION_TIME_,20356
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,22,0,percep_high,12,in,157
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,22,0,percep_high,12,_REACTION_TIME_,105479
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,22,1,percep_high,12,in,avait quelques remontrances à leur faire 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,22,1,percep_high,12,_REACTION_TIME_,56853
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,53,0,filler,60,in,sa jeune recrue 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,53,0,filler,60,_REACTION_TIME_,24381
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,28,0,percep_low,18,in,504
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,28,0,percep_low,18,_REACTION_TIME_,148384
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,28,1,percep_low,18,in,sortaient déguisées en call girls 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,28,1,percep_low,18,_REACTION_TIME_,37638
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,65,0,filler,72,in,sont devenus très intelligents 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,65,0,filler,72,_REACTION_TIME_,30261
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,17,0,stat_low,7,in,798
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,17,0,stat_low,7,_REACTION_TIME_,60346
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,17,1,stat_low,7,in,lui avaient réservé une belle surprise 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,17,1,stat_low,7,_REACTION_TIME_,36983
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,41,0,FM,33,in,9
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,41,0,FM,33,_REACTION_TIME_,29018
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,37,0,percep_high,27,in,89
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,37,0,percep_high,27,_REACTION_TIME_,14837
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,37,1,percep_high,27,in,n avait rien à envier à OLivier De Kersauson 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,37,1,percep_high,27,_REACTION_TIME_,45972
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,44,0,FM,36,in,24
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,44,0,FM,36,_REACTION_TIME_,71595
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,29,0,stat_low,19,in,366
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,29,0,stat_low,19,_REACTION_TIME_,47254
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,29,1,stat_low,19,in,cherchaient un bon restaurant loin du bureau 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,29,1,stat_low,19,_REACTION_TIME_,39519
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,62,0,filler,69,in,se déguiser pour échapper à leur coach 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,62,0,filler,69,_REACTION_TIME_,28249
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,25,0,stat_low,15,in,170
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,25,0,stat_low,15,_REACTION_TIME_,19602
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,25,1,stat_low,15,in,sont nés déjà bien talentueux 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,25,1,stat_low,15,_REACTION_TIME_,30489
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,43,0,FM,35,in,4
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,43,0,FM,35,_REACTION_TIME_,26357
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,23,0,stat_high,13,in,511
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,23,0,stat_high,13,_REACTION_TIME_,41832
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,23,1,stat_high,13,in,avaient loué un hotel tout près de la salle de mariage 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,23,1,stat_high,13,_REACTION_TIME_,40054
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,47,0,FM,39,in,25
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,47,0,FM,39,_REACTION_TIME_,10949
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,32,0,percep_low,22,in,608
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,32,0,percep_low,22,_REACTION_TIME_,46261
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,32,1,percep_low,22,in,gardait secrètement le mot de passe de tous les ordinateurs 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,32,1,percep_low,22,_REACTION_TIME_,52953
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,51,0,FM,43,in,492
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,51,0,FM,43,_REACTION_TIME_,106754
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,21,0,stat_low,11,in,744
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,21,0,stat_low,11,_REACTION_TIME_,58990
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,21,1,stat_low,11,in,étaient bien mutilés 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,21,1,stat_low,11,_REACTION_TIME_,20813
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,61,0,filler,68,in,le bal du 14 juillet 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,61,0,filler,68,_REACTION_TIME_,18655
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,20,0,percep_low,10,in,504
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,20,0,percep_low,10,_REACTION_TIME_,51427
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,20,1,percep_low,10,in,ne faisaient jamais grève 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,20,1,percep_low,10,_REACTION_TIME_,31902
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,60,0,filler,67,in,le chemin tout tracé de la tour de controle 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,60,0,filler,67,_REACTION_TIME_,26873
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,18,0,percep_high,8,in,508
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,18,0,percep_high,8,_REACTION_TIME_,40741
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,18,1,percep_high,8,in,décident de ne plus assister au cours 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,18,1,percep_high,8,_REACTION_TIME_,41077
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,13,0,stat_low,3,in,909
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,13,0,stat_low,3,_REACTION_TIME_,64356
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,13,1,stat_low,3,in,avaient bien des idées de décor pour son parterre de roses 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,13,1,stat_low,3,_REACTION_TIME_,50261
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,49,0,FM,41,in,62
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,49,0,FM,41,_REACTION_TIME_,12963
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,24,0,percep_low,14,in,254
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,24,0,percep_low,14,_REACTION_TIME_,65530
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,24,1,percep_low,14,in,leur a promis un beau tour de chant 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,24,1,percep_low,14,_REACTION_TIME_,38184
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,59,0,filler,66,in,les talents des élèves 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,59,0,filler,66,_REACTION_TIME_,19363
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,26,0,percep_high,16,in,312
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,26,0,percep_high,16,_REACTION_TIME_,41099
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,26,1,percep_high,16,in,etait porté sur l intégrisme 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,26,1,percep_high,16,_REACTION_TIME_,56808
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,46,0,FM,38,in,21
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,46,0,FM,38,_REACTION_TIME_,26510
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,27,0,stat_high,17,in,460
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,27,0,stat_high,17,_REACTION_TIME_,41909
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,27,1,stat_high,17,in,avait fabriqué une pancarte qui résumait bien leur cause 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,27,1,stat_high,17,_REACTION_TIME_,42023
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,56,0,filler,63,in,pizzas alors que tu es encore ai régime 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,56,0,filler,63,_REACTION_TIME_,31522
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,38,0,percep_high,28,in,594
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,38,0,percep_high,28,_REACTION_TIME_,58215
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,38,1,percep_high,28,in,lui rappellait bien un jeune homme qu elle a connu dans sa jeunesse 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,38,1,percep_high,28,_REACTION_TIME_,37429
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,55,0,filler,62,in,une musique universelle 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,55,0,filler,62,_REACTION_TIME_,18587
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,33,0,stat_low,23,in,344
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,33,0,stat_low,23,_REACTION_TIME_,44619
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,33,1,stat_low,23,in,se contentait de peu 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,33,1,stat_low,23,_REACTION_TIME_,30456
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,50,0,FM,42,in,3
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,50,0,FM,42,_REACTION_TIME_,24348
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,19,0,stat_high,9,in,864
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,19,0,stat_high,9,_REACTION_TIME_,36088
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,19,1,stat_high,9,in,est arrivé de très loin sans avoir diné 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,19,1,stat_high,9,_REACTION_TIME_,35696
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,57,0,filler,64,in,cinema voir le seul  film de Denisot 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,57,0,filler,64,_REACTION_TIME_,46338
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,30,0,percep_high,20,in,370
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,30,0,percep_high,20,_REACTION_TIME_,36049
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,30,1,percep_high,20,in,ne se souciaient point de ses conseils 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,30,1,percep_high,20,_REACTION_TIME_,37739
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,39,0,FM,31,in,13
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,39,0,FM,31,_REACTION_TIME_,17819
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,11,0,stat_high,1,in,405
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,11,0,stat_high,1,_REACTION_TIME_,33352
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,11,1,stat_high,1,in,était accusé de viol 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,11,1,stat_high,1,_REACTION_TIME_,54775
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,52,0,FM,44,in,8.5
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,52,0,FM,44,_REACTION_TIME_,27947
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,16,0,percep_low,6,in,818
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,16,0,percep_low,6,_REACTION_TIME_,42853
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,16,1,percep_low,6,in,disaient du mal de celui qui les torture mentalement 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,16,1,percep_low,6,_REACTION_TIME_,45939
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,64,0,filler,71,in,de bergamote 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,64,0,filler,71,_REACTION_TIME_,12552
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,14,0,percep_high,4,in,228
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,14,0,percep_high,4,_REACTION_TIME_,41705
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,14,1,percep_high,4,in,se prenait pour une immortelle 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,14,1,percep_high,4,_REACTION_TIME_,38194
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,54,0,filler,61,in,de retraités 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,54,0,filler,61,_REACTION_TIME_,10547
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,12,0,percep_low,2,in,837
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,12,0,percep_low,2,_REACTION_TIME_,36932
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,12,1,percep_low,2,in,voulaient participer au marathon de New York 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,12,1,percep_low,2,_REACTION_TIME_,34447
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,66,0,filler,73,in,colorées 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,66,0,filler,73,_REACTION_TIME_,13463
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,36,0,percep_low,26,in,542
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,36,0,percep_low,26,_REACTION_TIME_,31749
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,36,1,percep_low,26,in,lui demandait une grosse somme d argent 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,36,1,percep_low,26,_REACTION_TIME_,24593
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,63,0,filler,70,in,retrograde et folle 
+1574859445,8a49780f2d1ffdc8664facb175ee6b84,completion,63,0,filler,70,_REACTION_TIME_,15901
+#
+# Results on Wednesday November 27 2019 13:28:49 UTC.
+# USER AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+# Design number was non-random = 4
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,2,0,intro,NULL,age,35
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,2,0,intro,NULL,nationality,française
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,2,0,intro,NULL,activity,arts
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,2,0,intro,NULL,birth,haute-marne
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,2,0,intro,NULL,L1,français
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,2,0,intro,NULL,L1,CB75
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,2,0,intro,NULL,consent,yes
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,2,0,intro,NULL,gender,female
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,2,0,intro,NULL,academics,L3
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,2,0,intro,NULL,_REACTION_TIME_,286856
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,5,0,practice,101,in,peur
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,5,0,practice,101,_REACTION_TIME_,26550
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,10,0,practice,35,in,21
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,10,0,practice,35,_REACTION_TIME_,16402
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,8,0,practice,33,in,28
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,8,0,practice,33,_REACTION_TIME_,10970
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,3,0,practice,102,in,lundi
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,3,0,practice,102,_REACTION_TIME_,4598
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,6,0,practice,31,in,76
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,6,0,practice,31,_REACTION_TIME_,7588
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,4,0,practice,103,in,delicieuses
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,4,0,practice,103,_REACTION_TIME_,7478
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,35,0,stat_high,25,in,21
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,35,0,stat_high,25,_REACTION_TIME_,35002
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,35,1,stat_high,25,in,rigolent
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,35,1,stat_high,25,_REACTION_TIME_,11414
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,44,0,FM,36,in,24
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,44,0,FM,36,_REACTION_TIME_,10158
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,30,0,percep_high,20,in,370
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,30,0,percep_high,20,_REACTION_TIME_,36434
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,30,1,percep_high,20,in,l'impressionne
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,30,1,percep_high,20,_REACTION_TIME_,9721
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,62,0,filler,69,in,courir
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,62,0,filler,69,_REACTION_TIME_,3802
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,23,0,stat_high,13,in,580
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,23,0,stat_high,13,_REACTION_TIME_,49644
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,23,1,stat_high,13,in,l'ont gentiment accueilli
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,23,1,stat_high,13,_REACTION_TIME_,10990
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,63,0,filler,70,in,originale
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,63,0,filler,70,_REACTION_TIME_,6383
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,16,0,percep_low,6,in,808
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,16,0,percep_low,6,_REACTION_TIME_,35915
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,16,1,percep_low,6,in,l'ont effrayé
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,16,1,percep_low,6,_REACTION_TIME_,9882
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,56,0,filler,63,in,sushis
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,56,0,filler,63,_REACTION_TIME_,3855
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,32,0,percep_low,22,in,660
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,32,0,percep_low,22,_REACTION_TIME_,51748
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,32,1,percep_low,22,in,insere des virus dans les ordinateurs
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,32,1,percep_low,22,_REACTION_TIME_,23594
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,53,0,filler,60,in,sa leçon du jour
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,53,0,filler,60,_REACTION_TIME_,7984
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,21,0,stat_low,11,in,492
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,21,0,stat_low,11,_REACTION_TIME_,35751
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,21,1,stat_low,11,in,l'aime tant
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,21,1,stat_low,11,_REACTION_TIME_,9492
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,60,0,filler,67,in,des cours en ligne
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,60,0,filler,67,_REACTION_TIME_,7325
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,34,0,percep_high,24,in,591
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,34,0,percep_high,24,_REACTION_TIME_,15442
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,34,1,percep_high,24,in,mange des bonbons en cachette
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,34,1,percep_high,24,_REACTION_TIME_,9611
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,66,0,filler,73,in,placées
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,66,0,filler,73,_REACTION_TIME_,10100
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,26,0,percep_high,16,in,336
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,26,0,percep_high,16,_REACTION_TIME_,12805
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,26,1,percep_high,16,in,leur chantait des jolies comptines
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,26,1,percep_high,16,_REACTION_TIME_,14215
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,45,0,FM,37,in,7
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,45,0,FM,37,_REACTION_TIME_,4343
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,25,0,stat_low,15,in,202
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,25,0,stat_low,15,_REACTION_TIME_,10136
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,25,1,stat_low,15,in,savent déjà jouer du piano et de la guitare
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,25,1,stat_low,15,_REACTION_TIME_,10341
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,24,0,percep_low,14,in,264
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,24,0,percep_low,14,_REACTION_TIME_,22477
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,24,1,percep_low,14,in,lui a offert un gâteau au chocolat
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,24,1,percep_low,14,_REACTION_TIME_,15732
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,59,0,filler,66,in,toute proposition
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,59,0,filler,66,_REACTION_TIME_,5375
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,13,0,stat_low,3,in,909
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,13,0,stat_low,3,_REACTION_TIME_,7285
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,13,1,stat_low,3,in,apprécient sa générosité
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,13,1,stat_low,3,_REACTION_TIME_,13442
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,50,0,FM,42,in,15
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,50,0,FM,42,_REACTION_TIME_,12756
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,36,0,percep_low,26,in,176
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,36,0,percep_low,26,_REACTION_TIME_,14872
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,36,1,percep_low,26,in,lui offre un poste de stagiaire
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,36,1,percep_low,26,_REACTION_TIME_,11191
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,58,0,filler,65,in,à écrire des chansons
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,58,0,filler,65,_REACTION_TIME_,6389
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,28,0,percep_low,18,in,532
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,28,0,percep_low,18,_REACTION_TIME_,38364
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,28,1,percep_low,18,in,se chamaillaient dans la cour
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,28,1,percep_low,18,_REACTION_TIME_,12551
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,46,0,FM,38,in,21
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,46,0,FM,38,_REACTION_TIME_,4622
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,18,0,percep_high,8,in,838
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,18,0,percep_high,8,_REACTION_TIME_,39317
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,18,1,percep_high,8,in,partait dans de très longs monologues
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,18,1,percep_high,8,_REACTION_TIME_,15988
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,65,0,filler,72,in,ne sonnent même plus
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,65,0,filler,72,_REACTION_TIME_,6694
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,20,0,percep_low,10,in,578
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,20,0,percep_low,10,_REACTION_TIME_,31383
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,20,1,percep_low,10,in,va animer la réunion
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,20,1,percep_low,10,_REACTION_TIME_,18290
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,61,0,filler,68,in,la fête du 13 juillet
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,61,0,filler,68,_REACTION_TIME_,7182
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,11,0,stat_high,1,in,408
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,11,0,stat_high,1,_REACTION_TIME_,14709
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,11,1,stat_high,1,in,lui réclament une forte somme
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,11,1,stat_high,1,_REACTION_TIME_,20615
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,49,0,FM,41,in,62
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,49,0,FM,41,_REACTION_TIME_,39895
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,15,0,stat_high,5,in,416
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,15,0,stat_high,5,_REACTION_TIME_,17244
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,15,1,stat_high,5,in,lui expliquent la procedure à suivre
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,15,1,stat_high,5,_REACTION_TIME_,9706
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,55,0,filler,62,in,intemporel
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,55,0,filler,62,_REACTION_TIME_,6710
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,22,0,percep_high,12,in,841
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,22,0,percep_high,12,_REACTION_TIME_,22751
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,22,1,percep_high,12,in,travaille extrement bien
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,22,1,percep_high,12,_REACTION_TIME_,8955
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,17,0,stat_low,7,in,728
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,17,0,stat_low,7,_REACTION_TIME_,19951
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,17,1,stat_low,7,in,adorent son dernier album
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,17,1,stat_low,7,_REACTION_TIME_,10438
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,51,0,FM,43,in,496
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,51,0,FM,43,_REACTION_TIME_,26391
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,19,0,stat_high,9,in,574
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,19,0,stat_high,9,_REACTION_TIME_,17846
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,19,1,stat_high,9,in,l'a beaucoup ému
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,19,1,stat_high,9,_REACTION_TIME_,10154
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,48,0,FM,40,in,15
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,48,0,FM,40,_REACTION_TIME_,12160
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,14,0,percep_high,4,in,252
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,14,0,percep_high,4,_REACTION_TIME_,33256
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,14,1,percep_high,4,in,voudraient récuperer les images
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,14,1,percep_high,4,_REACTION_TIME_,13076
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,57,0,filler,64,in,cinéma
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,57,0,filler,64,_REACTION_TIME_,3253
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,37,0,percep_high,27,in,89
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,37,0,percep_high,27,_REACTION_TIME_,10020
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,37,1,percep_high,27,in,lui a tout appris
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,37,1,percep_high,27,_REACTION_TIME_,7374
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,64,0,filler,71,in,de menthe fraîche
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,64,0,filler,71,_REACTION_TIME_,6085
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,38,0,percep_high,28,in,472
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,38,0,percep_high,28,_REACTION_TIME_,30599
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,38,1,percep_high,28,in,lui plaît enormement
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,38,1,percep_high,28,_REACTION_TIME_,23753
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,40,0,FM,32,in,12
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,40,0,FM,32,_REACTION_TIME_,6448
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,12,0,percep_low,2,in,837
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,12,0,percep_low,2,_REACTION_TIME_,32935
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,12,1,percep_low,2,in,lui ont tenu compagnie
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,12,1,percep_low,2,_REACTION_TIME_,9797
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,52,0,FM,44,in,8.5
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,52,0,FM,44,_REACTION_TIME_,14032
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,29,0,stat_low,19,in,376
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,29,0,stat_low,19,_REACTION_TIME_,26928
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,29,1,stat_low,19,in,sont une excellent équipe
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,29,1,stat_low,19,_REACTION_TIME_,9387
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,47,0,FM,39,in,25
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,47,0,FM,39,_REACTION_TIME_,3644
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,33,0,stat_low,23,in,368
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,33,0,stat_low,23,_REACTION_TIME_,17811
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,33,1,stat_low,23,in,fourni un travail de qualité
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,33,1,stat_low,23,_REACTION_TIME_,8429
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,42,0,FM,34,in,28
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,42,0,FM,34,_REACTION_TIME_,8440
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,31,0,stat_high,21,in,632
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,31,0,stat_high,21,_REACTION_TIME_,27233
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,31,1,stat_high,21,in,lui ont offert un joli poste
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,31,1,stat_high,21,_REACTION_TIME_,10581
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,27,0,stat_high,17,in,460
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,27,0,stat_high,17,_REACTION_TIME_,16893
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,27,1,stat_high,17,in,lui a inspiré beaucoup d'humanité
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,27,1,stat_high,17,_REACTION_TIME_,10690
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,54,0,filler,61,in,passionnés
+1574861330,b8a2c79bd021f8fab1841d4d4d86553c,completion,54,0,filler,61,_REACTION_TIME_,6955
+#
+# Results on Wednesday November 27 2019 15:44:00 UTC.
+# USER AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+# Design number was non-random = 5
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,2,0,intro,NULL,age,49
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,2,0,intro,NULL,nationality,Française
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,2,0,intro,NULL,activity,Art
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,2,0,intro,NULL,birth,Ile de France
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,2,0,intro,NULL,L1,Français
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,2,0,intro,NULL,L1,2825
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,2,0,intro,NULL,consent,yes
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,2,0,intro,NULL,gender,male
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,2,0,intro,NULL,academics,L3
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,2,0,intro,NULL,_REACTION_TIME_,57107
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,7,0,practice,32,in,29
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,7,0,practice,32,_REACTION_TIME_,23819
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,9,0,practice,34,in,17
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,9,0,practice,34,_REACTION_TIME_,12519
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,4,0,practice,103,in,bonnes.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,4,0,practice,103,_REACTION_TIME_,11526
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,3,0,practice,102,in,dimanche.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,3,0,practice,102,_REACTION_TIME_,14982
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,5,0,practice,101,in,leur femme.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,5,0,practice,101,_REACTION_TIME_,10499
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,28,0,percep_low,18,in,44
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,28,0,percep_low,18,_REACTION_TIME_,36563
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,28,1,percep_low,18,in,approchaient.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,28,1,percep_low,18,_REACTION_TIME_,22956
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,39,0,FM,31,in,13
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,39,0,FM,31,_REACTION_TIME_,9081
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,35,0,stat_high,25,in,69
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,35,0,stat_high,25,_REACTION_TIME_,13639
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,35,1,stat_high,25,in,étaient présent.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,35,1,stat_high,25,_REACTION_TIME_,26720
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,63,0,filler,70,in,volatile.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,63,0,filler,70,_REACTION_TIME_,7935
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,18,0,percep_high,8,in,48
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,18,0,percep_high,8,_REACTION_TIME_,69736
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,18,1,percep_high,8,in,parlait.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,18,1,percep_high,8,_REACTION_TIME_,20375
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,46,0,FM,38,in,21
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,46,0,FM,38,_REACTION_TIME_,10444
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,25,0,stat_low,15,in,77
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,25,0,stat_low,15,_REACTION_TIME_,45066
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,25,1,stat_low,15,in,leur apprenait la musique.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,25,1,stat_low,15,_REACTION_TIME_,47864
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,55,0,filler,62,in,rapide.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,55,0,filler,62,_REACTION_TIME_,12628
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,20,0,percep_low,10,in,112
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,20,0,percep_low,10,_REACTION_TIME_,62445
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,20,1,percep_low,10,in,les avait défendus.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,20,1,percep_low,10,_REACTION_TIME_,79146
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,50,0,FM,42,in,16
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,50,0,FM,42,_REACTION_TIME_,11636
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,11,0,stat_high,1,in,29
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,11,0,stat_high,1,_REACTION_TIME_,38974
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,11,1,stat_high,1,in,était accusé d'avoir mal joué.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,11,1,stat_high,1,_REACTION_TIME_,28505
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,53,0,filler,60,in,l'expédition.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,53,0,filler,60,_REACTION_TIME_,12782
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,19,0,stat_high,9,in,34
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,19,0,stat_high,9,_REACTION_TIME_,74061
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,19,1,stat_high,9,in,avaient suivis ses cours.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,19,1,stat_high,9,_REACTION_TIME_,36337
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,57,0,filler,64,in,cinéma.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,57,0,filler,64,_REACTION_TIME_,10589
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,26,0,percep_high,16,in,42
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,26,0,percep_high,16,_REACTION_TIME_,64604
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,26,1,percep_high,16,in,étudieront au sein de l'établissement cette année.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,26,1,percep_high,16,_REACTION_TIME_,95563
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,60,0,filler,67,in,des cours d'approfondissement.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,60,0,filler,67,_REACTION_TIME_,13019
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,37,0,percep_high,27,in,89
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,37,0,percep_high,27,_REACTION_TIME_,61813
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,37,1,percep_high,27,in,avaient fait la traversée.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,37,1,percep_high,27,_REACTION_TIME_,29965
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,44,0,FM,36,in,24
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,44,0,FM,36,_REACTION_TIME_,20548
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,36,0,percep_low,26,in,94
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,36,0,percep_low,26,_REACTION_TIME_,41194
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,36,1,percep_low,26,in,vont se produire à Paris ce week-end.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,36,1,percep_low,26,_REACTION_TIME_,63551
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,59,0,filler,66,in,nos conseils.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,59,0,filler,66,_REACTION_TIME_,20740
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,33,0,stat_low,23,in,98
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,33,0,stat_low,23,_REACTION_TIME_,28983
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,33,1,stat_low,23,in,a tant fait parler de lui dernièrement.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,33,1,stat_low,23,_REACTION_TIME_,75273
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,47,0,FM,39,in,25
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,47,0,FM,39,_REACTION_TIME_,10557
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,31,0,stat_high,21,in,1
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,31,0,stat_high,21,_REACTION_TIME_,110050
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,31,1,stat_high,21,in,était en poste lors de la dernière administration.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,31,1,stat_high,21,_REACTION_TIME_,35169
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,43,0,FM,35,in,4
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,43,0,FM,35,_REACTION_TIME_,37834
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,29,0,stat_low,19,in,71
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,29,0,stat_low,19,_REACTION_TIME_,29111
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,29,1,stat_low,19,in,a signé le contrat avec notre entreprise.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,29,1,stat_low,19,_REACTION_TIME_,45150
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,61,0,filler,68,in,l'intervention.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,61,0,filler,68,_REACTION_TIME_,7711
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,21,0,stat_low,11,in,127
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,21,0,stat_low,11,_REACTION_TIME_,68904
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,21,1,stat_low,11,in,vient de rencontrer sa maman.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,21,1,stat_low,11,_REACTION_TIME_,40518
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,12,0,percep_low,2,in,109
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,12,0,percep_low,2,_REACTION_TIME_,42970
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,12,1,percep_low,2,in,a remporté toutes les médailles d'or.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,12,1,percep_low,2,_REACTION_TIME_,36373
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,66,0,filler,73,in,mises.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,66,0,filler,73,_REACTION_TIME_,29714
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,38,0,percep_high,28,in,64
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,38,0,percep_high,28,_REACTION_TIME_,50253
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,38,1,percep_high,28,in,vient de passer devant elle.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,38,1,percep_high,28,_REACTION_TIME_,20398
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,45,0,FM,37,in,3
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,45,0,FM,37,_REACTION_TIME_,13171
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,17,0,stat_low,7,in,152
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,17,0,stat_low,7,_REACTION_TIME_,80573
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,17,1,stat_low,7,in,se dandinaient comme des fous lors du concert.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,17,1,stat_low,7,_REACTION_TIME_,50933
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,62,0,filler,69,in,se reposer.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,62,0,filler,69,_REACTION_TIME_,16086
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,15,0,stat_high,5,in,32
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,15,0,stat_high,5,_REACTION_TIME_,43370
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,15,1,stat_high,5,in,apparaît sur toutes les vitrines des magasins. 
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,15,1,stat_high,5,_REACTION_TIME_,75869
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,51,0,FM,43,in,57
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,51,0,FM,43,_REACTION_TIME_,17997
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,22,0,percep_high,12,in,1
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,22,0,percep_high,12,_REACTION_TIME_,11217
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,22,1,percep_high,12,in,a remporté le tournoi.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,22,1,percep_high,12,_REACTION_TIME_,82796
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,64,0,filler,71,in,fin.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,64,0,filler,71,_REACTION_TIME_,17319
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,14,0,percep_high,4,in,68
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,14,0,percep_high,4,_REACTION_TIME_,18544
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,14,1,percep_high,4,in,monte.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,14,1,percep_high,4,_REACTION_TIME_,16325
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,52,0,FM,44,in,21
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,52,0,FM,44,_REACTION_TIME_,29905
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,16,0,percep_low,6,in,173
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,16,0,percep_low,6,_REACTION_TIME_,50915
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,16,1,percep_low,6,in,menace la paix.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,16,1,percep_low,6,_REACTION_TIME_,27899
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,56,0,filler,63,in,marchandises.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,56,0,filler,63,_REACTION_TIME_,21213
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,24,0,percep_low,14,in,106
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,24,0,percep_low,14,_REACTION_TIME_,42725
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,24,1,percep_low,14,in,vont se produire sous peu.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,24,1,percep_low,14,_REACTION_TIME_,36813
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,48,0,FM,40,in,3
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,48,0,FM,40,_REACTION_TIME_,18554
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,30,0,percep_high,20,in,60
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,30,0,percep_high,20,_REACTION_TIME_,15192
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,30,1,percep_high,20,in,lui avaient mis la pression pour qu'il répare la panne.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,30,1,percep_high,20,_REACTION_TIME_,59598
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,41,0,FM,33,in,27
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,41,0,FM,33,_REACTION_TIME_,35577
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,13,0,stat_low,3,in,21
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,13,0,stat_low,3,_REACTION_TIME_,58825
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,13,1,stat_low,3,in,projette de l'engager.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,13,1,stat_low,3,_REACTION_TIME_,38234
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,58,0,filler,65,in,son morceau.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,58,0,filler,65,_REACTION_TIME_,23457
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,32,0,percep_low,22,in,94
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,32,0,percep_low,22,_REACTION_TIME_,64991
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,32,1,percep_low,22,in,réparent les ordinateurs.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,32,1,percep_low,22,_REACTION_TIME_,32313
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,54,0,filler,61,in,plein-air.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,54,0,filler,61,_REACTION_TIME_,39889
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,27,0,stat_high,17,in,68
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,27,0,stat_high,17,_REACTION_TIME_,10979
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,27,1,stat_high,17,in,lui a confié son avis sur le mouvement.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,27,1,stat_high,17,_REACTION_TIME_,23705
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,49,0,FM,41,in,62
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,49,0,FM,41,_REACTION_TIME_,28115
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,23,0,stat_high,13,in,29
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,23,0,stat_high,13,_REACTION_TIME_,83560
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,23,1,stat_high,13,in,est originaire d'Italie.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,23,1,stat_high,13,_REACTION_TIME_,52717
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,34,0,percep_high,24,in,22
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,34,0,percep_high,24,_REACTION_TIME_,41411
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,34,1,percep_high,24,in,dansait tout seul.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,34,1,percep_high,24,_REACTION_TIME_,31806
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,65,0,filler,72,in,sont partout.
+1574869440,8c1f7c972929a26447449ab4369a7462,completion,65,0,filler,72,_REACTION_TIME_,10640
+#
+# Results on Wednesday November 27 2019 16:42:58 UTC.
+# USER AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+# Design number was non-random = 6
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,2,0,intro,NULL,age,56
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,2,0,intro,NULL,nationality,francaise
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,2,0,intro,NULL,activity,bep banque et bourse
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,2,0,intro,NULL,birth,paris
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,2,0,intro,NULL,L1,francaise
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,2,0,intro,NULL,L1,0106
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,2,0,intro,NULL,consent,yes
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,2,0,intro,NULL,gender,female
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,2,0,intro,NULL,academics,under
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,2,0,intro,NULL,_REACTION_TIME_,126004
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,10,0,practice,35,in,21
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,10,0,practice,35,_REACTION_TIME_,29464
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,8,0,practice,33,in,28
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,8,0,practice,33,_REACTION_TIME_,11716
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,4,0,practice,103,in,appetissantes
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,4,0,practice,103,_REACTION_TIME_,16198
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,6,0,practice,31,in,76
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,6,0,practice,31,_REACTION_TIME_,14047
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,5,0,practice,101,in,nourriture
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,5,0,practice,101,_REACTION_TIME_,13394
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,3,0,practice,102,in,jeudi
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,3,0,practice,102,_REACTION_TIME_,54505
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,30,0,percep_high,20,in,50
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,30,0,percep_high,20,_REACTION_TIME_,33600
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,30,1,percep_high,20,in,manipulait un ordinateur
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,30,1,percep_high,20,_REACTION_TIME_,16856
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,44,0,FM,36,in,24
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,44,0,FM,36,_REACTION_TIME_,13577
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,37,0,percep_high,27,in,75
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,37,0,percep_high,27,_REACTION_TIME_,21566
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,37,1,percep_high,27,in,etait en primaire avec lui
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,37,1,percep_high,27,_REACTION_TIME_,18957
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,49,0,FM,41,in,62
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,49,0,FM,41,_REACTION_TIME_,10545
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,29,0,stat_low,19,in,99
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,29,0,stat_low,19,_REACTION_TIME_,34821
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,29,1,stat_low,19,in,faisaient une partie de football
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,29,1,stat_low,19,_REACTION_TIME_,22813
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,63,0,filler,70,in,sexy
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,63,0,filler,70,_REACTION_TIME_,6488
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,27,0,stat_high,17,in,68
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,27,0,stat_high,17,_REACTION_TIME_,16213
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,27,1,stat_high,17,in,telephonnait
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,27,1,stat_high,17,_REACTION_TIME_,13958
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,64,0,filler,71,in,de menthe
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,64,0,filler,71,_REACTION_TIME_,6286
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,13,0,stat_low,3,in,163
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,13,0,stat_low,3,_REACTION_TIME_,39189
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,13,1,stat_low,3,in,travaillaient la terre
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,13,1,stat_low,3,_REACTION_TIME_,19665
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,66,0,filler,73,in,colorees
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,66,0,filler,73,_REACTION_TIME_,8793
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,31,0,stat_high,21,in,165
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,31,0,stat_high,21,_REACTION_TIME_,54376
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,31,1,stat_high,21,in,travaillaient pour lui
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,31,1,stat_high,21,_REACTION_TIME_,16567
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,62,0,filler,69,in,se doucher
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,62,0,filler,69,_REACTION_TIME_,6368
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,33,0,stat_low,23,in,96
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,33,0,stat_low,23,_REACTION_TIME_,20242
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,33,1,stat_low,23,in,faisait du cinema
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,33,1,stat_low,23,_REACTION_TIME_,15163
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,50,0,FM,42,in,15
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,50,0,FM,42,_REACTION_TIME_,23566
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,18,0,percep_high,8,in,811
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,18,0,percep_high,8,_REACTION_TIME_,23335
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,18,1,percep_high,8,in,faisait un cours
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,18,1,percep_high,8,_REACTION_TIME_,11279
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,56,0,filler,63,in,pizzas
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,56,0,filler,63,_REACTION_TIME_,5399
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,17,0,stat_low,7,in,126
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,17,0,stat_low,7,_REACTION_TIME_,40062
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,17,1,stat_low,7,in,finissait son concert
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,17,1,stat_low,7,_REACTION_TIME_,13644
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,35,0,stat_high,25,in,65
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,35,0,stat_high,25,_REACTION_TIME_,40796
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,35,1,stat_high,25,in,dansaient
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,35,1,stat_high,25,_REACTION_TIME_,17219
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,48,0,FM,40,in,3
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,48,0,FM,40,_REACTION_TIME_,9638
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,23,0,stat_high,13,in,32
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,23,0,stat_high,13,_REACTION_TIME_,63511
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,23,1,stat_high,13,in,ont bu
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,23,1,stat_high,13,_REACTION_TIME_,15604
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,60,0,filler,67,in,le reglement
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,60,0,filler,67,_REACTION_TIME_,9117
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,34,0,percep_high,24,in,36
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,34,0,percep_high,24,_REACTION_TIME_,16674
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,34,1,percep_high,24,in,draguait
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,34,1,percep_high,24,_REACTION_TIME_,10143
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,42,0,FM,34,in,28
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,42,0,FM,34,_REACTION_TIME_,12194
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,21,0,stat_low,11,in,38
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,21,0,stat_low,11,_REACTION_TIME_,16250
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,21,1,stat_low,11,in, est parti a la guerre
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,21,1,stat_low,11,_REACTION_TIME_,33083
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,55,0,filler,62,in,une danse
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,55,0,filler,62,_REACTION_TIME_,6118
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,11,0,stat_high,1,in,44
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,11,0,stat_high,1,_REACTION_TIME_,19416
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,11,1,stat_high,1,in,joue au cinema
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,11,1,stat_high,1,_REACTION_TIME_,13143
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,58,0,filler,65,in,sa tournee
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,58,0,filler,65,_REACTION_TIME_,7982
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,25,0,stat_low,15,in,109
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,25,0,stat_low,15,_REACTION_TIME_,38690
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,25,1,stat_low,15,in,jouait de la musique
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,25,1,stat_low,15,_REACTION_TIME_,15431
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,59,0,filler,66,in,son acte 
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,59,0,filler,66,_REACTION_TIME_,15405
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,28,0,percep_low,18,in,41
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,28,0,percep_low,18,_REACTION_TIME_,21378
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,28,1,percep_low,18,in,jouaient dans la cour
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,28,1,percep_low,18,_REACTION_TIME_,11690
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,46,0,FM,38,in,28
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,46,0,FM,38,_REACTION_TIME_,10693
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,32,0,percep_low,22,in,68
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,32,0,percep_low,22,_REACTION_TIME_,23232
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,32,1,percep_low,22,in,filmait une scene
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,32,1,percep_low,22,_REACTION_TIME_,15046
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,54,0,filler,61,in,vieux
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,54,0,filler,61,_REACTION_TIME_,9150
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,19,0,stat_high,9,in,0
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,19,0,stat_high,9,_REACTION_TIME_,16250
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,19,1,stat_high,9,in,travallait
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,19,1,stat_high,9,_REACTION_TIME_,13390
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,20,0,percep_low,10,in,53
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,20,0,percep_low,10,_REACTION_TIME_,12975
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,20,1,percep_low,10,in,jouait au tennis
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,20,1,percep_low,10,_REACTION_TIME_,13998
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,45,0,FM,37,in,7
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,45,0,FM,37,_REACTION_TIME_,7558
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,14,0,percep_high,4,in,68
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,14,0,percep_high,4,_REACTION_TIME_,27377
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,14,1,percep_high,4,in,mangeaient une soupe
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,14,1,percep_high,4,_REACTION_TIME_,16626
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,57,0,filler,64,in,cinema
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,57,0,filler,64,_REACTION_TIME_,5795
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,24,0,percep_low,14,in,98
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,24,0,percep_low,14,_REACTION_TIME_,18605
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,24,1,percep_low,14,in,dansait un slow
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,24,1,percep_low,14,_REACTION_TIME_,13370
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,53,0,filler,60,in,sa victoire
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,53,0,filler,60,_REACTION_TIME_,11082
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,26,0,percep_high,16,in,50
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,26,0,percep_high,16,_REACTION_TIME_,28877
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,26,1,percep_high,16,in,ecrivait au tableau
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,26,1,percep_high,16,_REACTION_TIME_,22040
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,40,0,FM,32,in,12
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,40,0,FM,32,_REACTION_TIME_,15676
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,12,0,percep_low,2,in,108
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,12,0,percep_low,2,_REACTION_TIME_,21592
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,12,1,percep_low,2,in,chantaient
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,12,1,percep_low,2,_REACTION_TIME_,8944
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,47,0,FM,39,in,25
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,47,0,FM,39,_REACTION_TIME_,13077
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,22,0,percep_high,12,in,1
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,22,0,percep_high,12,_REACTION_TIME_,10710
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,22,1,percep_high,12,in,buvait un  whisky
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,22,1,percep_high,12,_REACTION_TIME_,14114
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,65,0,filler,72,in,sonnent
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,65,0,filler,72,_REACTION_TIME_,5335
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,16,0,percep_low,6,in,20
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,16,0,percep_low,6,_REACTION_TIME_,13769
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,16,1,percep_low,6,in,criait a l haut parleur
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,16,1,percep_low,6,_REACTION_TIME_,20265
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,61,0,filler,68,in,une intervention
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,61,0,filler,68,_REACTION_TIME_,8597
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,15,0,stat_high,5,in,0
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,15,0,stat_high,5,_REACTION_TIME_,16241
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,15,1,stat_high,5,in,allaient operer
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,15,1,stat_high,5,_REACTION_TIME_,13122
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,52,0,FM,44,in,21
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,52,0,FM,44,_REACTION_TIME_,9079
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,36,0,percep_low,26,in,70
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,36,0,percep_low,26,_REACTION_TIME_,28850
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,36,1,percep_low,26,in,preparait son agenda
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,36,1,percep_low,26,_REACTION_TIME_,12733
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,38,0,percep_high,28,in,420
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,38,0,percep_high,28,_REACTION_TIME_,25194
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,38,1,percep_high,28,in,avancait a grands pas
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,38,1,percep_high,28,_REACTION_TIME_,14088
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,51,0,FM,43,in,57
+1574872979,f34a8ee2adb0917291ce68a438f3e861,completion,51,0,FM,43,_REACTION_TIME_,7720
+#
+# Results on Thursday November 28 2019 09:35:47 UTC.
+# USER AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+# Design number was non-random = 7
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,2,0,intro,NULL,age,19
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,2,0,intro,NULL,nationality,Française et américaine
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,2,0,intro,NULL,activity,Licence de mathématiques
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,2,0,intro,NULL,birth,Pasadena
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,2,0,intro,NULL,L1,Français
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,2,0,intro,NULL,L1,5793LELP
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,2,0,intro,NULL,consent,yes
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,2,0,intro,NULL,gender,female
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,2,0,intro,NULL,academics,bac
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,2,0,intro,NULL,_REACTION_TIME_,353765
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,4,0,practice,103,in,acides
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,4,0,practice,103,_REACTION_TIME_,19774
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,3,0,practice,102,in,dimanche matin
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,3,0,practice,102,_REACTION_TIME_,6481
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,7,0,practice,32,in,29
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,7,0,practice,32,_REACTION_TIME_,19670
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,9,0,practice,34,in,17
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,9,0,practice,34,_REACTION_TIME_,10352
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,5,0,practice,101,in,leur famille
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,5,0,practice,101,_REACTION_TIME_,6819
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,18,0,percep_high,8,in,38
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,18,0,percep_high,8,_REACTION_TIME_,212348
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,18,1,percep_high,8,in,sont silencieux
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,18,1,percep_high,8,_REACTION_TIME_,53777
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,64,0,filler,71,in,assez délicieux
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,64,0,filler,71,_REACTION_TIME_,13928
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,13,0,stat_low,3,in,21
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,13,0,stat_low,3,_REACTION_TIME_,38434
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,13,1,stat_low,3,in,ont été adorables avec elle
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,13,1,stat_low,3,_REACTION_TIME_,25159
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,44,0,FM,36,in,24
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,44,0,FM,36,_REACTION_TIME_,9140
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,21,0,stat_low,11,in,33
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,21,0,stat_low,11,_REACTION_TIME_,48286
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,21,1,stat_low,11,in,sont partis au front pendant la première guerre Mondiale
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,21,1,stat_low,11,_REACTION_TIME_,35679
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,53,0,filler,60,in,les prochaines expéditions
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,53,0,filler,60,_REACTION_TIME_,9849
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,14,0,percep_high,4,in,68
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,14,0,percep_high,4,_REACTION_TIME_,29151
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,14,1,percep_high,4,in,est à la mode en ce moment
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,14,1,percep_high,4,_REACTION_TIME_,11765
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,54,0,filler,61,in,concentration et d'agilité
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,54,0,filler,61,_REACTION_TIME_,25370
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,38,0,percep_high,28,in,64
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,38,0,percep_high,28,_REACTION_TIME_,26438
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,38,1,percep_high,28,in,est indétrônable
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,38,1,percep_high,28,_REACTION_TIME_,16380
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,60,0,filler,67,in,le réglement à la lettre
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,60,0,filler,67,_REACTION_TIME_,13395
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,22,0,percep_high,12,in,1
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,22,0,percep_high,12,_REACTION_TIME_,7531
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,22,1,percep_high,12,in,était en pleine préparation d'un futur entraînement.
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,22,1,percep_high,12,_REACTION_TIME_,30569
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,46,0,FM,38,in,21
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,46,0,FM,38,_REACTION_TIME_,10854
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,33,0,stat_low,23,in,66
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,33,0,stat_low,23,_REACTION_TIME_,30203
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,33,1,stat_low,23,in,sont actuellement en tête d'affiche.
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,33,1,stat_low,23,_REACTION_TIME_,24356
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,50,0,FM,42,in,3
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,50,0,FM,42,_REACTION_TIME_,13009
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,23,0,stat_high,13,in,-9
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,23,0,stat_high,13,_REACTION_TIME_,105527
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,23,1,stat_high,13,in,est très heureuse
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,23,1,stat_high,13,_REACTION_TIME_,15164
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,49,0,FM,41,in,62
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,49,0,FM,41,_REACTION_TIME_,16625
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,11,0,stat_high,1,in,29
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,11,0,stat_high,1,_REACTION_TIME_,43568
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,11,1,stat_high,1,in,est malheureusement décédé hier
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,11,1,stat_high,1,_REACTION_TIME_,14079
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,47,0,FM,39,in,25
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,47,0,FM,39,_REACTION_TIME_,4668
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,37,0,percep_high,27,in,11
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,37,0,percep_high,27,_REACTION_TIME_,15829
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,37,1,percep_high,27,in,est assez casanier
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,37,1,percep_high,27,_REACTION_TIME_,13889
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,65,0,filler,72,in,sont portables
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,65,0,filler,72,_REACTION_TIME_,10546
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,16,0,percep_low,6,in,20
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,16,0,percep_low,6,_REACTION_TIME_,12346
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,16,1,percep_low,6,in,tiennent des propos complètement délirants.
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,16,1,percep_low,6,_REACTION_TIME_,51962
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,63,0,filler,70,in,éphémère
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,63,0,filler,70,_REACTION_TIME_,24337
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,27,0,stat_high,17,in,68
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,27,0,stat_high,17,_REACTION_TIME_,12738
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,27,1,stat_high,17,in,était très vindicatif
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,27,1,stat_high,17,_REACTION_TIME_,11994
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,39,0,FM,31,in,13
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,39,0,FM,31,_REACTION_TIME_,10245
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,30,0,percep_high,20,in,50
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,30,0,percep_high,20,_REACTION_TIME_,11017
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,30,1,percep_high,20,in,était très appliqué à la tâche
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,30,1,percep_high,20,_REACTION_TIME_,17685
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,52,0,FM,44,in,21
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,52,0,FM,44,_REACTION_TIME_,12899
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,12,0,percep_low,2,in,73
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,12,0,percep_low,2,_REACTION_TIME_,19300
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,12,1,percep_low,2,in,a disparu en mer 
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,12,1,percep_low,2,_REACTION_TIME_,15803
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,28,0,percep_low,18,in,54
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,28,0,percep_low,18,_REACTION_TIME_,20448
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,28,1,percep_low,18,in,jouaient dans la cour 
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,28,1,percep_low,18,_REACTION_TIME_,9231
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,48,0,FM,40,in,3
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,48,0,FM,40,_REACTION_TIME_,6856
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,15,0,stat_high,5,in,22
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,15,0,stat_high,5,_REACTION_TIME_,27518
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,15,1,stat_high,5,in,a eu une perte de poids anormale
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,15,1,stat_high,5,_REACTION_TIME_,28948
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,57,0,filler,64,in,cinéma voir le nouveau film qui est sorti mercredi
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,57,0,filler,64,_REACTION_TIME_,19049
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,26,0,percep_high,16,in,42
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,26,0,percep_high,16,_REACTION_TIME_,30704
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,26,1,percep_high,16,in,sont alignés en rang d'oignon
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,26,1,percep_high,16,_REACTION_TIME_,22232
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,55,0,filler,62,in,un style de musique
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,55,0,filler,62,_REACTION_TIME_,10335
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,19,0,stat_high,9,in,-54
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,19,0,stat_high,9,_REACTION_TIME_,55116
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,19,1,stat_high,9,in,est d'ailleurs très charmant
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,19,1,stat_high,9,_REACTION_TIME_,11034
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,61,0,filler,68,in,une future intervention d'urgence
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,61,0,filler,68,_REACTION_TIME_,13293
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,34,0,percep_high,24,in,18
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,34,0,percep_high,24,_REACTION_TIME_,49347
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,34,1,percep_high,24,in,était entrain de baver en dormant
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,34,1,percep_high,24,_REACTION_TIME_,16013
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,62,0,filler,69,in,courir tous les matins dans le froid
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,62,0,filler,69,_REACTION_TIME_,8944
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,24,0,percep_low,14,in,52
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,24,0,percep_low,14,_REACTION_TIME_,39279
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,24,1,percep_low,14,in,était entrain de faire sa promenade hebdomadaire
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,24,1,percep_low,14,_REACTION_TIME_,28449
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,59,0,filler,66,in,toute implication de son client
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,59,0,filler,66,_REACTION_TIME_,14664
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,25,0,stat_low,15,in,77
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,25,0,stat_low,15,_REACTION_TIME_,23922
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,25,1,stat_low,15,in,est parti en tournée pour plusieurs mois
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,25,1,stat_low,15,_REACTION_TIME_,20009
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,51,0,FM,43,in,57
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,51,0,FM,43,_REACTION_TIME_,5281
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,29,0,stat_low,19,in,67
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,29,0,stat_low,19,_REACTION_TIME_,31890
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,29,1,stat_low,19,in,dirige plusieurs grosses entreprises
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,29,1,stat_low,19,_REACTION_TIME_,16171
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,43,0,FM,35,in,4
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,43,0,FM,35,_REACTION_TIME_,7061
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,20,0,percep_low,10,in,42
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,20,0,percep_low,10,_REACTION_TIME_,14152
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,20,1,percep_low,10,in,était très à l'écoute du personnel
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,20,1,percep_low,10,_REACTION_TIME_,22417
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,58,0,filler,65,in,toujours par s'échauffer les doigts
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,58,0,filler,65,_REACTION_TIME_,15743
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,31,0,stat_high,21,in,-19
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,31,0,stat_high,21,_REACTION_TIME_,87586
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,31,1,stat_high,21,in,a détourné beaucoup d'argent
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,31,1,stat_high,21,_REACTION_TIME_,16231
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,66,0,filler,73,in,positionnées dans tes oreilles
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,66,0,filler,73,_REACTION_TIME_,38369
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,17,0,stat_low,7,in,40
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,17,0,stat_low,7,_REACTION_TIME_,19908
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,17,1,stat_low,7,in,mettaient une super ambiance à son concert
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,17,1,stat_low,7,_REACTION_TIME_,29918
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,41,0,FM,33,in,27
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,41,0,FM,33,_REACTION_TIME_,6361
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,36,0,percep_low,26,in,70
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,36,0,percep_low,26,_REACTION_TIME_,11126
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,36,1,percep_low,26,in,était très peu patient
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,36,1,percep_low,26,_REACTION_TIME_,11951
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,45,0,FM,37,in,7
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,45,0,FM,37,_REACTION_TIME_,6136
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,35,0,stat_high,25,in,69
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,35,0,stat_high,25,_REACTION_TIME_,12052
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,35,1,stat_high,25,in,étaient hilares
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,35,1,stat_high,25,_REACTION_TIME_,13026
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,32,0,percep_low,22,in,62
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,32,0,percep_low,22,_REACTION_TIME_,14186
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,32,1,percep_low,22,in,avait un air fort inquiétant
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,32,1,percep_low,22,_REACTION_TIME_,16414
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,56,0,filler,63,in,chaussures sur internet
+1574933748,cf158b5894eaea53dc6a939b7b361fd3,completion,56,0,filler,63,_REACTION_TIME_,7291
+#
+# Results on Thursday November 28 2019 10:43:31 UTC.
+# USER AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+# Design number was non-random = 8
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,2,0,intro,NULL,age,75
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,2,0,intro,NULL,nationality,F
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,2,0,intro,NULL,activity,chirurgien dentiste
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,2,0,intro,NULL,birth,ille de france
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,2,0,intro,NULL,L1,F
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,2,0,intro,NULL,L1,VOITURE
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,2,0,intro,NULL,consent,yes
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,2,0,intro,NULL,gender,male
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,2,0,intro,NULL,academics,M2
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,2,0,intro,NULL,_REACTION_TIME_,263090
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,4,0,practice,103,in,BONNES
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,4,0,practice,103,_REACTION_TIME_,58001
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,6,0,practice,31,in,76
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,6,0,practice,31,_REACTION_TIME_,12846
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,10,0,practice,35,in,21
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,10,0,practice,35,_REACTION_TIME_,14700
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,8,0,practice,33,in,28
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,8,0,practice,33,_REACTION_TIME_,15434
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,3,0,practice,102,in,lundi
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,3,0,practice,102,_REACTION_TIME_,9945
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,5,0,practice,101,in,conviction
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,5,0,practice,101,_REACTION_TIME_,23820
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,16,0,percep_low,6,in,164
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,16,0,percep_low,6,_REACTION_TIME_,107780
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,16,1,percep_low,6,in,haranguaient la foule
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,16,1,percep_low,6,_REACTION_TIME_,37939
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,36,0,percep_low,26,in,94
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,36,0,percep_low,26,_REACTION_TIME_,15924
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,36,1,percep_low,26,in,acceptait l'interview
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,36,1,percep_low,26,_REACTION_TIME_,39110
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,53,0,filler,60,in,son prochain cours
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,53,0,filler,60,_REACTION_TIME_,25625
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,31,0,stat_high,21,in,- 19
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,31,0,stat_high,21,_REACTION_TIME_,110272
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,31,1,stat_high,21,in,profitent de la situation
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,31,1,stat_high,21,_REACTION_TIME_,35097
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,40,0,FM,32,in,12
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,40,0,FM,32,_REACTION_TIME_,11400
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,25,0,stat_low,15,in,109
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,25,0,stat_low,15,_REACTION_TIME_,17002
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,25,1,stat_low,15,in,sont adorables
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,25,1,stat_low,15,_REACTION_TIME_,14213
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,64,0,filler,71,in,amer
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,64,0,filler,71,_REACTION_TIME_,6120
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,28,0,percep_low,18,in,114
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,28,0,percep_low,18,_REACTION_TIME_,15083
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,28,1,percep_low,18,in,sont ses amies
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,28,1,percep_low,18,_REACTION_TIME_,14675
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,60,0,filler,67,in,une bonne trajectoire
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,60,0,filler,67,_REACTION_TIME_,14580
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,17,0,stat_low,7,in,152
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,17,0,stat_low,7,_REACTION_TIME_,21129
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,17,1,stat_low,7,in,sont comme lui
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,17,1,stat_low,7,_REACTION_TIME_,31855
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,57,0,filler,64,in,musée
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,57,0,filler,64,_REACTION_TIME_,12899
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,15,0,stat_high,5,in,22
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,15,0,stat_high,5,_REACTION_TIME_,19457
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,15,1,stat_high,5,in,veulent qu'elle se repose
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,15,1,stat_high,5,_REACTION_TIME_,61435
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,63,0,filler,70,in,éclectique
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,63,0,filler,70,_REACTION_TIME_,22895
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,35,0,stat_high,25,in,69
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,35,0,stat_high,25,_REACTION_TIME_,12009
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,35,1,stat_high,25,in,sont grands
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,35,1,stat_high,25,_REACTION_TIME_,38992
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,58,0,filler,65,in,son récital
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,58,0,filler,65,_REACTION_TIME_,20264
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,19,0,stat_high,9,in,- 54
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,19,0,stat_high,9,_REACTION_TIME_,64539
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,19,1,stat_high,9,in,est professeur
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,19,1,stat_high,9,_REACTION_TIME_,25575
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,49,0,FM,41,in,62
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,49,0,FM,41,_REACTION_TIME_,12198
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,21,0,stat_low,11,in,33
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,21,0,stat_low,11,_REACTION_TIME_,21461
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,21,1,stat_low,11,in,part en mission
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,21,1,stat_low,11,_REACTION_TIME_,25285
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,30,0,percep_high,20,in,50
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,30,0,percep_high,20,_REACTION_TIME_,11584
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,30,1,percep_high,20,in,sait diriger
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,30,1,percep_high,20,_REACTION_TIME_,19269
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,50,0,FM,42,in,15
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,50,0,FM,42,_REACTION_TIME_,8708
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,22,0,percep_high,12,in,1
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,22,0,percep_high,12,_REACTION_TIME_,10118
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,22,1,percep_high,12,in,stimule ses troupes
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,22,1,percep_high,12,_REACTION_TIME_,25584
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,59,0,filler,66,in,son patron
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,59,0,filler,66,_REACTION_TIME_,14088
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,18,0,percep_high,8,in,- 47
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,18,0,percep_high,8,_REACTION_TIME_,59549
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,18,1,percep_high,8,in,redige son prochain cours
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,18,1,percep_high,8,_REACTION_TIME_,40131
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,61,0,filler,68,in,une intervention
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,61,0,filler,68,_REACTION_TIME_,9561
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,14,0,percep_high,4,in,68
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,14,0,percep_high,4,_REACTION_TIME_,12125
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,14,1,percep_high,4,in,monte l'escalier
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,14,1,percep_high,4,_REACTION_TIME_,28014
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,56,0,filler,63,in,pizzas
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,56,0,filler,63,_REACTION_TIME_,9941
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,33,0,stat_low,23,in,98
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,33,0,stat_low,23,_REACTION_TIME_,13908
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,33,1,stat_low,23,in,est un bon
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,33,1,stat_low,23,_REACTION_TIME_,16445
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,46,0,FM,38,in,21
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,46,0,FM,38,_REACTION_TIME_,8590
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,27,0,stat_high,17,in,68
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,27,0,stat_high,17,_REACTION_TIME_,8804
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,27,1,stat_high,17,in,défile sur le boulevard
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,27,1,stat_high,17,_REACTION_TIME_,19730
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,66,0,filler,73,in,positionnées
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,66,0,filler,73,_REACTION_TIME_,13181
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,37,0,percep_high,27,in,89
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,37,0,percep_high,27,_REACTION_TIME_,9300
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,37,1,percep_high,27,in,est son mentor
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,37,1,percep_high,27,_REACTION_TIME_,23660
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,42,0,FM,34,in,28
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,42,0,FM,34,_REACTION_TIME_,7775
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,38,0,percep_high,28,in,64
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,38,0,percep_high,28,_REACTION_TIME_,25477
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,38,1,percep_high,28,in,a crevé
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,38,1,percep_high,28,_REACTION_TIME_,11190
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,51,0,FM,43,in,57
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,51,0,FM,43,_REACTION_TIME_,7805
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,12,0,percep_low,2,in,109
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,12,0,percep_low,2,_REACTION_TIME_,33015
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,12,1,percep_low,2,in,sont inobjectifs
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,12,1,percep_low,2,_REACTION_TIME_,38018
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,20,0,percep_low,10,in,102
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,20,0,percep_low,10,_REACTION_TIME_,22057
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,20,1,percep_low,10,in,est devant les autres
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,20,1,percep_low,10,_REACTION_TIME_,29264
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,45,0,FM,37,in,7
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,45,0,FM,37,_REACTION_TIME_,8088
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,32,0,percep_low,22,in,52
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,32,0,percep_low,22,_REACTION_TIME_,17608
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,32,1,percep_low,22,in,peut lui fournir des informations
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,32,1,percep_low,22,_REACTION_TIME_,24311
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,44,0,FM,36,in,24
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,44,0,FM,36,_REACTION_TIME_,12405
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,11,0,stat_high,1,in,29
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,11,0,stat_high,1,_REACTION_TIME_,24955
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,11,1,stat_high,1,in,montent leur dossier
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,11,1,stat_high,1,_REACTION_TIME_,25876
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,48,0,FM,40,in,15
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,48,0,FM,40,_REACTION_TIME_,10012
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,13,0,stat_low,3,in,163
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,13,0,stat_low,3,_REACTION_TIME_,21137
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,13,1,stat_low,3,in,taillent les buis
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,13,1,stat_low,3,_REACTION_TIME_,30790
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,54,0,filler,61,in,rigolos
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,54,0,filler,61,_REACTION_TIME_,21173
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,23,0,stat_high,13,in,- 39
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,23,0,stat_high,13,_REACTION_TIME_,31540
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,23,1,stat_high,13,in,sont très accueuillants
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,23,1,stat_high,13,_REACTION_TIME_,30127
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,52,0,FM,44,in,21
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,52,0,FM,44,_REACTION_TIME_,8470
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,34,0,percep_high,24,in,18
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,34,0,percep_high,24,_REACTION_TIME_,17360
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,34,1,percep_high,24,in,observait ses voisins
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,34,1,percep_high,24,_REACTION_TIME_,19656
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,65,0,filler,72,in,sont mobiles
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,65,0,filler,72,_REACTION_TIME_,11569
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,24,0,percep_low,14,in,106
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,24,0,percep_low,14,_REACTION_TIME_,18696
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,24,1,percep_low,14,in,est beau
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,24,1,percep_low,14,_REACTION_TIME_,17760
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,47,0,FM,39,in,25
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,47,0,FM,39,_REACTION_TIME_,7984
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,26,0,percep_high,16,in,42
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,26,0,percep_high,16,_REACTION_TIME_,16383
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,26,1,percep_high,16,in,doit être excellant
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,26,1,percep_high,16,_REACTION_TIME_,27903
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,62,0,filler,69,in,à l'entraînement
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,62,0,filler,69,_REACTION_TIME_,13420
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,29,0,stat_low,19,in,67
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,29,0,stat_low,19,_REACTION_TIME_,17328
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,29,1,stat_low,19,in,ont besoin d'une remise à niveau
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,29,1,stat_low,19,_REACTION_TIME_,21109
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,55,0,filler,62,in,une danse agréable
+1574937812,8589f9c2cadc6f62f214c28759739d97,completion,55,0,filler,62,_REACTION_TIME_,18209
+#
+# Results on Monday December 16 2019 17:42:19 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15
+# Design number was non-random = 9
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,2,0,intro,NULL,age,36
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,2,0,intro,NULL,nationality,francaise
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,2,0,intro,NULL,activity,bibliothèque
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,2,0,intro,NULL,birth,13
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,2,0,intro,NULL,L1,français
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,2,0,intro,NULL,L1,1841
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,2,0,intro,NULL,consent,yes
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,2,0,intro,NULL,gender,female
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,2,0,intro,NULL,academics,L3
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,2,0,intro,NULL,_REACTION_TIME_,681899
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,3,0,practice,102,in,18 decembre
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,3,0,practice,102,_REACTION_TIME_,35790
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,4,0,practice,103,in,rangées
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,4,0,practice,103,_REACTION_TIME_,5385
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,5,0,practice,101,in,fusil
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,5,0,practice,101,_REACTION_TIME_,4796
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,7,0,practice,32,in,43
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,7,0,practice,32,_REACTION_TIME_,46540
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,9,0,practice,34,in,17
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,9,0,practice,34,_REACTION_TIME_,7597
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,21,0,stat_low,11,in,33
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,21,0,stat_low,11,_REACTION_TIME_,70423
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,21,1,stat_low,11,in,partaient à la guerre
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,21,1,stat_low,11,_REACTION_TIME_,21373
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,18,0,percep_high,8,in,-48
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,18,0,percep_high,8,_REACTION_TIME_,91395
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,18,1,percep_high,8,in,parlaient
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,18,1,percep_high,8,_REACTION_TIME_,11412
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,65,0,filler,72,in,sonnent
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,65,0,filler,72,_REACTION_TIME_,5309
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,12,0,percep_low,2,in,109
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,12,0,percep_low,2,_REACTION_TIME_,40132
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,12,1,percep_low,2,in,courraient
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,12,1,percep_low,2,_REACTION_TIME_,9341
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,47,0,FM,39,in,25
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,47,0,FM,39,_REACTION_TIME_,11117
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,33,0,stat_low,23,in,98
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,33,0,stat_low,23,_REACTION_TIME_,46547
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,33,1,stat_low,23,in,jouaient dans cette pièce
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,33,1,stat_low,23,_REACTION_TIME_,16622
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,45,0,FM,37,in,7
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,45,0,FM,37,_REACTION_TIME_,10197
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,35,0,stat_high,25,in,69
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,35,0,stat_high,25,_REACTION_TIME_,17925
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,35,1,stat_high,25,in,se moquaient d'elle
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,35,1,stat_high,25,_REACTION_TIME_,38733
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,58,0,filler,65,in,à jouer
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,58,0,filler,65,_REACTION_TIME_,4269
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,25,0,stat_low,15,in,109
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,25,0,stat_low,15,_REACTION_TIME_,34629
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,25,1,stat_low,15,in,avait joué la sonate
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,25,1,stat_low,15,_REACTION_TIME_,20125
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,52,0,FM,44,in,21
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,52,0,FM,44,_REACTION_TIME_,10910
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,23,0,stat_high,13,in,-59
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,23,0,stat_high,13,_REACTION_TIME_,113314
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,23,1,stat_high,13,in,a mis sa robe ce matin
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,23,1,stat_high,13,_REACTION_TIME_,29829
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,61,0,filler,68,in,agir dans l'urgence
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,61,0,filler,68,_REACTION_TIME_,6934
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,14,0,percep_high,4,in,68
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,14,0,percep_high,4,_REACTION_TIME_,40933
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,14,1,percep_high,4,in,a signé des autographes ce matin
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,14,1,percep_high,4,_REACTION_TIME_,17188
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,43,0,FM,35,in,4
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,43,0,FM,35,_REACTION_TIME_,24430
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,13,0,stat_low,3,in,165
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,13,0,stat_low,3,_REACTION_TIME_,55763
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,13,1,stat_low,3,in,a gagné au loto l'an dernier
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,13,1,stat_low,3,_REACTION_TIME_,14318
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,53,0,filler,60,in,les gilets de sauvetage
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,53,0,filler,60,_REACTION_TIME_,10661
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,20,0,percep_low,10,in,112
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,20,0,percep_low,10,_REACTION_TIME_,42333
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,20,1,percep_low,10,in,parlera pour tout le monde
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,20,1,percep_low,10,_REACTION_TIME_,34051
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,57,0,filler,64,in,cinéma
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,57,0,filler,64,_REACTION_TIME_,5157
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,17,0,stat_low,7,in,159
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,17,0,stat_low,7,_REACTION_TIME_,45493
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,17,1,stat_low,7,in,chante a capella
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,17,1,stat_low,7,_REACTION_TIME_,30284
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,49,0,FM,41,in,69
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,49,0,FM,41,_REACTION_TIME_,16309
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,34,0,percep_high,24,in,18
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,34,0,percep_high,24,_REACTION_TIME_,52580
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,34,1,percep_high,24,in,rentrait à la maison
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,34,1,percep_high,24,_REACTION_TIME_,10006
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,51,0,FM,43,in,57
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,51,0,FM,43,_REACTION_TIME_,21589
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,16,0,percep_low,6,in,164
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,16,0,percep_low,6,_REACTION_TIME_,64260
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,16,1,percep_low,6,in,complotaient
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,16,1,percep_low,6,_REACTION_TIME_,16013
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,44,0,FM,36,in,14
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,44,0,FM,36,_REACTION_TIME_,40548
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,26,0,percep_high,16,in,32
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,26,0,percep_high,16,_REACTION_TIME_,33629
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,26,1,percep_high,16,in,chahutaient
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,26,1,percep_high,16,_REACTION_TIME_,37149
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,55,0,filler,62,in,une danse sympathique
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,55,0,filler,62,_REACTION_TIME_,11462
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,22,0,percep_high,12,in,1
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,22,0,percep_high,12,_REACTION_TIME_,14189
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,22,1,percep_high,12,in,pourrait travailler avec nous l'an prochain
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,22,1,percep_high,12,_REACTION_TIME_,22237
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,11,0,stat_high,1,in,29
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,11,0,stat_high,1,_REACTION_TIME_,34829
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,11,1,stat_high,1,in,est parti aujourd'hui
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,11,1,stat_high,1,_REACTION_TIME_,25965
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,62,0,filler,69,in,au stade
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,62,0,filler,69,_REACTION_TIME_,4678
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,37,0,percep_high,27,in,89
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,37,0,percep_high,27,_REACTION_TIME_,20062
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,37,1,percep_high,27,in,sont dans le sous-marin
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,37,1,percep_high,27,_REACTION_TIME_,14429
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,64,0,filler,71,in,amer
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,64,0,filler,71,_REACTION_TIME_,3174
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,29,0,stat_low,19,in,99
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,29,0,stat_low,19,_REACTION_TIME_,18662
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,29,1,stat_low,19,in,vont aujourd'hui jouer un match
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,29,1,stat_low,19,_REACTION_TIME_,12294
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,39,0,FM,31,in,13
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,39,0,FM,31,_REACTION_TIME_,11678
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,32,0,percep_low,22,in,92
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,32,0,percep_low,22,_REACTION_TIME_,65724
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,32,1,percep_low,22,in,ont trouvé un nouveau programme
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,32,1,percep_low,22,_REACTION_TIME_,14196
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,63,0,filler,70,in,chère
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,63,0,filler,70,_REACTION_TIME_,4005
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,24,0,percep_low,14,in,102
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,24,0,percep_low,14,_REACTION_TIME_,57340
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,24,1,percep_low,14,in,répètent aujourd'hui
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,24,1,percep_low,14,_REACTION_TIME_,19446
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,60,0,filler,67,in,les ordres
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,60,0,filler,67,_REACTION_TIME_,10342
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,38,0,percep_high,28,in,64
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,38,0,percep_high,28,_REACTION_TIME_,65612
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,38,1,percep_high,28,in,ont courru aujourd'hui
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,38,1,percep_high,28,_REACTION_TIME_,12046
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,56,0,filler,63,in,frites
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,56,0,filler,63,_REACTION_TIME_,4189
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,15,0,stat_high,5,in,22
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,15,0,stat_high,5,_REACTION_TIME_,31917
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,15,1,stat_high,5,in,est opéré aujourd'hui
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,15,1,stat_high,5,_REACTION_TIME_,8254
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,66,0,filler,73,in,droites
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,66,0,filler,73,_REACTION_TIME_,4941
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,28,0,percep_low,18,in,114
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,28,0,percep_low,18,_REACTION_TIME_,42485
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,28,1,percep_low,18,in,taille les haies
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,28,1,percep_low,18,_REACTION_TIME_,13077
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,59,0,filler,66,in,le président
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,59,0,filler,66,_REACTION_TIME_,5197
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,36,0,percep_low,26,in,94
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,36,0,percep_low,26,_REACTION_TIME_,22053
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,36,1,percep_low,26,in,ont bien travaillé aujourd'hui
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,36,1,percep_low,26,_REACTION_TIME_,11910
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,54,0,filler,61,in,détente
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,54,0,filler,61,_REACTION_TIME_,4814
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,31,0,stat_high,21,in,-19
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,31,0,stat_high,21,_REACTION_TIME_,101067
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,31,1,stat_high,21,in,a fait des versements indus
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,31,1,stat_high,21,_REACTION_TIME_,13470
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,50,0,FM,42,in,15
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,50,0,FM,42,_REACTION_TIME_,14166
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,27,0,stat_high,17,in,68
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,27,0,stat_high,17,_REACTION_TIME_,16293
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,27,1,stat_high,17,in,ont tenu les banderoles
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,27,1,stat_high,17,_REACTION_TIME_,21862
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,46,0,FM,38,in,81
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,46,0,FM,38,_REACTION_TIME_,12813
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,19,0,stat_high,9,in,-54
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,19,0,stat_high,9,_REACTION_TIME_,37869
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,19,1,stat_high,9,in,rentrait du travail
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,19,1,stat_high,9,_REACTION_TIME_,10661
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,48,0,FM,40,in,15
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,48,0,FM,40,_REACTION_TIME_,12421
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,30,0,percep_high,20,in,50
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,30,0,percep_high,20,_REACTION_TIME_,9965
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,30,1,percep_high,20,in,ont fabriqué un outil
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,30,1,percep_high,20,_REACTION_TIME_,9278
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,41,0,FM,33,in,27
+1576518139,24cb4398afc527c8c93fd2cdd8baed72,completion,41,0,FM,33,_REACTION_TIME_,8326

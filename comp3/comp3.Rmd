@@ -1,0 +1,221 @@
+
+```{r, warning=FALSE}
+library(sciplot)
+library(brms)
+library(tidyverse)
+library(ggplot2)
+```
+
+```{r}
+setwd("C:/Users/antoi/Google Drive/Memoire2/R/comp3")
+data <- read.csv(file="Datacomp3.csv", header=TRUE, sep=",")
+```
+
+```{r}
+data$pr <- ifelse(data$prime==1, -1, 1)
+data$cor <- ifelse(data$cor.equation==1, -1, 1)
+data$RT.equation <- as.numeric(data$RT.equation)
+```
+
+
+Overall
+=================
+
+
+```{r}
+bargraph.CI(x.factor=prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Prime (Overall), 3",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data)
+```
+
+
+
+```{r}
+mean(data$attachment[data$prompt == "high"])
+mean(data$attachment[data$prompt == "low"])
+```
+
+```{r}
+data$RT.equation <- as.numeric(data$RT.equation)
+median.overall <- median(data$RT.equation)
+data.lent <- subset(data, data$RT.equation > median.overall)
+data.rapide <- subset(data, data$RT.equation < median.overall)
+```
+
+```{r}
+bargraph.CI(x.factor=prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Prime (Overall, fast equation), 3",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data.rapide)
+```
+
+```{r}
+mean(data.rapide$attachment[data.rapide$prompt == "high"])
+mean(data.rapide$attachment[data.rapide$prompt == "low"])
+```
+
+```{r}
+bargraph.CI(x.factor=prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Prime (Overall, slow equation), 3",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data.lent)
+```
+
+```{r}
+mean(data.lent$attachment[data.lent$prompt == "high"])
+mean(data.lent$attachment[data.lent$prompt == "low"])
+```
+
+```{r}
+median.overall <- median(data$RT.equation)
+data$slow <- ifelse(data$RT.equation < median.overall, -1, 1)
+```
+
+```{r}
+get_prior(attachment ~ pr*slow*cor + (pr*slow*cor|id) + (pr*slow*cor|Item), data=data, family=bernoulli)
+  
+prior <- c(set_prior("normal(0,10)", class="b"),
+             set_prior("normal(0,10)", class="Intercept"),
+             set_prior("normal(0,10)", class="sd"),
+             set_prior("lkj(2)", class="cor"))
+```
+
+```{r}
+fit <- brm(attachment ~ 1+pr*slow*cor + (1+pr*slow*cor|id) + (1+pr*slow*cor|Item), data=data, family=bernoulli, 
+             prior=prior, chains=4, iter=3000)
+```
+
+```{r}
+summary(fit, waic=T)
+```
+
+```{r}
+fit_df <- as.data.frame(fit)
+beta <- fit_df[,grepl("b_",colnames(fit_df))]
+beta <- beta[,-1]
+  
+library(tidyverse)
+df.overall <- gather(beta, key=effect, value=beta, 1:ncol(beta)) %>%
+    group_by(effect=as.factor(effect)) %>% 
+    summarize(mean=mean(beta), # mean
+              prob_greater=mean(beta>0), prob_smaller=mean(beta<0), # probability greater / smaller than zero
+              min=min(beta), max=max(beta), # min and max values
+              l95=unname(quantile(beta,probs=0.025)), # lower 95% credible intervals boundary
+              h95=unname(quantile(beta,probs=0.975)), # upper 95% CrI boundary
+              l85=unname(quantile(beta,probs=0.075)), # lower 85% CrI boundary
+              h85=unname(quantile(beta,probs=0.925))) # upper 85% CrI boundary
+  
+levord <- colnames(beta)[1:ncol(beta)]
+df.overall$effect <- factor(df.overall$effect, levels=levord)
+df.overall <- arrange(df.overall, effect)
+```
+
+```{r}
+df.overall
+write.csv(df.overall, file = "df.overall.csv")
+```
+
+```{r}
+library(ggplot2)
+ggplot(data=df.overall, aes(x=mean, y=effect)) + theme_bw() +
+   ggtitle("Interaction: Overall") +
+    geom_vline(aes(xintercept=0), size=1, linetype=2, col=gray(0.2)) + 
+    geom_errorbarh(aes(xmax=max, xmin=min),height=0, size=1.2, col="#009E73") +
+    geom_errorbarh(aes(xmax=l95, xmin=h95),linetype=1,height=0.2,size=1.5,col="#D55E00") +
+    geom_errorbarh(aes(xmax=l85, xmin=h85),linetype=1,height=0.1,size=1.4,col="#56B4E9") +
+    geom_point(size=4) + 
+    scale_y_discrete(limits=rev(df.overall$effect))
+```
+
+
+
+
+
+High math > 14
+=================
+
+```{r}
+datamath <- subset(data, data$amount.cor.equation > 13.3)
+```
+
+
+```{r}
+bargraph.CI(x.factor=prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Prime (highly mathematically skillful group), 3",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=datamath)
+```
+
+```{r}
+mean(datamath$attachment[datamath$prompt == "high"])
+mean(datamath$attachment[datamath$prompt == "low"])
+```
+
+```{r}
+median.math <- median(datamath$RT.equation)
+datamath.lent <- subset(datamath, datamath$RT.equation > median.math)
+datamath.rapide <- subset(datamath, datamath$RT.equation < median.math)
+```
+
+```{r}
+bargraph.CI(x.factor=prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Prime (highly mathematically skillful group, fast equations), 3",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=datamath.rapide)
+```
+
+```{r}
+mean(datamath.rapide$attachment[datamath.rapide$prompt == "high"])
+mean(datamath.rapide$attachment[datamath.rapide$prompt == "low"])
+```
+
+```{r}
+bargraph.CI(x.factor=prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Prime (highly mathematically skillful group, slow equation), 3",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=datamath.lent)
+```
+
+```{r}
+mean(datamath.lent$attachment[datamath.lent$prompt == "high"])
+mean(datamath.lent$attachment[datamath.lent$prompt == "low"])
+```
+
+```{r}
+get_prior(attachment ~ pr*slow + (pr*slow|id) + (pr*slow|Item), data=datamath, family=bernoulli)
+
+prior <- c(set_prior("normal(0,10)", class="b"),
+           set_prior("normal(0,10)", class="Intercept"),
+           set_prior("normal(0,10)", class="sd"),
+           set_prior("lkj(2)", class="cor"))
+```
+
+```{r}
+fit <- brm(attachment ~ 1+pr*slow + (1+pr*slow|id) + (1+pr*slow|Item), data=datamath, family=bernoulli, 
+           prior=prior, chains=4, iter=3000)
+```
+
+```{r}
+summary(fit, waic=T)
+```
+
+```{r}
+fit_df <- as.data.frame(fit)
+beta <- fit_df[,grepl("b_",colnames(fit_df))]
+beta <- beta[,-1]
+
+library(tidyverse)
+df.math <- gather(beta, key=effect, value=beta, 1:ncol(beta)) %>%
+  group_by(effect=as.factor(effect)) %>% 
+  summarize(mean=mean(beta), # mean
+            prob_greater=mean(beta>0), prob_smaller=mean(beta<0), # probability greater / smaller than zero
+            min=min(beta), max=max(beta), # min and max values
+            l95=unname(quantile(beta,probs=0.025)), # lower 95% credible intervals boundary
+            h95=unname(quantile(beta,probs=0.975)), # upper 95% CrI boundary
+            l85=unname(quantile(beta,probs=0.075)), # lower 85% CrI boundary
+            h85=unname(quantile(beta,probs=0.925))) # upper 85% CrI boundary
+
+levord <- colnames(beta)[1:ncol(beta)]
+df.math$effect <- factor(df.math$effect, levels=levord)
+df.math <- arrange(df.math, effect)
+```
+
+```{r}
+df.math
+write.csv(df.math, file = "df.math.csv")
+```
+
+```{r}
+library(ggplot2)
+ggplot(data=df.math, aes(x=mean, y=effect)) + theme_bw() +
+  ggtitle("Interaction: highly mathematically skillful group") +
+  geom_vline(aes(xintercept=0), size=1, linetype=2, col=gray(0.2)) + 
+  geom_errorbarh(aes(xmax=max, xmin=min),height=0, size=1.2, col="#009E73") +
+  geom_errorbarh(aes(xmax=l95, xmin=h95),linetype=1,height=0.2,size=1.5,col="#D55E00") +
+  geom_errorbarh(aes(xmax=l85, xmin=h85),linetype=1,height=0.1,size=1.4,col="#56B4E9") +
+  geom_point(size=4) + 
+  scale_y_discrete(limits=rev(df.math$effect))
+```

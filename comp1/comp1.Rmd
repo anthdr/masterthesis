@@ -1,0 +1,340 @@
+Prerequis
+=================
+```{r, warning=FALSE}
+library(sciplot)
+library(brms)
+library(tidyverse)
+library(ggplot2)
+```
+
+```{r}
+setwd("C:/Users/antoi/Google Drive/Memoire2/R/comp1")
+data <- read.csv(file="datacomp1.csv", header=TRUE, sep=",")
+```
+
+
+
+Overall
+=================
+```{r}
+bargraph.CI(x.factor=typeverbe, group= prompt,response=comp.graph, col=c("tomato", "dark blue"), xlab="Verb type, 1",ylab="NP1 comp.graph %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data)
+```
+
+```{r}
+mean(data$comp.graph[data$typeverbe == "percep" & data$prompt == "high"])
+mean(data$comp.graph[data$typeverbe == "percep" & data$prompt == "low"])
+mean(data$comp.graph[data$typeverbe == "stat" & data$prompt == "high"])
+mean(data$comp.graph[data$typeverbe == "stat" & data$prompt == "low"])
+```
+
+```{r}
+data$RT.equation <- as.numeric(data$RT.equation)
+median_overall <- median(data$RT.equation)
+data.lent <- subset(data, data$RT.equation > median_overall)
+data.rapide <- subset(data, data$RT.equation < median_overall)
+```
+
+```{r}
+bargraph.CI(x.factor=typeverbe, group= prompt,response=comp.graph, col=c("tomato", "dark blue"), xlab="Verb type (fast equation), 2",ylab="NP1 comp.graph %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data.rapide)
+```
+
+```{r}
+mean(data.rapide$comp.graph[data.rapide$typeverbe == "percep" & data.rapide$prompt == "high"])
+mean(data.rapide$comp.graph[data.rapide$typeverbe == "percep" & data.rapide$prompt == "low"])
+mean(data.rapide$comp.graph[data.rapide$typeverbe == "stat" & data.rapide$prompt == "high"])
+mean(data.rapide$comp.graph[data.rapide$typeverbe == "stat" & data.rapide$prompt == "low"])
+```
+
+```{r}
+bargraph.CI(x.factor=typeverbe, group= prompt,response=comp.graph, col=c("tomato", "dark blue"), xlab="Verb type (slow equation), 2",ylab="NP1 comp.graph %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data.lent)
+```
+
+```{r}
+mean(data.lent$comp.graph[data.lent$typeverbe == "percep" & data.lent$prompt == "high"])
+mean(data.lent$comp.graph[data.lent$typeverbe == "percep" & data.lent$prompt == "low"])
+mean(data.lent$comp.graph[data.lent$typeverbe == "stat" & data.lent$prompt == "high"])
+mean(data.lent$comp.graph[data.lent$typeverbe == "stat" & data.lent$prompt == "low"])
+```
+
+```{r}
+data$vt <- ifelse(data$typeverbe=="stat", -1, 1)
+data$pr <- ifelse(data$prompt=="high", -1, 1)
+data$cor <- ifelse(data$cor.equation=="0.5", -1, 1)
+data$RT.equation <- as.numeric(data$RT.equation)
+median.overall <- median(data$RT.equation)
+data$slow <- ifelse(data$RT.equation < median.overall, -1, 1)
+median.age <- median(data$age.y)
+data$ag <- ifelse(data$age.y < median.age, -1, 1)
+```
+
+```{r}
+get_prior(comp.graph ~ vt*pr*slow*ag + (vt*pr*slow*ag|id) + (vt*pr*slow*ag|Item), data=data, family=bernoulli)
+  
+prior <- c(set_prior("normal(0,10)", class="b"),
+             set_prior("normal(0,10)", class="Intercept"),
+             set_prior("normal(0,10)", class="sd"),
+             set_prior("lkj(2)", class="cor"))
+```
+
+```{r}
+fit <- brm(comp.graph ~ 1+vt*pr*slow*ag + (1+vt*pr*slow*ag|id) + (1+vt*pr*slow*ag|Item), data=data, family=bernoulli, 
+             prior=prior, chains=4, iter=3000)
+```
+
+```{r}
+summary(fit, waic=T)
+```
+
+```{r}
+fit_df <- as.data.frame(fit)
+beta <- fit_df[,grepl("b_",colnames(fit_df))]
+beta <- beta[,-1]
+  
+
+df.overall <- gather(beta, key=effect, value=beta, 1:ncol(beta)) %>%
+    group_by(effect=as.factor(effect)) %>% 
+    summarize(mean=mean(beta), # mean
+              prob_greater=mean(beta>0), prob_smaller=mean(beta<0), # probability greater / smaller than zero
+              min=min(beta), max=max(beta), # min and max values
+              l95=unname(quantile(beta,probs=0.025)), # lower 95% credible intervals boundary
+              h95=unname(quantile(beta,probs=0.975)), # upper 95% CrI boundary
+              l85=unname(quantile(beta,probs=0.075)), # lower 85% CrI boundary
+              h85=unname(quantile(beta,probs=0.925))) # upper 85% CrI boundary
+  
+levord <- colnames(beta)[1:ncol(beta)]
+df.overall$effect <- factor(df.overall$effect, levels=levord)
+df.overall <- arrange(df.overall, effect)
+```
+
+```{r}
+df.overall
+write.csv(df.overall, file = "df.overall.csv")
+```
+
+```{r}
+ggplot(data=df.overall, aes(x=mean, y=effect)) + theme_bw() +
+   ggtitle("Overall, 1") +
+    geom_vline(aes(xintercept=0), size=1, linetype=2, col=gray(0.2)) + 
+    geom_errorbarh(aes(xmax=max, xmin=min),height=0, size=1.2, col="#009E73") +
+    geom_errorbarh(aes(xmax=l95, xmin=h95),linetype=1,height=0.2,size=1.5,col="#D55E00") +
+    geom_errorbarh(aes(xmax=l85, xmin=h85),linetype=1,height=0.1,size=1.4,col="#56B4E9") +
+    geom_point(size=4) + 
+    scale_y_discrete(limits=rev(df.overall$effect))
+```
+
+
+
+young
+=================
+
+```{r}
+datayoung <- subset(data, data$age.y <= 27)
+```
+
+
+```{r}
+bargraph.CI(x.factor=typeverbe, group= prompt,response=comp.graph, col=c("tomato", "dark blue"), xlab="Verb type (below 27 group), 1",ylab="NP1 comp.graph %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=datayoung)
+```
+
+```{r}
+mean(datayoung$comp.graph[datayoung$typeverbe == "percep" & datayoung$prompt == "high"])
+mean(datayoung$comp.graph[datayoung$typeverbe == "percep" & datayoung$prompt == "low"])
+mean(datayoung$comp.graph[datayoung$typeverbe == "stat" & datayoung$prompt == "high"])
+mean(datayoung$comp.graph[datayoung$typeverbe == "stat" & datayoung$prompt == "low"])
+```
+
+```{r}
+datayoung$RT.equation <- as.numeric(datayoung$RT.equation)
+median.young <- median(datayoung$RT.equation)
+datayoung.lent <- subset(datayoung, datayoung$RT.equation > median.young)
+datayoung.rapide <- subset(datayoung, datayoung$RT.equation < median.young)
+```
+
+```{r}
+bargraph.CI(x.factor=typeverbe, group= prompt,response=comp.graph, col=c("tomato", "dark blue"), xlab="Verb type (below 27 group, fast equation), 1",ylab="NP1 comp.graph %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=datayoung.rapide)
+```
+
+```{r}
+mean(datayoung.rapide$comp.graph[datayoung.rapide$typeverbe == "percep" & datayoung.rapide$prompt == "high"])
+mean(datayoung.rapide$comp.graph[datayoung.rapide$typeverbe == "percep" & datayoung.rapide$prompt == "low"])
+mean(datayoung.rapide$comp.graph[datayoung.rapide$typeverbe == "stat" & datayoung.rapide$prompt == "high"])
+mean(datayoung.rapide$comp.graph[datayoung.rapide$typeverbe == "stat" & datayoung.rapide$prompt == "low"])
+```
+
+```{r}
+bargraph.CI(x.factor=typeverbe, group= prompt,response=comp.graph, col=c("tomato", "dark blue"), xlab="Verb type (below 27 group, slow equation), 1",ylab="NP1 comp.graph %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=datayoung.lent)
+```
+
+```{r}
+mean(datayoung.lent$comp.graph[datayoung.lent$typeverbe == "percep" & datayoung.lent$prompt == "high"])
+mean(datayoung.lent$comp.graph[datayoung.lent$typeverbe == "percep" & datayoung.lent$prompt == "low"])
+mean(datayoung.lent$comp.graph[datayoung.lent$typeverbe == "stat" & datayoung.lent$prompt == "high"])
+mean(datayoung.lent$comp.graph[datayoung.lent$typeverbe == "stat" & datayoung.lent$prompt == "low"])
+```
+
+```{r}
+median.young <- median(datayoung$RT.equation)
+datayoung$slow <- ifelse(datayoung$RT.equation < median.young, -1, 1)
+
+get_prior(comp.graph ~ vt*pr*slow + (vt*pr*slow|id) + (vt*pr*slow|Item), data=datayoung, family=bernoulli)
+
+prior <- c(set_prior("normal(0,10)", class="b"),
+           set_prior("normal(0,10)", class="Intercept"),
+           set_prior("normal(0,10)", class="sd"),
+           set_prior("lkj(2)", class="cor"))
+```
+
+```{r}
+fit <- brm(comp.graph ~ 1+vt*pr*slow + (1+vt*pr*slow|id) + (1+vt*pr*slow|Item), data=datayoung, family=bernoulli, 
+           prior=prior, chains=4, iter=3000)
+```
+
+```{r}
+summary(fit, waic=T)
+```
+
+```{r}
+fit_df <- as.data.frame(fit)
+beta <- fit_df[,grepl("b_",colnames(fit_df))]
+beta <- beta[,-1]
+
+df.young <- gather(beta, key=effect, value=beta, 1:ncol(beta)) %>%
+  group_by(effect=as.factor(effect)) %>% 
+  summarize(mean=mean(beta), # mean
+            prob_greater=mean(beta>0), prob_smaller=mean(beta<0), # probability greater / smaller than zero
+            min=min(beta), max=max(beta), # min and max values
+            l95=unname(quantile(beta,probs=0.025)), # lower 95% credible intervals boundary
+            h95=unname(quantile(beta,probs=0.975)), # upper 95% CrI boundary
+            l85=unname(quantile(beta,probs=0.075)), # lower 85% CrI boundary
+            h85=unname(quantile(beta,probs=0.925))) # upper 85% CrI boundary
+
+levord <- colnames(beta)[1:ncol(beta)]
+df.young$effect <- factor(df.young$effect, levels=levord)
+df.young <- arrange(df.young, effect)
+```
+
+```{r}
+df.young
+write.csv(df.young, file = "df.young.csv")
+```
+
+```{r}
+ggplot(data=df.young, aes(x=mean, y=effect)) + theme_bw() +
+  ggtitle("Below 27, 1") +
+  geom_vline(aes(xintercept=0), size=1, linetype=2, col=gray(0.2)) + 
+  geom_errorbarh(aes(xmax=max, xmin=min),height=0, size=1.2, col="#009E73") +
+  geom_errorbarh(aes(xmax=l95, xmin=h95),linetype=1,height=0.2,size=1.5,col="#D55E00") +
+  geom_errorbarh(aes(xmax=l85, xmin=h85),linetype=1,height=0.1,size=1.4,col="#56B4E9") +
+  geom_point(size=4) + 
+  scale_y_discrete(limits=rev(df.young$effect))
+```
+
+
+
+
+above 27
+=================
+
+```{r}
+dataold <- subset(data, data$age.y > 27)
+```
+
+
+```{r}
+bargraph.CI(x.factor=typeverbe, group= prompt,response=comp.graph, col=c("tomato", "dark blue"), xlab="Verb type (above 27 group), 1",ylab="NP1 comp.graph %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=dataold)
+```
+
+```{r}
+mean(dataold$comp.graph[dataold$typeverbe == "percep" & dataold$prompt == "high"])
+mean(dataold$comp.graph[dataold$typeverbe == "percep" & dataold$prompt == "low"])
+mean(dataold$comp.graph[dataold$typeverbe == "stat" & dataold$prompt == "high"])
+mean(dataold$comp.graph[dataold$typeverbe == "stat" & dataold$prompt == "low"])
+```
+
+```{r}
+dataold$RT.equation <- as.numeric(dataold$RT.equation)
+median.old <- median(dataold$RT.equation)
+dataold.lent <- subset(dataold, dataold$RT.equation > median.old)
+dataold.rapide <- subset(dataold, dataold$RT.equation < median.old)
+```
+
+```{r}
+bargraph.CI(x.factor=typeverbe, group= prompt,response=comp.graph, col=c("tomato", "dark blue"), xlab="Verb type (above 27 group, fast equation), 1",ylab="NP1 comp.graph %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=dataold.rapide)
+```
+
+```{r}
+mean(dataold.rapide$comp.graph[dataold.rapide$typeverbe == "percep" & dataold.rapide$prompt == "high"])
+mean(dataold.rapide$comp.graph[dataold.rapide$typeverbe == "percep" & dataold.rapide$prompt == "low"])
+mean(dataold.rapide$comp.graph[dataold.rapide$typeverbe == "stat" & dataold.rapide$prompt == "high"])
+mean(dataold.rapide$comp.graph[dataold.rapide$typeverbe == "stat" & dataold.rapide$prompt == "low"])
+```
+
+```{r}
+bargraph.CI(x.factor=typeverbe, group= prompt,response=comp.graph, col=c("tomato", "dark blue"), xlab="Verb type (above 27 group, slow equation), 1",ylab="NP1 comp.graph %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=dataold.lent)
+```
+
+```{r}
+mean(dataold.lent$comp.graph[dataold.lent$typeverbe == "percep" & dataold.lent$prompt == "high"])
+mean(dataold.lent$comp.graph[dataold.lent$typeverbe == "percep" & dataold.lent$prompt == "low"])
+mean(dataold.lent$comp.graph[dataold.lent$typeverbe == "stat" & dataold.lent$prompt == "high"])
+mean(dataold.lent$comp.graph[dataold.lent$typeverbe == "stat" & dataold.lent$prompt == "low"])
+```
+
+```{r}
+median.old <- median(dataold$RT.equation)
+dataold$slow <- ifelse(dataold$RT.equation < median.old, -1, 1)
+
+get_prior(comp.graph ~ vt*pr*slow + (vt*pr*slow|id) + (vt*pr*slow|Item), data=dataold, family=bernoulli)
+
+prior <- c(set_prior("normal(0,10)", class="b"),
+           set_prior("normal(0,10)", class="Intercept"),
+           set_prior("normal(0,10)", class="sd"),
+           set_prior("lkj(2)", class="cor"))
+```
+
+```{r}
+fit <- brm(comp.graph ~ 1+vt*pr*slow + (1+vt*pr*slow|id) + (1+vt*pr*slow|Item), data=dataold, family=bernoulli, 
+           prior=prior, chains=4, iter=3000)
+```
+
+```{r}
+summary(fit, waic=T)
+```
+
+```{r}
+fit_df <- as.data.frame(fit)
+beta <- fit_df[,grepl("b_",colnames(fit_df))]
+beta <- beta[,-1]
+
+df.old <- gather(beta, key=effect, value=beta, 1:ncol(beta)) %>%
+  group_by(effect=as.factor(effect)) %>% 
+  summarize(mean=mean(beta), # mean
+            prob_greater=mean(beta>0), prob_smaller=mean(beta<0), # probability greater / smaller than zero
+            min=min(beta), max=max(beta), # min and max values
+            l95=unname(quantile(beta,probs=0.025)), # lower 95% credible intervals boundary
+            h95=unname(quantile(beta,probs=0.975)), # upper 95% CrI boundary
+            l85=unname(quantile(beta,probs=0.075)), # lower 85% CrI boundary
+            h85=unname(quantile(beta,probs=0.925))) # upper 85% CrI boundary
+
+levord <- colnames(beta)[1:ncol(beta)]
+df.old$effect <- factor(df.old$effect, levels=levord)
+df.old <- arrange(df.old, effect)
+```
+
+```{r}
+df.old
+write.csv(df.old, file = "df.old.csv")
+```
+
+```{r}
+ggplot(data=df.old, aes(x=mean, y=effect)) + theme_bw() +
+  ggtitle("Above 27, 1") +
+  geom_vline(aes(xintercept=0), size=1, linetype=2, col=gray(0.2)) + 
+  geom_errorbarh(aes(xmax=max, xmin=min),height=0, size=1.2, col="#009E73") +
+  geom_errorbarh(aes(xmax=l95, xmin=h95),linetype=1,height=0.2,size=1.5,col="#D55E00") +
+  geom_errorbarh(aes(xmax=l85, xmin=h85),linetype=1,height=0.1,size=1.4,col="#56B4E9") +
+  geom_point(size=4) + 
+  scale_y_discrete(limits=rev(df.old$effect))
+```
+
+

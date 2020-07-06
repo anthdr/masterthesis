@@ -1,0 +1,17 @@
+\begin{table}[H]
+    \centering
+	\scriptsize
+    \begin{tabular}{| c | c | c | c | c | c |}
+    \hline
+effect & mean & prob_greater & prob_smaller & l95 & h95 \\
+\hline
+pr & 0.300431767294434 & 0.829833333333333 & 0.170166666666667 & -0.358602440077768 & 1.03215303504252 \\
+\hline
+slow & 0.482812280267847 & 0.910666666666667 & 0.0893333333333333 & -0.196680823600391 & 1.26626983622684 \\
+\hline
+pr:slow & 0.222128009798934 & 0.753666666666667 & 0.246333333333333 & -0.405707777897741 & 0.945265925835942 \\
+\hline
+    \end{tabular}
+    \caption{xxx}
+    \label{tab:xxx}
+    \end{table}

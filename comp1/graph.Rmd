@@ -1,0 +1,147 @@
+Prerequis
+=================
+```{r, warning=FALSE}
+library(sciplot)
+library(brms)
+library(tidyverse)
+library(ggplot2)
+```
+
+```{r}
+setwd("C:/Users/antoi/Google Drive/Memoire2/R/comp1")
+data <- read.csv(file="datacomp1.csv", header=TRUE, sep=",")
+```
+
+
+Overall
+=================
+
+```{r}
+png("11.png", width = 870, height = 560)
+bargraph.CI(x.factor=typeverbe, group= prompt,response=comp.graph, col=c("tomato", "dark blue"), xlab="Verb type, 1",ylab="NP1 attachment proportion",legend=TRUE,  x.leg=3,y.leg=1 , cex.leg=2, cex.names=2, cex.lab = 2, ylim = c(0,1), data=data)
+dev.off()
+```
+
+
+```{r}
+data$RT.equation <- as.numeric(data$RT.equation)
+median_overall <- median(data$RT.equation)
+data.lent <- subset(data, data$RT.equation > median_overall)
+data.rapide <- subset(data, data$RT.equation < median_overall)
+```
+
+```{r}
+png("12.png", width = 870, height = 560)
+bargraph.CI(x.factor=typeverbe, group= prompt,response=comp.graph, col=c("tomato", "dark blue"), xlab="Verb type (fast equation), 2",ylab="NP1 attachment proportion",legend=TRUE,  x.leg=3,y.leg=1 , cex.leg=2, cex.names=2, cex.lab = 2, ylim = c(0,1), data=data.rapide)
+dev.off()
+```
+
+
+
+```{r}
+png("13.png", width = 870, height = 560)
+bargraph.CI(x.factor=typeverbe, group= prompt,response=comp.graph, col=c("tomato", "dark blue"), xlab="Verb type (slow equation), 2",ylab="NP1 attachment proportion",legend=TRUE,  x.leg=3,y.leg=1 , cex.leg=2, cex.names=2, cex.lab = 2, ylim = c(0,1), data=data.lent)
+dev.off()
+```
+
+
+
+```{r}
+data$vt <- ifelse(data$typeverbe=="stat", -1, 1)
+data$pr <- ifelse(data$prompt=="high", -1, 1)
+data$cor <- ifelse(data$cor.equation=="0.5", -1, 1)
+data$RT.equation <- as.numeric(data$RT.equation)
+median.overall <- median(data$RT.equation)
+data$slow <- ifelse(data$RT.equation < median.overall, -1, 1)
+median.age <- median(data$age.y)
+data$ag <- ifelse(data$age.y < median.age, -1, 1)
+```
+
+
+
+
+young
+=================
+
+```{r}
+datayoung <- subset(data, data$age.y <= 27)
+```
+
+
+```{r}
+png("14.png", width = 870, height = 560)
+bargraph.CI(x.factor=typeverbe, group= prompt,response=comp.graph, col=c("tomato", "dark blue"), xlab="Verb type (below 27 group), 1",ylab="NP1 attachment proportion",legend=TRUE,  x.leg=3,y.leg=1 , cex.leg=2, cex.names=2, cex.lab = 2, ylim = c(0,1), data=datayoung)
+dev.off()
+```
+
+
+
+```{r}
+datayoung$RT.equation <- as.numeric(datayoung$RT.equation)
+median.young <- median(datayoung$RT.equation)
+datayoung.lent <- subset(datayoung, datayoung$RT.equation > median.young)
+datayoung.rapide <- subset(datayoung, datayoung$RT.equation < median.young)
+```
+
+```{r}
+png("15.png", width = 870, height = 560)
+bargraph.CI(x.factor=typeverbe, group= prompt,response=comp.graph, col=c("tomato", "dark blue"), xlab="Verb type (below 27 group, fast equation), 1",ylab="NP1 attachment proportion",legend=TRUE,  x.leg=3,y.leg=1 , cex.leg=2, cex.names=2, cex.lab = 2, ylim = c(0,1), data=datayoung.rapide)
+dev.off()
+```
+
+
+
+```{r}
+png("16.png", width = 870, height = 560)
+bargraph.CI(x.factor=typeverbe, group= prompt,response=comp.graph, col=c("tomato", "dark blue"), xlab="Verb type (below 27 group, slow equation), 1",ylab="NP1 attachment proportion",legend=TRUE,  x.leg=3,y.leg=1 , cex.leg=2, cex.names=2, cex.lab = 2, ylim = c(0,1), data=datayoung.lent)
+dev.off()
+```
+
+
+
+```{r}
+median.young <- median(datayoung$RT.equation)
+datayoung$slow <- ifelse(datayoung$RT.equation < median.young, -1, 1)
+```
+
+
+
+above 27
+=================
+
+```{r}
+dataold <- subset(data, data$age.y > 27)
+```
+
+
+```{r}
+png("17.png", width = 870, height = 560)
+bargraph.CI(x.factor=typeverbe, group= prompt,response=comp.graph, col=c("tomato", "dark blue"), xlab="Verb type (above 27 group), 1",ylab="NP1 attachment proportion",legend=TRUE,  x.leg=3,y.leg=1 , cex.leg=2, cex.names=2, cex.lab = 2, ylim = c(0,1), data=dataold)
+dev.off()
+```
+
+
+```{r}
+dataold$RT.equation <- as.numeric(dataold$RT.equation)
+median.old <- median(dataold$RT.equation)
+dataold.lent <- subset(dataold, dataold$RT.equation > median.old)
+dataold.rapide <- subset(dataold, dataold$RT.equation < median.old)
+```
+
+```{r}
+png("18.png", width = 870, height = 560)
+bargraph.CI(x.factor=typeverbe, group= prompt,response=comp.graph, col=c("tomato", "dark blue"), xlab="Verb type (above 27 group, fast equation), 1",ylab="NP1 attachment proportion",legend=TRUE,  x.leg=3,y.leg=1 , cex.leg=2, cex.names=2, cex.lab = 2, ylim = c(0,1), data=dataold.rapide)
+dev.off()
+```
+
+
+
+```{r}
+png("19.png", width = 870, height = 560)
+bargraph.CI(x.factor=typeverbe, group= prompt,response=comp.graph, col=c("tomato", "dark blue"), xlab="Verb type (above 27 group, slow equation), 1",ylab="NP1 attachment proportion",legend=TRUE,  x.leg=3,y.leg=1 , cex.leg=2, cex.names=2, cex.lab = 2, ylim = c(0,1), data=dataold.lent)
+dev.off()
+```
+
+
+
+

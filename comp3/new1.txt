@@ -1,0 +1,20 @@
+robuste prime et slow
+le temps
+
+cet effet n'est pas forcement robuste
+beaucoup de personne n'arrive pas a reproduire ces effets car trop de variabilite participants
+
+la grande question:
+cet effet n'est pas stable, le probleme de reproductabilité (policy of good result)
+creuser l'absence de reproductabilité
+le temps - la nature meme du prime
+il faut connaitre les maths, mais pas trop non plus
+lié ca a des articles sur la durée d'exposition du prime
+
+
+
+envoyer exp risc
+
+
+
+faire analyse halfsession

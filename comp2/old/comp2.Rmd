@@ -1,0 +1,167 @@
+Prérequis
+=================
+```{r}
+library(sciplot)
+library(lme4)
+library(car)
+require(lmerTest)
+```
+
+```{r}
+setwd("D:/Gdrive/Memoire2/R/comp2")
+data <- read.csv(file="Datacomp2.csv", header=TRUE, sep=",")
+data$age <- as.numeric(data$age)
+data$amount.cor.equation <- as.numeric(data$amount.cor.equation)
+data$RT.equation <- as.numeric(data$RT.equation)
+data$RT.completion <- as.numeric(data$RT.completion)
+```
+
+Modèle
+=================
+```{r}
+m3=glmer(attachment ~ vtype * prime * age * amount.cor.equation * halfsession * cor.equation + (vtype||id) + (1|Item),data=data,family=binomial)
+summary(m3)
+```
+
+
+plot tous les participants
+=================
+```{r}
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (overall)",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data)
+
+overall=glmer(attachment ~ vtype * prime + (vtype||id) + (1|Item),data=data,family=binomial)
+summary(overall)
+```
+
+plot tous les participants, première et deuxième moitié de session
+=================
+```{r}
+data.firsthalf <- subset(data, data$halfsession == 0)
+data.secondhalf <- subset(data, data$halfsession == 1)
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (overall, first half)",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data.firsthalf)
+
+overall.firsthalf=glmer(attachment ~ vtype * prime + (vtype||id) + (1|Item),data=data.firsthalf,family=binomial)
+summary(overall.firsthalf)
+
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (overall, second half)",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data.secondhalf)
+
+overall.secondhalf=glmer(attachment ~ vtype * prime + (vtype||id) + (1|Item),data=data.secondhalf,family=binomial)
+summary(overall.secondhalf)
+```
+
+plot tous les participants avec bonne réponse équation
+=================
+```{r}
+data.onlygood <- subset(data, data$cor.equation  == 1)
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (overall with good response)",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data.onlygood)
+
+overall.onlygood=glmer(attachment ~ vtype * prime + (vtype||id) + (1|Item),data=data.onlygood,family=binomial)
+summary(overall.onlygood)
+```
+
+plot tous les participants avec bonne réponse équation, première et deuxième moitié de session
+=================
+```{r}
+data.onlygood.firsthalf <- subset(data.onlygood, data.onlygood$halfsession == 0)
+data.onlygood.secondhalf <- subset(data.onlygood, data.onlygood$halfsession == 1)
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (overall with good response, first half)",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data.onlygood.firsthalf)
+
+overall.onlygood.firsthalf=glmer(attachment ~ vtype * prime + (vtype||id) + (1|Item),data=data.onlygood.firsthalf,family=binomial)
+summary(overall.onlygood.firsthalf)
+
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (overall with good response, second half)",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data.onlygood.secondhalf)
+
+overall.onlygood.secondhalf=glmer(attachment ~ vtype * prime + (vtype||id) + (1|Item),data=data.onlygood.secondhalf,family=binomial)
+summary(overall.onlygood.secondhalf)
+```
+
+plot séparation bon et mauvais participants (sur les résultats d'équation)
+=================
+```{r}
+datamath <- subset(data, data$amount.cor.equation > 14)
+datalitt <- subset(data, data$amount.cor.equation <= 14)
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (mathematically skillful group)",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=datamath)
+
+math=glmer(attachment ~ vtype * prime + (vtype||id) + (1|Item),data=datamath,family=binomial)
+summary(math)
+
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (mathematically inept group)",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=datalitt)
+
+litt=glmer(attachment ~ vtype * prime + (vtype||id) + (1|Item),data=datalitt,family=binomial)
+summary(litt)
+```
+
+plot bon participants, première et deuxième moitié
+=================
+```{r}
+datamath.firsthalf <- subset(datamath, datamath$halfsession == 0)
+datamath.secondhalf <- subset(datamath, datamath$halfsession == 1)
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (mathematically skillful group, first half)",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=datamath.firsthalf)
+
+math.firsthalf=glmer(attachment ~ vtype * prime + (vtype||id) + (1|Item),data=datamath.firsthalf,family=binomial)
+summary(math.firsthalf)
+
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (mathematically skillful group, second half)",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=datamath.secondhalf)
+
+math.secondhalf=glmer(attachment ~ vtype * prime + (vtype||id) + (1|Item),data=datamath.secondhalf,family=binomial)
+summary(math.secondhalf)
+```
+
+plot bon participants avec bonne réponse équation
+=================
+```{r}
+datamath.onlygood <- subset(datamath, datamath$cor.equation == 1)
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (mathematically skillful group with good response)",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=datamath.onlygood)
+
+math.onlygood=glmer(attachment ~ vtype * prime + (vtype||id) + (1|Item),data=datamath.onlygood,family=binomial)
+summary(math.onlygood)
+```
+
+plot mauvais participants avec bonne réponse équation
+=================
+```{r}
+datalitt.onlygood <- subset(datalitt, datalitt$cor.equation == 1)
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (mathematically inept group with good response)",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=datalitt.onlygood)
+
+litt.onlygood=glmer(attachment ~ vtype * prime + (vtype||id) + (1|Item),data=datalitt.onlygood,family=binomial)
+summary(litt.onlygood)
+```
+
+plot bon participants avec bonne réponse équation, première et deuxième moitié de session
+=================
+```{r}
+datamath.onlygood.firsthalf <- subset(datamath.onlygood, datamath.onlygood$halfsession == 0)
+datamath.onlygood.secondhalf <- subset(datamath.onlygood, datamath.onlygood$halfsession == 1)
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (mathematically skillful group with good response, first half)",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=datamath.onlygood.firsthalf)
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (mathematically skillful group with good response, second half)",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=datamath.onlygood.secondhalf)
+
+math.onlygood.firsthalf=glmer(attachment ~ vtype * prime + (vtype||id) + (1|Item),data=datamath.onlygood.firsthalf,family=binomial)
+summary(math.onlygood.firsthalf)
+math.onlygood.secondhalf=glmer(attachment ~ vtype * prime + (vtype||id) + (1|Item),data=datamath.onlygood.secondhalf,family=binomial)
+summary(math.onlygood.secondhalf)
+```
+
+plot age participant, première et deuxième moitié de session
+=================
+```{r}
+mage <- mean(data$age)
+data.yng <- subset(data, data$age < mage)
+data.old <- subset(data, data$age > mage)
+data.yng.firsthalf <- subset(data.yng, data.yng$halfsession == 0)
+data.yng.secondhalf <- subset(data.yng, data.yng$halfsession == 1)
+data.old.firsthalf <- subset(data.old, data.old$halfsession == 0)
+data.old.secondhalf <- subset(data.old, data.old$halfsession == 1)
+
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (below mean age, first half)",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data.yng.firsthalf)
+yng.firsthalf=glmer(attachment ~ vtype * prime + (vtype||id) + (1|Item),data=data.yng.firsthalf,family=binomial)
+summary(yng.firsthalf)
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (below mean age, second half)",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data.yng.secondhalf)
+yng.secondhalf=glmer(attachment ~ vtype * prime + (vtype||id) + (1|Item),data=data.yng.secondhalf,family=binomial)
+summary(yng.secondhalf)
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (above mean age, first half)",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data.old.firsthalf)
+old.firsthalf=glmer(attachment ~ vtype * prime + (vtype||id) + (1|Item),data=data.old.firsthalf,family=binomial)
+summary(old.firsthalf)
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (above mean age, second half)",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data.old.secondhalf)
+old.secondhalf=glmer(attachment ~ vtype * prime + (vtype||id) + (1|Item),data=data.old.secondhalf,family=binomial)
+summary(old.secondhalf)
+```

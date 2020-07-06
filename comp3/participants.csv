@@ -1,0 +1,341 @@
+"","Time","MD5.hash","task","Ordre","seq","Condition","Item","in","completion","id"
+"137",1580120356,"09d319a6aeafb8a61058a106445e0220","completion",2,0,"intro","NULL","age","23",2
+"138",1580120356,"09d319a6aeafb8a61058a106445e0220","completion",2,0,"intro","NULL","nationality","Francaise",2
+"139",1580120356,"09d319a6aeafb8a61058a106445e0220","completion",2,0,"intro","NULL","activity","Sciences sociales",2
+"140",1580120356,"09d319a6aeafb8a61058a106445e0220","completion",2,0,"intro","NULL","birth","Maroc",2
+"141",1580120356,"09d319a6aeafb8a61058a106445e0220","completion",2,0,"intro","NULL","L1","Francais",2
+"142",1580120356,"09d319a6aeafb8a61058a106445e0220","completion",2,0,"intro","NULL","L1","1005",2
+"143",1580120356,"09d319a6aeafb8a61058a106445e0220","completion",2,0,"intro","NULL","consent","yes",2
+"144",1580120356,"09d319a6aeafb8a61058a106445e0220","completion",2,0,"intro","NULL","gender","male",2
+"145",1580120356,"09d319a6aeafb8a61058a106445e0220","completion",2,0,"intro","NULL","academics","bac",2
+"146",1580120356,"09d319a6aeafb8a61058a106445e0220","completion",2,0,"intro","NULL","_REACTION_TIME_","1300157",2
+"273",1580146670,"af3ac6bb9c9a717a43876b97fd6bd8e1","completion",2,0,"intro","NULL","age","19",3
+"274",1580146670,"af3ac6bb9c9a717a43876b97fd6bd8e1","completion",2,0,"intro","NULL","nationality","ivoirienne",3
+"275",1580146670,"af3ac6bb9c9a717a43876b97fd6bd8e1","completion",2,0,"intro","NULL","activity","MIASHS",3
+"276",1580146670,"af3ac6bb9c9a717a43876b97fd6bd8e1","completion",2,0,"intro","NULL","birth","Abidjan_Cote d'ivoire",3
+"277",1580146670,"af3ac6bb9c9a717a43876b97fd6bd8e1","completion",2,0,"intro","NULL","L1","français",3
+"278",1580146670,"af3ac6bb9c9a717a43876b97fd6bd8e1","completion",2,0,"intro","NULL","L1","5400",3
+"279",1580146670,"af3ac6bb9c9a717a43876b97fd6bd8e1","completion",2,0,"intro","NULL","consent","yes",3
+"280",1580146670,"af3ac6bb9c9a717a43876b97fd6bd8e1","completion",2,0,"intro","NULL","gender","female",3
+"281",1580146670,"af3ac6bb9c9a717a43876b97fd6bd8e1","completion",2,0,"intro","NULL","academics","L2",3
+"282",1580146670,"af3ac6bb9c9a717a43876b97fd6bd8e1","completion",2,0,"intro","NULL","_REACTION_TIME_","4699658",3
+"409",1580209990,"62647282935b1ad6561063527fd39a1b","completion",2,0,"intro","NULL","age","25",4
+"410",1580209990,"62647282935b1ad6561063527fd39a1b","completion",2,0,"intro","NULL","nationality","française",4
+"411",1580209990,"62647282935b1ad6561063527fd39a1b","completion",2,0,"intro","NULL","activity","Langue",4
+"412",1580209990,"62647282935b1ad6561063527fd39a1b","completion",2,0,"intro","NULL","birth","Les Abymes",4
+"413",1580209990,"62647282935b1ad6561063527fd39a1b","completion",2,0,"intro","NULL","L1","français",4
+"414",1580209990,"62647282935b1ad6561063527fd39a1b","completion",2,0,"intro","NULL","L1","94400",4
+"415",1580209990,"62647282935b1ad6561063527fd39a1b","completion",2,0,"intro","NULL","consent","yes",4
+"416",1580209990,"62647282935b1ad6561063527fd39a1b","completion",2,0,"intro","NULL","gender","female",4
+"417",1580209990,"62647282935b1ad6561063527fd39a1b","completion",2,0,"intro","NULL","academics","L2",4
+"418",1580209990,"62647282935b1ad6561063527fd39a1b","completion",2,0,"intro","NULL","_REACTION_TIME_","3530285",4
+"545",1580217578,"a8db904469210c4b1b9ed36b4b985493","completion",2,0,"intro","NULL","age","34",5
+"546",1580217578,"a8db904469210c4b1b9ed36b4b985493","completion",2,0,"intro","NULL","nationality","francaise",5
+"547",1580217578,"a8db904469210c4b1b9ed36b4b985493","completion",2,0,"intro","NULL","activity","médical ",5
+"548",1580217578,"a8db904469210c4b1b9ed36b4b985493","completion",2,0,"intro","NULL","birth","hauts de seine ",5
+"549",1580217578,"a8db904469210c4b1b9ed36b4b985493","completion",2,0,"intro","NULL","L1","français ",5
+"550",1580217578,"a8db904469210c4b1b9ed36b4b985493","completion",2,0,"intro","NULL","L1","soleil",5
+"551",1580217578,"a8db904469210c4b1b9ed36b4b985493","completion",2,0,"intro","NULL","consent","yes",5
+"552",1580217578,"a8db904469210c4b1b9ed36b4b985493","completion",2,0,"intro","NULL","gender","female",5
+"553",1580217578,"a8db904469210c4b1b9ed36b4b985493","completion",2,0,"intro","NULL","academics","M2",5
+"554",1580217578,"a8db904469210c4b1b9ed36b4b985493","completion",2,0,"intro","NULL","_REACTION_TIME_","3665285",5
+"681",1580288072,"03177178d7d0f0e95ef9220a701a8d74","completion",2,0,"intro","NULL","age","25",6
+"682",1580288072,"03177178d7d0f0e95ef9220a701a8d74","completion",2,0,"intro","NULL","nationality","française",6
+"683",1580288072,"03177178d7d0f0e95ef9220a701a8d74","completion",2,0,"intro","NULL","activity","orthophonie",6
+"684",1580288072,"03177178d7d0f0e95ef9220a701a8d74","completion",2,0,"intro","NULL","birth","aquitaine",6
+"685",1580288072,"03177178d7d0f0e95ef9220a701a8d74","completion",2,0,"intro","NULL","L1","français",6
+"686",1580288072,"03177178d7d0f0e95ef9220a701a8d74","completion",2,0,"intro","NULL","L1","0505",6
+"687",1580288072,"03177178d7d0f0e95ef9220a701a8d74","completion",2,0,"intro","NULL","consent","yes",6
+"688",1580288072,"03177178d7d0f0e95ef9220a701a8d74","completion",2,0,"intro","NULL","gender","female",6
+"689",1580288072,"03177178d7d0f0e95ef9220a701a8d74","completion",2,0,"intro","NULL","academics","L3",6
+"690",1580288072,"03177178d7d0f0e95ef9220a701a8d74","completion",2,0,"intro","NULL","_REACTION_TIME_","2524115",6
+"817",1580295577,"836cc3f600d22fac3128976c112e5682","completion",2,0,"intro","NULL","age","21",7
+"818",1580295577,"836cc3f600d22fac3128976c112e5682","completion",2,0,"intro","NULL","nationality","française",7
+"819",1580295577,"836cc3f600d22fac3128976c112e5682","completion",2,0,"intro","NULL","activity","licence de physique",7
+"820",1580295577,"836cc3f600d22fac3128976c112e5682","completion",2,0,"intro","NULL","birth","Ile de France",7
+"821",1580295577,"836cc3f600d22fac3128976c112e5682","completion",2,0,"intro","NULL","L1","français",7
+"822",1580295577,"836cc3f600d22fac3128976c112e5682","completion",2,0,"intro","NULL","L1","alexis",7
+"823",1580295577,"836cc3f600d22fac3128976c112e5682","completion",2,0,"intro","NULL","consent","yes",7
+"824",1580295577,"836cc3f600d22fac3128976c112e5682","completion",2,0,"intro","NULL","gender","male",7
+"825",1580295577,"836cc3f600d22fac3128976c112e5682","completion",2,0,"intro","NULL","academics","L3",7
+"826",1580295577,"836cc3f600d22fac3128976c112e5682","completion",2,0,"intro","NULL","_REACTION_TIME_","3000864",7
+"953",1580302472,"24cb4398afc527c8c93fd2cdd8baed72","completion",2,0,"intro","NULL","age","49",8
+"954",1580302472,"24cb4398afc527c8c93fd2cdd8baed72","completion",2,0,"intro","NULL","nationality","Francaise",8
+"955",1580302472,"24cb4398afc527c8c93fd2cdd8baed72","completion",2,0,"intro","NULL","activity","materiaux et commerce international",8
+"956",1580302472,"24cb4398afc527c8c93fd2cdd8baed72","completion",2,0,"intro","NULL","birth","dordogne",8
+"957",1580302472,"24cb4398afc527c8c93fd2cdd8baed72","completion",2,0,"intro","NULL","L1","francais",8
+"958",1580302472,"24cb4398afc527c8c93fd2cdd8baed72","completion",2,0,"intro","NULL","L1","ABC",8
+"959",1580302472,"24cb4398afc527c8c93fd2cdd8baed72","completion",2,0,"intro","NULL","consent","yes",8
+"960",1580302472,"24cb4398afc527c8c93fd2cdd8baed72","completion",2,0,"intro","NULL","gender","female",8
+"961",1580302472,"24cb4398afc527c8c93fd2cdd8baed72","completion",2,0,"intro","NULL","academics","M2",8
+"962",1580302472,"24cb4398afc527c8c93fd2cdd8baed72","completion",2,0,"intro","NULL","_REACTION_TIME_","5752462",8
+"1089",1580305832,"836cc3f600d22fac3128976c112e5682","completion",2,0,"intro","NULL","age","22",9
+"1090",1580305832,"836cc3f600d22fac3128976c112e5682","completion",2,0,"intro","NULL","nationality","française",9
+"1091",1580305832,"836cc3f600d22fac3128976c112e5682","completion",2,0,"intro","NULL","activity","psychologie",9
+"1092",1580305832,"836cc3f600d22fac3128976c112e5682","completion",2,0,"intro","NULL","birth","iles de France ",9
+"1093",1580305832,"836cc3f600d22fac3128976c112e5682","completion",2,0,"intro","NULL","L1","français",9
+"1094",1580305832,"836cc3f600d22fac3128976c112e5682","completion",2,0,"intro","NULL","L1","22601",9
+"1095",1580305832,"836cc3f600d22fac3128976c112e5682","completion",2,0,"intro","NULL","consent","yes",9
+"1096",1580305832,"836cc3f600d22fac3128976c112e5682","completion",2,0,"intro","NULL","gender","female",9
+"1097",1580305832,"836cc3f600d22fac3128976c112e5682","completion",2,0,"intro","NULL","academics","L3",9
+"1098",1580305832,"836cc3f600d22fac3128976c112e5682","completion",2,0,"intro","NULL","_REACTION_TIME_","95984",9
+"1225",1580383050,"03177178d7d0f0e95ef9220a701a8d74","completion",2,0,"intro","NULL","age","21",10
+"1226",1580383050,"03177178d7d0f0e95ef9220a701a8d74","completion",2,0,"intro","NULL","nationality","Française",10
+"1227",1580383050,"03177178d7d0f0e95ef9220a701a8d74","completion",2,0,"intro","NULL","activity","Arts et culture visuelle",10
+"1228",1580383050,"03177178d7d0f0e95ef9220a701a8d74","completion",2,0,"intro","NULL","birth","île de France",10
+"1229",1580383050,"03177178d7d0f0e95ef9220a701a8d74","completion",2,0,"intro","NULL","L1","Français",10
+"1230",1580383050,"03177178d7d0f0e95ef9220a701a8d74","completion",2,0,"intro","NULL","L1","juliagdt",10
+"1231",1580383050,"03177178d7d0f0e95ef9220a701a8d74","completion",2,0,"intro","NULL","consent","yes",10
+"1232",1580383050,"03177178d7d0f0e95ef9220a701a8d74","completion",2,0,"intro","NULL","gender","female",10
+"1233",1580383050,"03177178d7d0f0e95ef9220a701a8d74","completion",2,0,"intro","NULL","academics","L3",10
+"1234",1580383050,"03177178d7d0f0e95ef9220a701a8d74","completion",2,0,"intro","NULL","_REACTION_TIME_","2862669",10
+"1361",1580395546,"24cb4398afc527c8c93fd2cdd8baed72","completion",2,0,"intro","NULL","age","18",11
+"1362",1580395546,"24cb4398afc527c8c93fd2cdd8baed72","completion",2,0,"intro","NULL","nationality","Français",11
+"1363",1580395546,"24cb4398afc527c8c93fd2cdd8baed72","completion",2,0,"intro","NULL","activity","Etudiant sciences de la vie",11
+"1364",1580395546,"24cb4398afc527c8c93fd2cdd8baed72","completion",2,0,"intro","NULL","birth","Bayonne",11
+"1365",1580395546,"24cb4398afc527c8c93fd2cdd8baed72","completion",2,0,"intro","NULL","L1","Français",11
+"1366",1580395546,"24cb4398afc527c8c93fd2cdd8baed72","completion",2,0,"intro","NULL","L1","taureau",11
+"1367",1580395546,"24cb4398afc527c8c93fd2cdd8baed72","completion",2,0,"intro","NULL","consent","yes",11
+"1368",1580395546,"24cb4398afc527c8c93fd2cdd8baed72","completion",2,0,"intro","NULL","gender","male",11
+"1369",1580395546,"24cb4398afc527c8c93fd2cdd8baed72","completion",2,0,"intro","NULL","academics","bac",11
+"1370",1580395546,"24cb4398afc527c8c93fd2cdd8baed72","completion",2,0,"intro","NULL","_REACTION_TIME_","3283872",11
+"1497",1580466888,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","age","32",12
+"1498",1580466888,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","nationality","Française",12
+"1499",1580466888,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","activity","Histoire du cinéma",12
+"1500",1580466888,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","birth","Franche Comté",12
+"1501",1580466888,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","L1","Française",12
+"1502",1580466888,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","L1","4243",12
+"1503",1580466888,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","consent","yes",12
+"1504",1580466888,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","gender","female",12
+"1505",1580466888,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","academics","M2",12
+"1506",1580466888,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","_REACTION_TIME_","4957722",12
+"1633",1580468744,"2a100c835555b13d8850d4fd1fc48d6e","completion",2,0,"intro","NULL","age","30",13
+"1634",1580468744,"2a100c835555b13d8850d4fd1fc48d6e","completion",2,0,"intro","NULL","nationality","Française",13
+"1635",1580468744,"2a100c835555b13d8850d4fd1fc48d6e","completion",2,0,"intro","NULL","activity","Art%2C",13
+"1636",1580468744,"2a100c835555b13d8850d4fd1fc48d6e","completion",2,0,"intro","NULL","birth","Paris",13
+"1637",1580468744,"2a100c835555b13d8850d4fd1fc48d6e","completion",2,0,"intro","NULL","L1","français",13
+"1638",1580468744,"2a100c835555b13d8850d4fd1fc48d6e","completion",2,0,"intro","NULL","L1","Salut",13
+"1639",1580468744,"2a100c835555b13d8850d4fd1fc48d6e","completion",2,0,"intro","NULL","consent","yes",13
+"1640",1580468744,"2a100c835555b13d8850d4fd1fc48d6e","completion",2,0,"intro","NULL","gender","female",13
+"1641",1580468744,"2a100c835555b13d8850d4fd1fc48d6e","completion",2,0,"intro","NULL","academics","L3",13
+"1642",1580468744,"2a100c835555b13d8850d4fd1fc48d6e","completion",2,0,"intro","NULL","_REACTION_TIME_","3774963",13
+"1769",1580481433,"544e4e1205409c0a24e7731451f3f212","completion",2,0,"intro","NULL","age","18",14
+"1770",1580481433,"544e4e1205409c0a24e7731451f3f212","completion",2,0,"intro","NULL","nationality","Française",14
+"1771",1580481433,"544e4e1205409c0a24e7731451f3f212","completion",2,0,"intro","NULL","activity","Langues étrangères",14
+"1772",1580481433,"544e4e1205409c0a24e7731451f3f212","completion",2,0,"intro","NULL","birth","Cayenne (973)",14
+"1773",1580481433,"544e4e1205409c0a24e7731451f3f212","completion",2,0,"intro","NULL","L1","Français",14
+"1774",1580481433,"544e4e1205409c0a24e7731451f3f212","completion",2,0,"intro","NULL","L1","0406",14
+"1775",1580481433,"544e4e1205409c0a24e7731451f3f212","completion",2,0,"intro","NULL","consent","yes",14
+"1776",1580481433,"544e4e1205409c0a24e7731451f3f212","completion",2,0,"intro","NULL","gender","female",14
+"1777",1580481433,"544e4e1205409c0a24e7731451f3f212","completion",2,0,"intro","NULL","academics","bac",14
+"1778",1580481433,"544e4e1205409c0a24e7731451f3f212","completion",2,0,"intro","NULL","_REACTION_TIME_","355624",14
+"1905",1580481723,"314a77f26c924e42071a987a1c110321","completion",2,0,"intro","NULL","age","29",15
+"1906",1580481723,"314a77f26c924e42071a987a1c110321","completion",2,0,"intro","NULL","nationality","Française",15
+"1907",1580481723,"314a77f26c924e42071a987a1c110321","completion",2,0,"intro","NULL","activity","Agent administratif%2C surveillante",15
+"1908",1580481723,"314a77f26c924e42071a987a1c110321","completion",2,0,"intro","NULL","birth","Ile de France",15
+"1909",1580481723,"314a77f26c924e42071a987a1c110321","completion",2,0,"intro","NULL","L1","Français",15
+"1910",1580481723,"314a77f26c924e42071a987a1c110321","completion",2,0,"intro","NULL","L1","Mecamotoute",15
+"1911",1580481723,"314a77f26c924e42071a987a1c110321","completion",2,0,"intro","NULL","consent","yes",15
+"1912",1580481723,"314a77f26c924e42071a987a1c110321","completion",2,0,"intro","NULL","gender","female",15
+"1913",1580481723,"314a77f26c924e42071a987a1c110321","completion",2,0,"intro","NULL","academics","L2",15
+"1914",1580481723,"314a77f26c924e42071a987a1c110321","completion",2,0,"intro","NULL","_REACTION_TIME_","11813678",15
+"2041",1580486730,"05b82f1a0b3546c12c8fc44dfdf07aaf","completion",2,0,"intro","NULL","age","51",16
+"2042",1580486730,"05b82f1a0b3546c12c8fc44dfdf07aaf","completion",2,0,"intro","NULL","nationality","Française",16
+"2043",1580486730,"05b82f1a0b3546c12c8fc44dfdf07aaf","completion",2,0,"intro","NULL","activity","Secrétariat",16
+"2044",1580486730,"05b82f1a0b3546c12c8fc44dfdf07aaf","completion",2,0,"intro","NULL","birth","Somme",16
+"2045",1580486730,"05b82f1a0b3546c12c8fc44dfdf07aaf","completion",2,0,"intro","NULL","L1","français",16
+"2046",1580486730,"05b82f1a0b3546c12c8fc44dfdf07aaf","completion",2,0,"intro","NULL","L1","Diderot4968",16
+"2047",1580486730,"05b82f1a0b3546c12c8fc44dfdf07aaf","completion",2,0,"intro","NULL","consent","yes",16
+"2048",1580486730,"05b82f1a0b3546c12c8fc44dfdf07aaf","completion",2,0,"intro","NULL","gender","female",16
+"2049",1580486730,"05b82f1a0b3546c12c8fc44dfdf07aaf","completion",2,0,"intro","NULL","academics","L2",16
+"2050",1580486730,"05b82f1a0b3546c12c8fc44dfdf07aaf","completion",2,0,"intro","NULL","_REACTION_TIME_","701953",16
+"2177",1580490221,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","age","20",17
+"2178",1580490221,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","nationality","France",17
+"2179",1580490221,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","activity","Sciences humaine et sociale",17
+"2180",1580490221,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","birth","Ile-de-France",17
+"2181",1580490221,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","L1","Français",17
+"2182",1580490221,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","L1","Fl3621",17
+"2183",1580490221,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","consent","yes",17
+"2184",1580490221,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","gender","female",17
+"2185",1580490221,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","academics","bac",17
+"2186",1580490221,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","_REACTION_TIME_","2652066",17
+"2313",1580496101,"c5aa35dbab6cb8e00f5a88aeb47296c9","completion",2,0,"intro","NULL","age","28",18
+"2314",1580496101,"c5aa35dbab6cb8e00f5a88aeb47296c9","completion",2,0,"intro","NULL","nationality","française",18
+"2315",1580496101,"c5aa35dbab6cb8e00f5a88aeb47296c9","completion",2,0,"intro","NULL","activity","digital ",18
+"2316",1580496101,"c5aa35dbab6cb8e00f5a88aeb47296c9","completion",2,0,"intro","NULL","birth","ile-de-france",18
+"2317",1580496101,"c5aa35dbab6cb8e00f5a88aeb47296c9","completion",2,0,"intro","NULL","L1","français",18
+"2318",1580496101,"c5aa35dbab6cb8e00f5a88aeb47296c9","completion",2,0,"intro","NULL","L1","diderot",18
+"2319",1580496101,"c5aa35dbab6cb8e00f5a88aeb47296c9","completion",2,0,"intro","NULL","consent","yes",18
+"2320",1580496101,"c5aa35dbab6cb8e00f5a88aeb47296c9","completion",2,0,"intro","NULL","gender","male",18
+"2321",1580496101,"c5aa35dbab6cb8e00f5a88aeb47296c9","completion",2,0,"intro","NULL","academics","M2",18
+"2322",1580496101,"c5aa35dbab6cb8e00f5a88aeb47296c9","completion",2,0,"intro","NULL","_REACTION_TIME_","4446364",18
+"2449",1580748158,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","age","22",19
+"2450",1580748158,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","nationality","Francaise",19
+"2451",1580748158,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","activity","Mathématiques et informatiques appliquées à l'économie",19
+"2452",1580748158,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","birth","île de France",19
+"2453",1580748158,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","L1","Francais",19
+"2454",1580748158,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","L1","3105",19
+"2455",1580748158,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","consent","yes",19
+"2456",1580748158,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","gender","female",19
+"2457",1580748158,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","academics","L2",19
+"2458",1580748158,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","_REACTION_TIME_","2968386",19
+"2585",1580753120,"79e1c8021607b6de9e834d0f860a6a86","completion",2,0,"intro","NULL","age","20",20
+"2586",1580753120,"79e1c8021607b6de9e834d0f860a6a86","completion",2,0,"intro","NULL","nationality","Française",20
+"2587",1580753120,"79e1c8021607b6de9e834d0f860a6a86","completion",2,0,"intro","NULL","activity","Physique",20
+"2588",1580753120,"79e1c8021607b6de9e834d0f860a6a86","completion",2,0,"intro","NULL","birth","Ile-de-France",20
+"2589",1580753120,"79e1c8021607b6de9e834d0f860a6a86","completion",2,0,"intro","NULL","L1","Français",20
+"2590",1580753120,"79e1c8021607b6de9e834d0f860a6a86","completion",2,0,"intro","NULL","L1","BCm9M79M",20
+"2591",1580753120,"79e1c8021607b6de9e834d0f860a6a86","completion",2,0,"intro","NULL","consent","yes",20
+"2592",1580753120,"79e1c8021607b6de9e834d0f860a6a86","completion",2,0,"intro","NULL","gender","female",20
+"2593",1580753120,"79e1c8021607b6de9e834d0f860a6a86","completion",2,0,"intro","NULL","academics","L3",20
+"2594",1580753120,"79e1c8021607b6de9e834d0f860a6a86","completion",2,0,"intro","NULL","_REACTION_TIME_","3669981",20
+"2721",1580840742,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","age","76",21
+"2722",1580840742,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","nationality","française",21
+"2723",1580840742,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","activity","cap de couturière",21
+"2724",1580840742,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","birth","58",21
+"2725",1580840742,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","L1","Francais",21
+"2726",1580840742,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","L1","colombie",21
+"2727",1580840742,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","consent","yes",21
+"2728",1580840742,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","gender","female",21
+"2729",1580840742,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","academics","under",21
+"2730",1580840742,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","_REACTION_TIME_","4034117",21
+"2857",1580916003,"09d319a6aeafb8a61058a106445e0220","completion",2,0,"intro","NULL","age","28",22
+"2858",1580916003,"09d319a6aeafb8a61058a106445e0220","completion",2,0,"intro","NULL","nationality","Française",22
+"2859",1580916003,"09d319a6aeafb8a61058a106445e0220","completion",2,0,"intro","NULL","activity","Conseil en Génétique",22
+"2860",1580916003,"09d319a6aeafb8a61058a106445e0220","completion",2,0,"intro","NULL","birth","Ile-de-france",22
+"2861",1580916003,"09d319a6aeafb8a61058a106445e0220","completion",2,0,"intro","NULL","L1","Français",22
+"2862",1580916003,"09d319a6aeafb8a61058a106445e0220","completion",2,0,"intro","NULL","L1","angela",22
+"2863",1580916003,"09d319a6aeafb8a61058a106445e0220","completion",2,0,"intro","NULL","consent","yes",22
+"2864",1580916003,"09d319a6aeafb8a61058a106445e0220","completion",2,0,"intro","NULL","gender","female",22
+"2865",1580916003,"09d319a6aeafb8a61058a106445e0220","completion",2,0,"intro","NULL","academics","M2",22
+"2866",1580916003,"09d319a6aeafb8a61058a106445e0220","completion",2,0,"intro","NULL","_REACTION_TIME_","10911468",22
+"2993",1580980817,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","age","25",23
+"2994",1580980817,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","nationality","Français",23
+"2995",1580980817,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","activity","étudiante en psychomotricité",23
+"2996",1580980817,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","birth","Haut-de-France",23
+"2997",1580980817,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","L1","français",23
+"2998",1580980817,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","L1","O56C203",23
+"2999",1580980817,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","consent","yes",23
+"3000",1580980817,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","gender","female",23
+"3001",1580980817,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","academics","M2",23
+"3002",1580980817,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","_REACTION_TIME_","3874660",23
+"3129",1581006220,"f1b62f8b8795d7fe79a6ec118990b461","completion",2,0,"intro","NULL","age","24",24
+"3130",1581006220,"f1b62f8b8795d7fe79a6ec118990b461","completion",2,0,"intro","NULL","nationality","française",24
+"3131",1581006220,"f1b62f8b8795d7fe79a6ec118990b461","completion",2,0,"intro","NULL","activity","Etudiante en Sociologie",24
+"3132",1581006220,"f1b62f8b8795d7fe79a6ec118990b461","completion",2,0,"intro","NULL","birth","Seine-et-Marne",24
+"3133",1581006220,"f1b62f8b8795d7fe79a6ec118990b461","completion",2,0,"intro","NULL","L1","française",24
+"3134",1581006220,"f1b62f8b8795d7fe79a6ec118990b461","completion",2,0,"intro","NULL","L1","DU15",24
+"3135",1581006220,"f1b62f8b8795d7fe79a6ec118990b461","completion",2,0,"intro","NULL","consent","yes",24
+"3136",1581006220,"f1b62f8b8795d7fe79a6ec118990b461","completion",2,0,"intro","NULL","gender","female",24
+"3137",1581006220,"f1b62f8b8795d7fe79a6ec118990b461","completion",2,0,"intro","NULL","academics","bac",24
+"3138",1581006220,"f1b62f8b8795d7fe79a6ec118990b461","completion",2,0,"intro","NULL","_REACTION_TIME_","6729557",24
+"3265",1581010077,"7ce198e1302da7016313e996d3829e30","completion",2,0,"intro","NULL","age","28",25
+"3266",1581010077,"7ce198e1302da7016313e996d3829e30","completion",2,0,"intro","NULL","nationality","française",25
+"3267",1581010077,"7ce198e1302da7016313e996d3829e30","completion",2,0,"intro","NULL","activity","Arts du spectacle",25
+"3268",1581010077,"7ce198e1302da7016313e996d3829e30","completion",2,0,"intro","NULL","birth","Hauts de seine",25
+"3269",1581010077,"7ce198e1302da7016313e996d3829e30","completion",2,0,"intro","NULL","L1","français",25
+"3270",1581010077,"7ce198e1302da7016313e996d3829e30","completion",2,0,"intro","NULL","L1","17395",25
+"3271",1581010077,"7ce198e1302da7016313e996d3829e30","completion",2,0,"intro","NULL","consent","yes",25
+"3272",1581010077,"7ce198e1302da7016313e996d3829e30","completion",2,0,"intro","NULL","gender","male",25
+"3273",1581010077,"7ce198e1302da7016313e996d3829e30","completion",2,0,"intro","NULL","academics","L3",25
+"3274",1581010077,"7ce198e1302da7016313e996d3829e30","completion",2,0,"intro","NULL","_REACTION_TIME_","665541",25
+"3401",1581690270,"314a77f26c924e42071a987a1c110321","completion",2,0,"intro","NULL","age","56",26
+"3402",1581690270,"314a77f26c924e42071a987a1c110321","completion",2,0,"intro","NULL","nationality","Française",26
+"3403",1581690270,"314a77f26c924e42071a987a1c110321","completion",2,0,"intro","NULL","activity","gestion et organisation",26
+"3404",1581690270,"314a77f26c924e42071a987a1c110321","completion",2,0,"intro","NULL","birth","PICARDIE",26
+"3405",1581690270,"314a77f26c924e42071a987a1c110321","completion",2,0,"intro","NULL","L1","FRANCAIS",26
+"3406",1581690270,"314a77f26c924e42071a987a1c110321","completion",2,0,"intro","NULL","L1","thibault",26
+"3407",1581690270,"314a77f26c924e42071a987a1c110321","completion",2,0,"intro","NULL","consent","yes",26
+"3408",1581690270,"314a77f26c924e42071a987a1c110321","completion",2,0,"intro","NULL","gender","female",26
+"3409",1581690270,"314a77f26c924e42071a987a1c110321","completion",2,0,"intro","NULL","academics","L2",26
+"3410",1581690270,"314a77f26c924e42071a987a1c110321","completion",2,0,"intro","NULL","_REACTION_TIME_","3651227",26
+"3537",1582717527,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","age","21",27
+"3538",1582717527,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","nationality","française",27
+"3539",1582717527,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","activity","etudiant en économie",27
+"3540",1582717527,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","birth","addis-abeba ( ethiopie ) ",27
+"3541",1582717527,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","L1","français",27
+"3542",1582717527,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","L1","1998",27
+"3543",1582717527,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","consent","yes",27
+"3544",1582717527,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","gender","male",27
+"3545",1582717527,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","academics","L2",27
+"3546",1582717527,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","_REACTION_TIME_","2452548",27
+"3673",1583769686,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","age","32",28
+"3674",1583769686,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","nationality","française",28
+"3675",1583769686,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","activity","études en génie électrique",28
+"3676",1583769686,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","birth","Ile-de-France",28
+"3677",1583769686,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","L1","française",28
+"3678",1583769686,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","L1","s2kVXLzE",28
+"3679",1583769686,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","consent","yes",28
+"3680",1583769686,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","gender","male",28
+"3681",1583769686,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","academics","L2",28
+"3682",1583769686,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","_REACTION_TIME_","6642327",28
+"3809",1583772028,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","age","63",29
+"3810",1583772028,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","nationality","francaise",29
+"3811",1583772028,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","activity","cadre moyen la poste courrier",29
+"3812",1583772028,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","birth","la nièvre",29
+"3813",1583772028,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","L1","la francaise",29
+"3814",1583772028,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","L1","12",29
+"3815",1583772028,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","consent","yes",29
+"3816",1583772028,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","gender","male",29
+"3817",1583772028,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","academics","bac",29
+"3818",1583772028,"534b2d9f55b21149c74600b4359710c1","completion",2,0,"intro","NULL","_REACTION_TIME_","199397",29
+"3945",1583837084,"f1b62f8b8795d7fe79a6ec118990b461","completion",2,0,"intro","NULL","age","30",30
+"3946",1583837084,"f1b62f8b8795d7fe79a6ec118990b461","completion",2,0,"intro","NULL","nationality","française",30
+"3947",1583837084,"f1b62f8b8795d7fe79a6ec118990b461","completion",2,0,"intro","NULL","activity","LLCE",30
+"3948",1583837084,"f1b62f8b8795d7fe79a6ec118990b461","completion",2,0,"intro","NULL","birth","Ile de France",30
+"3949",1583837084,"f1b62f8b8795d7fe79a6ec118990b461","completion",2,0,"intro","NULL","L1","français",30
+"3950",1583837084,"f1b62f8b8795d7fe79a6ec118990b461","completion",2,0,"intro","NULL","L1","123",30
+"3951",1583837084,"f1b62f8b8795d7fe79a6ec118990b461","completion",2,0,"intro","NULL","consent","yes",30
+"3952",1583837084,"f1b62f8b8795d7fe79a6ec118990b461","completion",2,0,"intro","NULL","gender","male",30
+"3953",1583837084,"f1b62f8b8795d7fe79a6ec118990b461","completion",2,0,"intro","NULL","academics","L3",30
+"3954",1583837084,"f1b62f8b8795d7fe79a6ec118990b461","completion",2,0,"intro","NULL","_REACTION_TIME_","5581844",30
+"4081",1583838147,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","age","18",31
+"4082",1583838147,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","nationality","Français",31
+"4083",1583838147,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","activity","Licence LEA",31
+"4084",1583838147,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","birth","Centre",31
+"4085",1583838147,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","L1","Français",31
+"4086",1583838147,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","L1","azertyuiop",31
+"4087",1583838147,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","consent","yes",31
+"4088",1583838147,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","gender","male",31
+"4089",1583838147,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","academics","bac",31
+"4090",1583838147,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","_REACTION_TIME_","252719",31
+"4217",1583846350,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","age","25",32
+"4218",1583846350,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","nationality","française",32
+"4219",1583846350,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","activity","histoire",32
+"4220",1583846350,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","birth","île de france",32
+"4221",1583846350,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","L1","française",32
+"4222",1583846350,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","L1","44",32
+"4223",1583846350,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","consent","yes",32
+"4224",1583846350,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","gender","male",32
+"4225",1583846350,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","academics","M2",32
+"4226",1583846350,"faac890135b4c4f4854b7e2efd458039","completion",2,0,"intro","NULL","_REACTION_TIME_","7167487",32
+"4353",1583864794,"eb26c37f41f35b49fab48f40bd9335ed","completion",2,0,"intro","NULL","age","37",33
+"4354",1583864794,"eb26c37f41f35b49fab48f40bd9335ed","completion",2,0,"intro","NULL","nationality","Française",33
+"4355",1583864794,"eb26c37f41f35b49fab48f40bd9335ed","completion",2,0,"intro","NULL","activity","Adjoint Technique",33
+"4356",1583864794,"eb26c37f41f35b49fab48f40bd9335ed","completion",2,0,"intro","NULL","birth","Ile-de-france",33
+"4357",1583864794,"eb26c37f41f35b49fab48f40bd9335ed","completion",2,0,"intro","NULL","L1","Française",33
+"4358",1583864794,"eb26c37f41f35b49fab48f40bd9335ed","completion",2,0,"intro","NULL","L1","willow",33
+"4359",1583864794,"eb26c37f41f35b49fab48f40bd9335ed","completion",2,0,"intro","NULL","consent","yes",33
+"4360",1583864794,"eb26c37f41f35b49fab48f40bd9335ed","completion",2,0,"intro","NULL","gender","female",33
+"4361",1583864794,"eb26c37f41f35b49fab48f40bd9335ed","completion",2,0,"intro","NULL","academics","bac",33
+"4362",1583864794,"eb26c37f41f35b49fab48f40bd9335ed","completion",2,0,"intro","NULL","_REACTION_TIME_","5095134",33
+"4489",1583935138,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","age","35",34
+"4490",1583935138,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","nationality","française ",34
+"4491",1583935138,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","activity","vente",34
+"4492",1583935138,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","birth","champagne ardennes",34
+"4493",1583935138,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","L1","français",34
+"4494",1583935138,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","L1","MpMRJViZ",34
+"4495",1583935138,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","consent","yes",34
+"4496",1583935138,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","gender","female",34
+"4497",1583935138,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","academics","bac",34
+"4498",1583935138,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","_REACTION_TIME_","10508221",34
+"4625",1583939432,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","age","33",35
+"4626",1583939432,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","nationality","camerounaise",35
+"4627",1583939432,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","activity","droit",35
+"4628",1583939432,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","birth","yaoundé cameroun",35
+"4629",1583939432,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","L1","français",35
+"4630",1583939432,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","L1","1245",35
+"4631",1583939432,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","consent","yes",35
+"4632",1583939432,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","gender","female",35
+"4633",1583939432,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","academics","M2",35
+"4634",1583939432,"f0896020a5c8fab92d10367101fb3dcd","completion",2,0,"intro","NULL","_REACTION_TIME_","1924592",35

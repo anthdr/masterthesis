@@ -1,0 +1,432 @@
+Prerequis
+=================
+```{r}
+library(sciplot)
+library(lme4)
+library(car)
+require(lmerTest)
+```
+
+```{r}
+setwd("C:/Users/antoi/Google Drive/Memoire2/R/comp2")
+data <- read.csv(file="Datacomp2.csv", header=TRUE, sep=",")
+```
+
+Overall
+=================
+```{r}
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type, 1b",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data)
+```
+
+```{r}
+mean(data$attachment[data$verbetype == "percep" & data$prompt == "high"])
+mean(data$attachment[data$verbetype == "percep" & data$prompt == "low"])
+mean(data$attachment[data$verbetype == "stat" & data$prompt == "high"])
+mean(data$attachment[data$verbetype == "stat" & data$prompt == "low"])
+```
+
+```{r}
+data$RT.equation <- as.numeric(data$RT.equation)
+median_overall <- median(data$RT.equation)
+data.lent <- subset(data, data$RT.equation > median_overall)
+data.rapide <- subset(data, data$RT.equation < median_overall)
+```
+
+```{r}
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (fast equation), 1b",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data.rapide)
+```
+
+```{r}
+mean(data.rapide$attachment[data.rapide$verbetype == "percep" & data.rapide$prompt == "high"])
+mean(data.rapide$attachment[data.rapide$verbetype == "percep" & data.rapide$prompt == "low"])
+mean(data.rapide$attachment[data.rapide$verbetype == "stat" & data.rapide$prompt == "high"])
+mean(data.rapide$attachment[data.rapide$verbetype == "stat" & data.rapide$prompt == "low"])
+```
+
+```{r}
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (slow equation), 1b",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data.lent)
+```
+
+```{r}
+mean(data.lent$attachment[data.lent$verbetype == "percep" & data.lent$prompt == "high"])
+mean(data.lent$attachment[data.lent$verbetype == "percep" & data.lent$prompt == "low"])
+mean(data.lent$attachment[data.lent$verbetype == "stat" & data.lent$prompt == "high"])
+mean(data.lent$attachment[data.lent$verbetype == "stat" & data.lent$prompt == "low"])
+```
+
+```{r}
+library(brms)
+  
+data$vt <- ifelse(data$vtype==1, -1, 1)
+data$pr <- ifelse(data$prime==1, -1, 1)
+data$RT.equation <- as.numeric(data$RT.equation)
+median_RT.equation <- median(data$RT.equation)
+data$slow <- ifelse(data$RT.equation < median_RT.equation, -1, 1)
+```
+
+```{r}
+get_prior(attachment ~ vt*pr*slow + (vt*pr*slow|id) + (vt*pr*slow|Item), data=data, family=bernoulli)
+  
+prior <- c(set_prior("normal(0,10)", class="b"),
+             set_prior("normal(0,10)", class="Intercept"),
+             set_prior("normal(0,10)", class="sd"),
+             set_prior("lkj(2)", class="cor"))
+```
+
+```{r}
+fit <- brm(attachment ~ 1+vt*pr*slow + (1+vt*pr*slow|id) + (1+vt*pr*slow|Item), data=data, family=bernoulli, 
+             prior=prior, chains=4, iter=3000)
+```
+
+```{r}
+summary(fit, waic=T)
+```
+
+```{r}
+fit_df <- as.data.frame(fit)
+beta <- fit_df[,grepl("b_",colnames(fit_df))]
+beta <- beta[,-1]
+  
+library(tidyverse)
+df.overall <- gather(beta, key=effect, value=beta, 1:ncol(beta)) %>%
+    group_by(effect=as.factor(effect)) %>% 
+    summarize(mean=mean(beta), # mean
+              prob_greater=mean(beta>0), prob_smaller=mean(beta<0), # probability greater / smaller than zero
+              min=min(beta), max=max(beta), # min and max values
+              l95=unname(quantile(beta,probs=0.025)), # lower 95% credible intervals boundary
+              h95=unname(quantile(beta,probs=0.975)), # upper 95% CrI boundary
+              l85=unname(quantile(beta,probs=0.075)), # lower 85% CrI boundary
+              h85=unname(quantile(beta,probs=0.925))) # upper 85% CrI boundary
+  
+levord <- colnames(beta)[1:ncol(beta)]
+df.overall$effect <- factor(df.overall$effect, levels=levord)
+df.overall <- arrange(df.overall, effect)
+```
+
+```{r}
+df.overall
+```
+
+```{r}
+library(ggplot2)
+ggplot(data=df.overall, aes(x=mean, y=effect)) + theme_bw() +
+   ggtitle("Interaction: Overall") +
+    geom_vline(aes(xintercept=0), size=1, linetype=2, col=gray(0.2)) + 
+    geom_errorbarh(aes(xmax=max, xmin=min),height=0, size=1.2, col="#009E73") +
+    geom_errorbarh(aes(xmax=l95, xmin=h95),linetype=1,height=0.2,size=1.5,col="#D55E00") +
+    geom_errorbarh(aes(xmax=l85, xmin=h85),linetype=1,height=0.1,size=1.4,col="#56B4E9") +
+    geom_point(size=4) + 
+    scale_y_discrete(limits=rev(df.overall$effect))
+```
+
+
+
+High math > 20
+=================
+
+```{r}
+datamath <- subset(data, data$amount.cor.equation > 20)
+````
+
+
+```{r}
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (highly mathematically skillful group), 1b",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=datamath)
+````
+
+```{r}
+mean(datamath$attachment[datamath$verbetype == "percep" & datamath$prompt == "high"])
+mean(datamath$attachment[datamath$verbetype == "percep" & datamath$prompt == "low"])
+mean(datamath$attachment[datamath$verbetype == "stat" & datamath$prompt == "high"])
+mean(datamath$attachment[datamath$verbetype == "stat" & datamath$prompt == "low"])
+````
+
+```{r}
+datamath$RT.equation <- as.numeric(datamath$RT.equation)
+median_cor <- median(datamath$RT.equation)
+datamath.lent <- subset(datamath, datamath$RT.equation > median_cor)
+datamath.rapide <- subset(datamath, datamath$RT.equation < median_cor)
+````
+
+```{r}
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (high-math group, fast equation), 1b",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=datamath.rapide)
+````
+
+```{r}
+mean(datamath.rapide$attachment[datamath.rapide$verbetype == "percep" & datamath.rapide$prompt == "high"])
+mean(datamath.rapide$attachment[datamath.rapide$verbetype == "percep" & datamath.rapide$prompt == "low"])
+mean(datamath.rapide$attachment[datamath.rapide$verbetype == "stat" & datamath.rapide$prompt == "high"])
+mean(datamath.rapide$attachment[datamath.rapide$verbetype == "stat" & datamath.rapide$prompt == "low"])
+````
+
+```{r}
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (high-math group, slow equation), 1b",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=datamath.lent)
+````
+
+```{r}
+mean(datamath.lent$attachment[datamath.lent$verbetype == "percep" & datamath.lent$prompt == "high"])
+mean(datamath.lent$attachment[datamath.lent$verbetype == "percep" & datamath.lent$prompt == "low"])
+mean(datamath.lent$attachment[datamath.lent$verbetype == "stat" & datamath.lent$prompt == "high"])
+mean(datamath.lent$attachment[datamath.lent$verbetype == "stat" & datamath.lent$prompt == "low"])
+````
+
+```{r}
+library(brms)
+
+datamath$slow <- ifelse(datamath$RT.equation < median_cor, -1, 1)
+
+get_prior(attachment ~ vt*pr*slow + (vt*pr*slow|id) + (vt*pr*slow|Item), data=datamath, family=bernoulli)
+
+prior <- c(set_prior("normal(0,10)", class="b"),
+           set_prior("normal(0,10)", class="Intercept"),
+           set_prior("normal(0,10)", class="sd"),
+           set_prior("lkj(2)", class="cor"))
+````
+
+```{r}
+fit <- brm(attachment ~ 1+vt*pr*slow + (1+vt*pr*slow|id) + (1+vt*pr*slow|Item), data=datamath, family=bernoulli, 
+           prior=prior, chains=4, iter=3000)
+````
+
+```{r}
+summary(fit, waic=T)
+````
+
+```{r}
+fit_df <- as.data.frame(fit)
+beta <- fit_df[,grepl("b_",colnames(fit_df))]
+beta <- beta[,-1]
+
+library(tidyverse)
+df.math <- gather(beta, key=effect, value=beta, 1:ncol(beta)) %>%
+  group_by(effect=as.factor(effect)) %>% 
+  summarize(mean=mean(beta), # mean
+            prob_greater=mean(beta>0), prob_smaller=mean(beta<0), # probability greater / smaller than zero
+            min=min(beta), max=max(beta), # min and max values
+            l95=unname(quantile(beta,probs=0.025)), # lower 95% credible intervals boundary
+            h95=unname(quantile(beta,probs=0.975)), # upper 95% CrI boundary
+            l85=unname(quantile(beta,probs=0.075)), # lower 85% CrI boundary
+            h85=unname(quantile(beta,probs=0.925))) # upper 85% CrI boundary
+
+levord <- colnames(beta)[1:ncol(beta)]
+df.math$effect <- factor(df.math$effect, levels=levord)
+df.math <- arrange(df.math, effect)
+````
+
+```{r}
+library(ggplot2)
+ggplot(data=df.math, aes(x=mean, y=effect)) + theme_bw() +
+  ggtitle("Interaction: highly mathematically skillful group") +
+  geom_vline(aes(xintercept=0), size=1, linetype=2, col=gray(0.2)) + 
+  geom_errorbarh(aes(xmax=max, xmin=min),height=0, size=1.2, col="#009E73") +
+  geom_errorbarh(aes(xmax=l95, xmin=h95),linetype=1,height=0.2,size=1.5,col="#D55E00") +
+  geom_errorbarh(aes(xmax=l85, xmin=h85),linetype=1,height=0.1,size=1.4,col="#56B4E9") +
+  geom_point(size=4) + 
+  scale_y_discrete(limits=rev(df.math$effect))
+````
+
+
+Only correct equations
+=================
+
+```{r}
+data.onlygood <- subset(data, data$cor.equation == 1)
+````
+
+
+```{r}
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (highly mathematically skillful group), 1b",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data.onlygood)
+````
+
+```{r}
+mean(data.onlygood$attachment[data.onlygood$verbetype == "percep" & data.onlygood$prompt == "high"])
+mean(data.onlygood$attachment[data.onlygood$verbetype == "percep" & data.onlygood$prompt == "low"])
+mean(data.onlygood$attachment[data.onlygood$verbetype == "stat" & data.onlygood$prompt == "high"])
+mean(data.onlygood$attachment[data.onlygood$verbetype == "stat" & data.onlygood$prompt == "low"])
+````
+
+```{r}
+data.onlygood$RT.equation <- as.numeric(data.onlygood$RT.equation)
+median_onlygood <- median(data.onlygood$RT.equation)
+data.onlygood.lent <- subset(data.onlygood, data.onlygood$RT.equation > median_cor)
+data.onlygood.rapide <- subset(data.onlygood, data.onlygood$RT.equation < median_cor)
+````
+
+```{r}
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (overall, fast equation), 1b",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data.onlygood.rapide)
+````
+
+```{r}
+mean(data.onlygood.rapide$attachment[data.onlygood.rapide$verbetype == "percep" & data.onlygood.rapide$prompt == "high"])
+mean(data.onlygood.rapide$attachment[data.onlygood.rapide$verbetype == "percep" & data.onlygood.rapide$prompt == "low"])
+mean(data.onlygood.rapide$attachment[data.onlygood.rapide$verbetype == "stat" & data.onlygood.rapide$prompt == "high"])
+mean(data.onlygood.rapide$attachment[data.onlygood.rapide$verbetype == "stat" & data.onlygood.rapide$prompt == "low"])
+````
+
+```{r}
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (slow equation), 1b",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=data.onlygood.lent)
+````
+
+```{r}
+mean(data.onlygood.lent$attachment[data.onlygood.lent$verbetype == "percep" & data.onlygood.lent$prompt == "high"])
+mean(data.onlygood.lent$attachment[data.onlygood.lent$verbetype == "percep" & data.onlygood.lent$prompt == "low"])
+mean(data.onlygood.lent$attachment[data.onlygood.lent$verbetype == "stat" & data.onlygood.lent$prompt == "high"])
+mean(data.onlygood.lent$attachment[data.onlygood.lent$verbetype == "stat" & data.onlygood.lent$prompt == "low"])
+````
+
+```{r}
+library(brms)
+
+data.onlygood$slow <- ifelse(data.onlygood$RT.equation < median_cor, -1, 1)
+
+get_prior(attachment ~ vt*pr*slow + (vt*pr*slow|id) + (vt*pr*slow|Item), data=data.onlygood, family=bernoulli)
+
+prior <- c(set_prior("normal(0,10)", class="b"),
+           set_prior("normal(0,10)", class="Intercept"),
+           set_prior("normal(0,10)", class="sd"),
+           set_prior("lkj(2)", class="cor"))
+````
+
+```{r}
+fit <- brm(attachment ~ 1+vt*pr*slow + (1+vt*pr*slow|id) + (1+vt*pr*slow|Item), data=data.onlygood, family=bernoulli, 
+           prior=prior, chains=4, iter=3000)
+````
+
+```{r}
+summary(fit, waic=T)
+````
+
+```{r}
+fit_df <- as.data.frame(fit)
+beta <- fit_df[,grepl("b_",colnames(fit_df))]
+beta <- beta[,-1]
+
+library(tidyverse)
+df.onlygood <- gather(beta, key=effect, value=beta, 1:ncol(beta)) %>%
+  group_by(effect=as.factor(effect)) %>% 
+  summarize(mean=mean(beta), # mean
+            prob_greater=mean(beta>0), prob_smaller=mean(beta<0), # probability greater / smaller than zero
+            min=min(beta), max=max(beta), # min and max values
+            l95=unname(quantile(beta,probs=0.025)), # lower 95% credible intervals boundary
+            h95=unname(quantile(beta,probs=0.975)), # upper 95% CrI boundary
+            l85=unname(quantile(beta,probs=0.075)), # lower 85% CrI boundary
+            h85=unname(quantile(beta,probs=0.925))) # upper 85% CrI boundary
+
+levord <- colnames(beta)[1:ncol(beta)]
+df.onlygood$effect <- factor(df.onlygood$effect, levels=levord)
+df.onlygood <- arrange(df.onlygood, effect)
+````
+
+```{r}
+library(ggplot2)
+ggplot(data=df.onlygood, aes(x=mean, y=effect)) + theme_bw() +
+  ggtitle("Interaction: Overall with correct responses to equation") +
+  geom_vline(aes(xintercept=0), size=1, linetype=2, col=gray(0.2)) + 
+  geom_errorbarh(aes(xmax=max, xmin=min),height=0, size=1.2, col="#009E73") +
+  geom_errorbarh(aes(xmax=l95, xmin=h95),linetype=1,height=0.2,size=1.5,col="#D55E00") +
+  geom_errorbarh(aes(xmax=l85, xmin=h85),linetype=1,height=0.1,size=1.4,col="#56B4E9") +
+  geom_point(size=4) + 
+  scale_y_discrete(limits=rev(df.onlygood$effect))
+````
+
+
+High math > 20 and Only correct equations
+=================
+
+```{r}
+datamath.onlygood <- subset(datamath, datamath$cor.equation == 1)
+````
+
+```{r}
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (high-math group, only good), 1b",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=datamath.onlygood)
+````
+
+```{r}
+mean(datamath.onlygood$attachment[datamath.onlygood$verbetype == "percep" & datamath.onlygood$prompt == "high"])
+mean(datamath.onlygood$attachment[datamath.onlygood$verbetype == "percep" & datamath.onlygood$prompt == "low"])
+mean(datamath.onlygood$attachment[datamath.onlygood$verbetype == "stat" & datamath.onlygood$prompt == "high"])
+mean(datamath.onlygood$attachment[datamath.onlygood$verbetype == "stat" & datamath.onlygood$prompt == "low"])
+````
+
+```{r}
+datamath.onlygood$RT.equation <- as.numeric(datamath.onlygood$RT.equation)
+median_cor.onlygood <- median(datamath.onlygood$RT.equation)
+datamath.onlygood.lent <- subset(datamath.onlygood, datamath.onlygood$RT.equation > median_cor.onlygood)
+datamath.onlygood.rapide <- subset(datamath, datamath$RT.equation < median_cor)
+````
+
+```{r}
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (high-math group, only good with fast equation), 1b",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=datamath.onlygood.rapide)
+````
+
+```{r}
+mean(datamath.onlygood.rapide$attachment[datamath.onlygood.rapide$verbetype == "percep" & datamath.onlygood.rapide$prompt == "high"])
+mean(datamath.onlygood.rapide$attachment[datamath.onlygood.rapide$verbetype == "percep" & datamath.onlygood.rapide$prompt == "low"])
+mean(datamath.onlygood.rapide$attachment[datamath.onlygood.rapide$verbetype == "stat" & datamath.onlygood.rapide$prompt == "high"])
+mean(datamath.onlygood.rapide$attachment[datamath.onlygood.rapide$verbetype == "stat" & datamath.onlygood.rapide$prompt == "low"])
+````
+
+```{r}
+bargraph.CI(x.factor=verbetype, group= prompt,response=attachment, col=c("tomato", "dark blue"), xlab="Verb type (high-math group, only good with slow equation), 1b",ylab="NP1 Attachment %",legend=TRUE,  x.leg=3,y.leg=0.8 , cex.leg=1.3, cex.names=1, cex.lab = 1.5, ylim = c(0,1), data=datamath.onlygood.lent)
+````
+
+```{r}
+mean(datamath.onlygood.lent$attachment[datamath.onlygood.lent$verbetype == "percep" & datamath.onlygood.lent$prompt == "high"])
+mean(datamath.onlygood.lent$attachment[datamath.onlygood.lent$verbetype == "percep" & datamath.onlygood.lent$prompt == "low"])
+mean(datamath.onlygood.lent$attachment[datamath.onlygood.lent$verbetype == "stat" & datamath.onlygood.lent$prompt == "high"])
+mean(datamath.onlygood.lent$attachment[datamath.onlygood.lent$verbetype == "stat" & datamath.onlygood.lent$prompt == "low"])
+````
+
+```{r}
+library(brms)
+
+datamath.onlygood$slow <- ifelse(datamath.onlygood$RT.equation < median_cor.onlygood, -1, 1)
+
+get_prior(attachment ~ vt*pr*slow + (vt*pr*slow|id) + (vt*pr*slow|Item), data=datamath.onlygood, family=bernoulli)
+
+prior <- c(set_prior("normal(0,10)", class="b"),
+           set_prior("normal(0,10)", class="Intercept"),
+           set_prior("normal(0,10)", class="sd"),
+           set_prior("lkj(2)", class="cor"))
+
+fit <- brm(attachment ~ 1+vt*pr*slow + (1+vt*pr*slow|id) + (1+vt*pr*slow|Item), data=datamath.onlygood, family=bernoulli, 
+           prior=prior, chains=4, iter=3000)
+````
+
+```{r}
+summary(fit, waic=T)
+````
+
+```{r}
+fit_df <- as.data.frame(fit)
+beta <- fit_df[,grepl("b_",colnames(fit_df))]
+beta <- beta[,-1]
+
+library(tidyverse)
+df.math.onlygood <- gather(beta, key=effect, value=beta, 1:ncol(beta)) %>%
+  group_by(effect=as.factor(effect)) %>% 
+  summarize(mean=mean(beta), # mean
+            prob_greater=mean(beta>0), prob_smaller=mean(beta<0), # probability greater / smaller than zero
+            min=min(beta), max=max(beta), # min and max values
+            l95=unname(quantile(beta,probs=0.025)), # lower 95% credible intervals boundary
+            h95=unname(quantile(beta,probs=0.975)), # upper 95% CrI boundary
+            l85=unname(quantile(beta,probs=0.075)), # lower 85% CrI boundary
+            h85=unname(quantile(beta,probs=0.925))) # upper 85% CrI boundary
+
+levord <- colnames(beta)[1:ncol(beta)]
+df.math.onlygood$effect <- factor(df.math.onlygood$effect, levels=levord)
+df.math.onlygood <- arrange(df.math.onlygood, effect)
+````
+
+```{r}
+library(ggplot2)
+ggplot(data=df.math.onlygood, aes(x=mean, y=effect)) + theme_bw() +
+  ggtitle("Interaction: highly mathematically skillful group with only correct responses") +
+  geom_vline(aes(xintercept=0), size=1, linetype=2, col=gray(0.2)) + 
+  geom_errorbarh(aes(xmax=max, xmin=min),height=0, size=1.2, col="#009E73") +
+  geom_errorbarh(aes(xmax=l95, xmin=h95),linetype=1,height=0.2,size=1.5,col="#D55E00") +
+  geom_errorbarh(aes(xmax=l85, xmin=h85),linetype=1,height=0.1,size=1.4,col="#56B4E9") +
+  geom_point(size=4) + 
+  scale_y_discrete(limits=rev(df.math.onlygood$effect))
+````
+
+

@@ -1,0 +1,30 @@
+refaire table 1 (paranthese)
+
+figure 5 - incrémental, pas de structure
+
+high : (8+5)*3
+low : 8*(5+3)
+
+high priming : ca ne correspond à rien
+low priming : 5+3 est l'agent des chanteurs, la multiplication est applique tout
+on ferme l'agent des chanteurs, donc la RC s'applique au NP complexe
+on prime le NP complexe -early closure-, mais avec la paranthese ce la provoque une fermeture du NP
+discuter psychologie complexité paranthese + literature late/early closure (les operations qui sont amorcés)
+dire que pas variation entre high et low pour dire qu'il n'y a pas d'effet de priming
+
+
+materiels : 
+justifier que ca a été utilisé avec succès dans une autre expérience (adj-noun-noun)
+discussion :
+post-hoc : chercher interpretation aux resultats non predits
+high : rien - ressemble à rien - de gauche a droite) carl - a connu - l'agent
+low : fait l'inverse
+ce la pourrait correspondre à un processus d'early closure 
+5 + 3 l'agent des chanteurs, les paranthese ferment le groupe nominal
+le relative ne peut pas s'attacher bas
+
+graphique pour les jeunes
+upper-aged group : above 27 (and below 27)
+mettre les graphiques bayésien dans le mémoire
+
+l'age en variable continu mais centré: graphique pour voir si effet linéaire
